@@ -1,0 +1,38 @@
+# The app and the proxy in front of it. Run from this folder on the VM:
+#
+#   KHUTLISA_HOST=<name> docker compose up -d --build
+#
+# Secrets come from /etc/khutlisa/khutlisa.env on the VM (see khutlisa.env.example); none is in this file or in
+# the image. The app is not published on any port of the VM: only Caddy is, on 443.
+services:
+  app:
+    build:
+      context: ..
+    image: khutlisa:latest
+    restart: unless-stopped
+    env_file:
+      - /etc/khutlisa/khutlisa.env
+    environment:
+      KHUTLISA_PUBLIC_DEMO: "1"
+      KHUTLISA_TRUSTED_PROXY: "1"
+      KHUTLISA_PUBLIC_URL: "https://${KHUTLISA_HOST}"
+    volumes:
+      - /mnt/disks/khutlisa-data:/data
+    expose:
+      - "8000"
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - app
+    ports:
+      - "443:443"
+    environment:
+      KHUTLISA_HOST: "${KHUTLISA_HOST}"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  caddy_data: {}
+  caddy_config: {}

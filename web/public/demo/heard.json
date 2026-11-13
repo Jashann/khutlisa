@@ -1,0 +1,16 @@
+{
+ "marisol_history_es.m4a": {
+  "voice": "Paulina",
+  "seconds": 13.4,
+  "prepared": "Me llamo Marisol Elena Tolmedo Peralmonte. Viví en Salinas, California, desde 2008 hasta 2015. Allí trabajé en la Empacadora Valle Sereno. Ahora vivo en Guadalajara, en México.",
+  "heard": "Me llamo Marisol Elena Tolmedo Peralmonte. Viví en Salinas, California, desde 2008 hasta 2015. Allí trabajé en la empacadora Valle Sereno. Ahora vivo en Guadalajara, en México.",
+  "heard_language": "es"
+ },
+ "marisol_answer_es.m4a": {
+  "voice": "Paulina",
+  "seconds": 13.95,
+  "prepared": "Mi dirección era 618 Camino Lunamar, apartamento 3, en Salinas, California, código postal 93905. La luz y el agua las tenía con Punta Clara Water and Light.",
+  "heard": "Mi dirección era 618 Camino Lunamar, Apartamento 3, En Salinas, California, Código Postal 93905. La luz y el agua las tenía con punta clara water and light.",
+  "heard_language": "es"
+ }
+}

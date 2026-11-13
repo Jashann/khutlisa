@@ -1,0 +1,121 @@
+/* The decision card: wherever the agent decides something, four short lines in large type. */
+.decision { border: 1px solid var(--navy-line); border-left: 6px solid var(--gold); background: var(--navy-raised); border-radius: 14px; padding: 18px 24px 16px; min-width: 0; }
+.decision-go { border-left-color: var(--green); }
+.decision-stop { border-left-color: #e2574c; }
+.decision-ask { border-left-color: var(--gold); }
+.decision-title { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper-soft); margin-bottom: 10px; }
+.decision-lines { margin: 0; display: grid; gap: 8px; }
+.decision-line { display: grid; grid-template-columns: 190px 1fr; gap: 16px; align-items: baseline; }
+.decision-line dt { font-size: 0.85rem; color: var(--paper-faint); }
+.decision-line dd { margin: 0; font-size: 1.3rem; line-height: 1.3; font-weight: 500; color: var(--paper); }
+.decision-did dd { color: var(--gold-soft); }
+.decision-go .decision-did dd { color: var(--green); }
+.decision-stop .decision-did dd { color: #ff9a8f; }
+.decision-money dd { font-weight: 650; }
+.decision-why { margin-top: 12px; color: var(--paper-soft); font-size: 0.95rem; }
+.decision-why summary { cursor: pointer; color: var(--gold); width: fit-content; font-size: 0.95rem; }
+.decision-why p { margin-top: 8px; max-width: 110ch; }
+.decision-compact { padding: 14px 18px 12px; }
+.decision-compact .decision-line { grid-template-columns: 1fr; gap: 0; }
+.decision-compact .decision-line dd { font-size: 1.15rem; }
+.decision-stack { display: grid; gap: 14px; }
+.decision-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 14px; }
+
+/* The money's way on the payment screen: one line, a refusal as a red stop, the money coming back. */
+.moneyline { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(var(--legs, 4), minmax(0, 1fr)); position: relative; }
+.leg { position: relative; text-align: center; padding: 0 8px; min-width: 0; }
+.leg::before { content: ""; position: absolute; top: 21px; left: -50%; width: 100%; height: 4px; background: #1a2848; border-radius: 4px; }
+.leg:first-child::before { display: none; }
+.leg-done::before, .leg-now::before { background: var(--gold); }
+.leg-stop::before { background: linear-gradient(90deg, var(--gold), #e2574c); }
+.leg-back::before { background: repeating-linear-gradient(90deg, #e2574c 0 10px, transparent 10px 18px); }
+.leg-dot { position: relative; z-index: 1; display: grid; place-items: center; width: 46px; height: 46px; margin: 0 auto 10px; border-radius: 50%; background: var(--navy); border: 4px solid #2a3b63; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.04em; color: #fff; transition: background-color 0.4s, border-color 0.4s; }
+.leg-done .leg-dot { background: var(--gold); border-color: var(--gold); }
+.leg-now .leg-dot { border-color: var(--gold); animation: wait 1.2s ease-in-out infinite; }
+.leg-stop .leg-dot { background: #d6362b; border-color: #ff9a8f; border-radius: 30%; transform: rotate(0deg); width: 58px; height: 46px; }
+.leg-back .leg-dot { background: var(--navy); border-color: #e2574c; }
+.leg-go.leg-done .leg-dot { background: var(--green); border-color: var(--green); }
+.leg-ask.leg-done .leg-dot { background: #e2574c; border-color: #e2574c; }
+.leg-label { font-size: 1.02rem; color: var(--paper-faint); line-height: 1.3; }
+.leg-done .leg-label, .leg-now .leg-label { color: var(--paper); font-weight: 600; }
+.leg-stop .leg-label { color: #ff9a8f; }
+.leg-figure { color: var(--gold); font-weight: 600; margin-top: 4px; min-height: 1.5em; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; font-size: 0.98rem; }
+.leg-stop .leg-figure { color: #ff9a8f; font-weight: 500; }
+.leg-go .leg-figure { color: var(--green); }
+
+/* The plan before the money moves: two cards, the amount, one button. */
+.plan-stage { display: grid; gap: 18px; }
+.plan-stage-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; }
+.plan-stage-head h2 { margin: 0 0 4px; }
+.whatif-row { margin: 0 !important; display: flex; flex-wrap: wrap; gap: 4px 22px; max-width: 980px; padding: 8px 18px 10px; }
+.whatif-row .choice { margin: 0; }
+.plan-receive { display: flex; justify-content: space-between; align-items: center; gap: 32px; border: 1px solid var(--gold); background: rgba(242, 184, 75, 0.06); border-radius: 14px; padding: 18px 26px; }
+.plan-receive .actions { margin-top: 0 !important; }
+.fold { margin-top: 12px; }
+.fold > summary { cursor: pointer; color: var(--gold); width: fit-content; }
+.fold[open] > summary { margin-bottom: 10px; }
+.fold .plan { margin-top: 8px; }
+.refusal-cards { margin-top: 16px; }
+.decision-row { margin-top: 16px; }
+.decision-row-small .decision-line dd { font-size: 1.05rem; }
+.hold-steps-row { display: flex !important; flex-wrap: wrap; gap: 10px 28px !important; margin-top: 0 !important; }
+.hold-steps-row .hold-step { display: flex; gap: 10px; align-items: baseline; }
+.hold .payout-form { margin-top: 6px; }
+.received-main { display: flex; justify-content: space-between; align-items: center; gap: 32px; }
+.agreed-paid { font-size: 1.25rem; color: var(--paper); }
+details.agent-report { padding: 10px 20px; }
+details.agent-report > summary { color: #8fd4b3; }
+
+/* Airwallex's records: the sums large, the lines under them. */
+.books-big { font-size: 1.7rem; font-weight: 650; }
+.books-sums { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin: 12px 0 16px; }
+.books-sum { background: var(--navy-raised); border: 1px solid var(--navy-line); border-radius: 14px; padding: 14px 20px; }
+.books-sum .panel-label { margin-top: 0; }
+.books-figures { display: grid; gap: 2px; font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.books-figures strong { font-size: 1.5rem; color: var(--green); }
+.books-paid { border-color: var(--green); }
+.books-paid .books-figures strong { color: var(--gold); font-size: 1.9rem; }
+
+/* The holder's view: days left, limits as figures, terms as tiles, two claims side by side. */
+.handover { display: flex; gap: 20px; align-items: center; border: 1px solid var(--navy-line); background: var(--navy-raised); border-radius: 14px; padding: 14px 20px; margin: 12px 0; }
+.handover-near { border-color: #e2574c; }
+.handover-days { font-size: 3.4rem; font-weight: 700; line-height: 1; color: var(--gold); letter-spacing: -0.03em; white-space: nowrap; }
+.handover-near .handover-days { color: #ff9a8f; }
+.handover-days span { font-size: 1.2rem; font-weight: 600; letter-spacing: 0; }
+.handover-what { font-size: 1.1rem; }
+.handover-law { font-size: 0.92rem; margin-top: 4px; }
+.limits { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+.limits li { background: var(--navy); border: 1px solid var(--navy-line); border-radius: 10px; padding: 8px 12px; display: grid; }
+.limits strong { font-size: 1.35rem; color: var(--gold); }
+.limits span { font-size: 0.84rem; color: var(--paper-soft); line-height: 1.3; }
+.limits-never { font-size: 0.9rem; margin-top: 8px; }
+.instruction-form { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; }
+.instruction-form .actions, .instruction-form .notice { grid-column: 1 / -1; }
+.payer-claimant { font-size: 1.5rem !important; }
+.payer-cards { margin-top: 14px; }
+.payer-hold { margin-top: 12px; font-size: 1.1rem; }
+.terms-tiles { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.terms-tiles li { display: grid; align-content: start; gap: 2px; min-width: 0; }
+.terms-tiles span { font-size: 0.82rem; color: var(--paper-faint); text-transform: uppercase; letter-spacing: 0.08em; }
+.terms-tiles strong { font-size: 1.15rem; overflow-wrap: anywhere; }
+.terms-tiles em { font-style: normal; font-size: 0.88rem; color: var(--paper-soft); }
+.risk-line { font-size: 0.95rem; color: var(--paper-soft); }
+.compare-open { width: 100%; margin: 0 0 12px; background: none; border: 1px dashed var(--gold); color: var(--gold); border-radius: 12px; padding: 10px 16px; cursor: pointer; font-weight: 600; font-size: 1rem; }
+.compare-open-on { background: var(--gold); color: #1a1305; border-style: solid; }
+.compare h2 { margin: 0 0 6px; font-size: 1.7rem; }
+.compare-rule { font-size: 1.15rem; color: var(--paper-soft); margin-bottom: 16px; }
+.compare-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+.compare-col { border: 1px solid var(--navy-line); border-top: 8px solid var(--green); border-radius: 16px; padding: 18px 20px; background: rgba(127, 207, 154, 0.04); min-width: 0; }
+.compare-stop { border-top-color: #e2574c; background: rgba(226, 87, 76, 0.05); }
+.compare-amount { font-size: 2.6rem; font-weight: 700; color: var(--gold); line-height: 1.1; letter-spacing: -0.02em; }
+.compare-who { color: var(--paper-soft); }
+.compare-short { font-size: 2.1rem; font-weight: 700; margin-top: 12px; line-height: 1.1; }
+.compare-verdict { font-size: 1.25rem; font-weight: 600; color: var(--green); margin-bottom: 14px; }
+.compare-stop .compare-verdict { color: #ff9a8f; }
+.compare-accounts { margin-top: 10px; font-size: 0.92rem; }
+.results-panel { margin-top: 12px; }
+.payer-cards-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 12px; align-items: start; }
+.terms-tiles .mono { font-size: inherit; }
+.payer .payer-list { margin-top: 0; }
+/* The proof tab: the requirement's own name is enough; the long description of each requirement is left out. */
+.onescreen .checklist .check-detail { display: none !important; }

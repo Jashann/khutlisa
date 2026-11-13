@@ -1,0 +1,10 @@
+{
+ "_note": "Invented records in the shape of the Queensland open data portal's unclaimed-monies resource. No real person or organisation is in this file.",
+ "records": [
+  {"_id": 1, "ClientId_ActNo": 900000000001, "Owner": "QUILLFEATHER MARIGOLD T", "Amount": 412.55, "SenderName": "EXAMPLE ENERGY RETAIL", "DateRec": "2021-03-10T00:00:00", "PCode": 4000},
+  {"_id": 2, "ClientId_ActNo": 900000000002, "Owner": "NORTHFIELD CITY COUNCIL", "Amount": 2885.58, "SenderName": "EXAMPLE ENERGY RETAIL", "DateRec": "2022-02-28T00:00:00", "PCode": 4350},
+  {"_id": 3, "ClientId_ActNo": 900000000003, "Owner": "SANTOS MARIA LUZ", "Amount": 150.0, "SenderName": "EXAMPLE INSURANCE LIMITED", "DateRec": "2019-06-11T00:00:00", "PCode": 800},
+  {"_id": 4, "ClientId_ActNo": 900000000004, "Owner": "WINDROSE TRADING PTY LTD", "Amount": 10875.6, "SenderName": "EXAMPLE INSURANCE LIMITED", "DateRec": "2023-08-09T00:00:00", "PCode": null},
+  {"_id": 5, "ClientId_ActNo": 900000000005, "Owner": "ESTATE OF THE LATE PERIWINKLE ODALYS", "Amount": 0.01, "SenderName": "PUBLIC TRUSTEE DECEASED ESTATE", "DateRec": "1916-02-01T00:00:00", "PCode": 4870}
+ ]
+}

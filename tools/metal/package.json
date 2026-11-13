@@ -1,0 +1,14 @@
+{
+  "name": "khutlisa-metal-tools",
+  "private": true,
+  "description": "The Metal CLI that src/khutlisa/metal.py shells out to, pinned to one version.",
+  "engines": { "node": ">=22.13" },
+  "dependencies": {
+    "@metalntwx/metal-agent": "0.3.3"
+  },
+  "overrides": {
+    "@x402/core": "2.28.0",
+    "@x402/evm": "2.28.0",
+    "@x402/fetch": "2.28.0"
+  }
+}

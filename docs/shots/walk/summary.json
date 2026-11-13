@@ -1,0 +1,2340 @@
+{
+  "book_and_batch": {
+    "holder": "Bank of America",
+    "plan": {
+      "inputs": {
+        "tolerance_percent": "0.5",
+        "small_claim_usd": "250.00",
+        "handover_date": "2027-06-01",
+        "document_days": 30
+      },
+      "totals": {
+        "owners": 26190,
+        "usd": 75493097.67,
+        "countries": 147,
+        "local": {
+          "owners": 18891,
+          "usd": 41574795.56,
+          "countries": 80
+        },
+        "swift": {
+          "owners": 5623,
+          "usd": 32950284.7,
+          "countries": 51
+        },
+        "unpayable": {
+          "owners": 582,
+          "usd": 964628.14,
+          "countries": 14
+        },
+        "too_small": {
+          "owners": 854,
+          "usd": 3389.27,
+          "would_cost": 9012.08
+        },
+        "no_cash": {
+          "owners": 240
+        },
+        "over_local_limit": {
+          "owners": 302,
+          "usd": 8213892.86
+        },
+        "too_late": {
+          "owners": 0,
+          "usd": 0,
+          "countries": 0
+        },
+        "planned": {
+          "owners": 24514,
+          "usd": 74525080.26,
+          "countries": 131
+        },
+        "holder_bears": {
+          "owners": 8390,
+          "usd": 705247.62,
+          "adds": 55954.82
+        },
+        "from_claim": {
+          "owners": 16124,
+          "fees": 383933.16
+        },
+        "cost": {
+          "usd": 439887.98,
+          "percent": 0.59,
+          "borne_by_holder": 55954.82,
+          "out_of_claims": 383933.16
+        },
+        "holder_funds_usd": 74581035.08,
+        "refusal": {
+          "inside": 8459,
+          "outside": 16055,
+          "inside_usd": 66174003.61,
+          "outside_usd": 8351076.65
+        },
+        "estimated_fee_corridors": 51,
+        "observed_fee_corridors": 80
+      },
+      "funding": {
+        "holder_funds_usd": 74581035.08,
+        "incoming_fee_usd": 223743.11,
+        "currencies": 81,
+        "saving_usd": 0,
+        "conversions_if_each": 21809,
+        "conversions_planned": 3972,
+        "batch_currencies": 26,
+        "each_currencies": 54,
+        "rate_depends_on_size": false,
+        "ahead_of_approvals": "Nothing is converted for an owner before the holder has approved the claim. Money converted for an owner who is then not paid has to be turned back, and the two quotes for that are in each currency's line."
+      },
+      "order": [
+        "China: $351611.91 a day",
+        "Taiwan: $307391.37 a day",
+        "Japan: $218729.43 a day",
+        "Mexico: $202671.94 a day",
+        "Hong Kong: $139982.28 a day"
+      ]
+    },
+    "small_claim_line_1000": [
+      {
+        "what": "Changed",
+        "before": "",
+        "after": "the small-claim line",
+        "delta": 0
+      },
+      {
+        "what": "Claims on which the holder bears the fees",
+        "before": "8,390",
+        "after": "15,143",
+        "delta": 6753
+      },
+      {
+        "what": "What the holder adds for them",
+        "before": "$55,955",
+        "after": "$127,236",
+        "delta": 71280.99
+      },
+      {
+        "what": "Fees in all",
+        "before": "$439,888",
+        "after": "$440,135",
+        "delta": 247.01
+      },
+      {
+        "what": "What the holder funds",
+        "before": "$74,581,035",
+        "after": "$74,652,316",
+        "delta": 71280.99
+      },
+      {
+        "what": "Claims re-sent after a refusal without asking about the amount",
+        "before": "8,459",
+        "after": "8,469",
+        "delta": 10
+      },
+      {
+        "what": "Claims that would stop and ask the owner",
+        "before": "16,055",
+        "after": "16,045",
+        "delta": -10
+      }
+    ],
+    "handover_in_34_days": [
+      {
+        "what": "Changed",
+        "before": "",
+        "after": "the handover date",
+        "delta": 0
+      },
+      {
+        "what": "Corridors that can finish in time",
+        "before": "131",
+        "after": "39",
+        "delta": -92
+      },
+      {
+        "what": "Dollars paid in time",
+        "before": "$74,525,080",
+        "after": "$42,370,199",
+        "delta": -32154881.69
+      },
+      {
+        "what": "Dollars too close to the handover",
+        "before": "$0.00",
+        "after": "$32,154,882",
+        "delta": 32154881.69
+      },
+      {
+        "what": "Claims on which the holder bears the fees",
+        "before": "8,390",
+        "after": "6,301",
+        "delta": -2089
+      },
+      {
+        "what": "What the holder adds for them",
+        "before": "$55,955",
+        "after": "$27,266",
+        "delta": -28689.25
+      },
+      {
+        "what": "Fees in all",
+        "before": "$439,888",
+        "after": "$201,640",
+        "delta": -238247.79
+      },
+      {
+        "what": "What the holder funds",
+        "before": "$74,581,035",
+        "after": "$42,397,464",
+        "delta": -32183570.94
+      },
+      {
+        "what": "Claims re-sent after a refusal without asking about the amount",
+        "before": "8,459",
+        "after": "6,544",
+        "delta": -1915
+      },
+      {
+        "what": "Claims that would stop and ask the owner",
+        "before": "16,055",
+        "after": "9,939",
+        "delta": -6116
+      },
+      {
+        "what": "Corridors dropped",
+        "before": "",
+        "after": "China, Taiwan, Saudi Arabia, Argentina, Chile, Pakistan, Vietnam, South Africa and 84 more",
+        "delta": -92
+      }
+    ],
+    "tolerance_2_percent": [
+      {
+        "what": "Changed",
+        "before": "",
+        "after": "the tolerance",
+        "delta": 0
+      },
+      {
+        "what": "Claims re-sent after a refusal without asking about the amount",
+        "before": "8,459",
+        "after": "15,037",
+        "delta": 6578
+      },
+      {
+        "what": "Claims that would stop and ask the owner",
+        "before": "16,055",
+        "after": "9,477",
+        "delta": -6578
+      }
+    ],
+    "others": {
+      "APPLE INC": {
+        "totals": {
+          "owners": 49055,
+          "usd": 11923589.28,
+          "countries": 71,
+          "local": {
+            "owners": 16505,
+            "usd": 8913776.24,
+            "countries": 54
+          },
+          "swift": {
+            "owners": 180,
+            "usd": 2852819.93,
+            "countries": 13
+          },
+          "unpayable": {
+            "owners": 203,
+            "usd": 19651.18,
+            "countries": 3
+          },
+          "too_small": {
+            "owners": 32167,
+            "usd": 137341.93,
+            "would_cost": 285687.26
+          },
+          "no_cash": {
+            "owners": 0
+          },
+          "over_local_limit": {
+            "owners": 37,
+            "usd": 1735832.97
+          },
+          "too_late": {
+            "owners": 0,
+            "usd": 0,
+            "countries": 0
+          },
+          "planned": {
+            "owners": 16685,
+            "usd": 11766596.17,
+            "countries": 67
+          },
+          "holder_bears": {
+            "owners": 13821,
+            "usd": 460397.27,
+            "adds": 53043.79
+          },
+          "from_claim": {
+            "owners": 2864,
+            "fees": 55275.95
+          },
+          "cost": {
+            "usd": 108319.74,
+            "percent": 0.92,
+            "borne_by_holder": 53043.79,
+            "out_of_claims": 55275.95
+          },
+          "holder_funds_usd": 11819639.96,
+          "refusal": {
+            "inside": 1810,
+            "outside": 14875,
+            "inside_usd": 10395362.72,
+            "outside_usd": 1371233.45
+          },
+          "estimated_fee_corridors": 29,
+          "observed_fee_corridors": 38
+        },
+        "saving_usd": 0
+      },
+      "HERBALIFE INTERNATIONAL OF AMERICA INC": {
+        "totals": {
+          "owners": 5812,
+          "usd": 987186.42,
+          "countries": 72,
+          "local": {
+            "owners": 3996,
+            "usd": 656437.08,
+            "countries": 50
+          },
+          "swift": {
+            "owners": 496,
+            "usd": 60735.12,
+            "countries": 17
+          },
+          "unpayable": {
+            "owners": 1320,
+            "usd": 270014.22,
+            "countries": 5
+          },
+          "too_small": {
+            "owners": 0,
+            "usd": 0,
+            "would_cost": 0
+          },
+          "no_cash": {
+            "owners": 0
+          },
+          "over_local_limit": {
+            "owners": 0,
+            "usd": 0
+          },
+          "too_late": {
+            "owners": 0,
+            "usd": 0,
+            "countries": 0
+          },
+          "planned": {
+            "owners": 4492,
+            "usd": 717172.2,
+            "countries": 67
+          },
+          "holder_bears": {
+            "owners": 3964,
+            "usd": 404419.75,
+            "adds": 33839.23
+          },
+          "from_claim": {
+            "owners": 528,
+            "fees": 4210.9
+          },
+          "cost": {
+            "usd": 38050.13,
+            "percent": 5.31,
+            "borne_by_holder": 33839.23,
+            "out_of_claims": 4210.9
+          },
+          "holder_funds_usd": 751011.43,
+          "refusal": {
+            "inside": 166,
+            "outside": 4326,
+            "inside_usd": 161307.14,
+            "outside_usd": 555865.06
+          },
+          "estimated_fee_corridors": 27,
+          "observed_fee_corridors": 40
+        },
+        "saving_usd": 0
+      }
+    },
+    "batch": {
+      "id": "cf9e4da5326a",
+      "payments": [
+        {
+          "n": 1,
+          "owner": "Meilin Zhaoqing",
+          "country": "TW",
+          "currency": "USD",
+          "rail": "SWIFT",
+          "owed_usd": "6468.89",
+          "paid": {
+            "amount": "6399.46",
+            "currency": "USD"
+          },
+          "fee": {
+            "amount": "25",
+            "currency": "USD",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": true,
+          "transfer": "3c77aefe-fabb-4acf-9ccc-436028db88db"
+        },
+        {
+          "n": 2,
+          "owner": "Kaede Hoshimori",
+          "country": "JP",
+          "currency": "JPY",
+          "rail": "LOCAL",
+          "owed_usd": "1004.02",
+          "paid": {
+            "amount": "157575",
+            "currency": "JPY"
+          },
+          "fee": {
+            "amount": "1599",
+            "currency": "JPY",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "799c1fcf-a0b6-4f29-9668-6e331dc7c272"
+        },
+        {
+          "n": 3,
+          "owner": "Ximena Olvareda",
+          "country": "MX",
+          "currency": "MXN",
+          "rail": "LOCAL",
+          "owed_usd": "232.20",
+          "paid": {
+            "amount": "4172.49",
+            "currency": "MXN"
+          },
+          "fee": {
+            "amount": "92.85",
+            "currency": "MXN",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": true,
+          "transfer": "3f775e98-7f37-406f-8d50-0342a88cb095"
+        },
+        {
+          "n": 4,
+          "owner": "Odile Marchetier",
+          "country": "CA",
+          "currency": "CAD",
+          "rail": "LOCAL",
+          "owed_usd": "300.01",
+          "paid": {
+            "amount": "419.16",
+            "currency": "CAD"
+          },
+          "fee": {
+            "amount": "4.27",
+            "currency": "CAD",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "cf14a783-642d-41dc-9e32-d7f8be2da141"
+        },
+        {
+          "n": 5,
+          "owner": "Dalisay Marquendo",
+          "country": "PH",
+          "currency": "PHP",
+          "rail": "LOCAL",
+          "owed_usd": "411.50",
+          "paid": {
+            "amount": "25532.86",
+            "currency": "PHP"
+          },
+          "fee": {
+            "amount": "5",
+            "currency": "USD",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "8925e65e-5699-4f14-ad95-22a9c7cfe32b"
+        },
+        {
+          "n": 6,
+          "owner": "Rowan Ashcombe",
+          "country": "GB",
+          "currency": "GBP",
+          "rail": "LOCAL",
+          "owed_usd": "347.56",
+          "paid": {
+            "amount": "257.97",
+            "currency": "GBP"
+          },
+          "fee": {
+            "amount": "2.26",
+            "currency": "GBP",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "ef98d52c-7ca8-4192-9858-eaa51f36204c"
+        },
+        {
+          "n": 7,
+          "owner": "Jonas Feldbrunner",
+          "country": "DE",
+          "currency": "EUR",
+          "rail": "LOCAL",
+          "owed_usd": "561.44",
+          "paid": {
+            "amount": "500.97",
+            "currency": "EUR"
+          },
+          "fee": {
+            "amount": "2.71",
+            "currency": "EUR",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "668a2a50-ca85-4e99-86c7-1785c712b454"
+        },
+        {
+          "n": 8,
+          "owner": "Tamsin Wirralee",
+          "country": "AU",
+          "currency": "AUD",
+          "rail": "LOCAL",
+          "owed_usd": "303.57",
+          "paid": {
+            "amount": "438.73",
+            "currency": "AUD"
+          },
+          "fee": {
+            "amount": "4.42",
+            "currency": "AUD",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "0bcce3d6-be3a-4d80-8081-071cea6253ec"
+        },
+        {
+          "n": 9,
+          "owner": "Kavya Indurkar",
+          "country": "IN",
+          "currency": "INR",
+          "rail": "LOCAL",
+          "owed_usd": "454.71",
+          "paid": {
+            "amount": "41788.07",
+            "currency": "INR"
+          },
+          "fee": {
+            "amount": "5",
+            "currency": "USD",
+            "paid_by": "BENEFICIARY"
+          },
+          "refused_once": false,
+          "transfer": "b0871741-52c3-42ff-977c-edd3d8a8e607"
+        }
+      ],
+      "deposit": {
+        "reference": "KHUTLISA-BATCH-cf9e4da5326a",
+        "id": "ddcd18c1-f327-4c01-aded-ca29d18ded3d",
+        "amount": "10089.62",
+        "fee": "30.27",
+        "pool": "10059.35"
+      },
+      "funding": [
+        {
+          "currency": "AUD",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:20+00:00",
+          "buy": "443.15",
+          "client_rate": 1.46418423,
+          "conversion_id": "22d14d46-bfed-46ee-a730-ca300bbc94e7",
+          "mid_rate": 1.47175265,
+          "payments": 1,
+          "quoted_rate": 0.682975,
+          "sell_usd": "302.66",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "CAD",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:22+00:00",
+          "buy": "423.43",
+          "client_rate": 1.41563304,
+          "conversion_id": "9a79c521-5a80-4ed8-ad58-63413a1f7717",
+          "mid_rate": 1.42298,
+          "payments": 1,
+          "quoted_rate": 1.415629,
+          "sell_usd": "299.11",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "EUR",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:23+00:00",
+          "buy": "503.68",
+          "client_rate": 0.89981421,
+          "conversion_id": "d271ce49-445f-46b0-b197-ecd0f9a0ff61",
+          "mid_rate": 0.90446989,
+          "payments": 1,
+          "quoted_rate": 1.111336,
+          "sell_usd": "559.76",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "GBP",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:24+00:00",
+          "buy": "260.23",
+          "client_rate": 0.75098118,
+          "conversion_id": "547e71a5-03a9-441a-bfed-b9724451f456",
+          "mid_rate": 0.75485371,
+          "payments": 1,
+          "quoted_rate": 1.331612,
+          "sell_usd": "346.52",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "INR",
+          "mode": "each",
+          "why": "Each payment converts inside its own transfer: Airwallex does not convert US dollars into a held balance of INR (the sandbox refused the conversion)."
+        },
+        {
+          "currency": "JPY",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:25+00:00",
+          "buy": "159174",
+          "client_rate": 159.01339647,
+          "conversion_id": "9230b6d3-61cd-417b-a9e9-b8193a9aabd1",
+          "mid_rate": 159.839,
+          "payments": 1,
+          "quoted_rate": 159.01314,
+          "sell_usd": "1001.01",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "MXN",
+          "mode": "batch",
+          "why": "Convert once for the batch and pay every owner from that balance.",
+          "at": "2026-11-13T14:56:26+00:00",
+          "buy": "4358.21",
+          "client_rate": 18.37279204,
+          "conversion_id": "ba5a4ba6-fe7e-4f8b-b587-75900c67528b",
+          "mid_rate": 18.5662,
+          "payments": 1,
+          "quoted_rate": 18.372791,
+          "sell_usd": "237.21",
+          "status": "SETTLED"
+        },
+        {
+          "currency": "PHP",
+          "mode": "each",
+          "why": "Each payment converts inside its own transfer: Airwallex does not convert US dollars into a held balance of PHP (the sandbox refused the conversion)."
+        },
+        {
+          "currency": "USD",
+          "mode": "none",
+          "why": "Paid in US dollars: nothing is converted."
+        }
+      ],
+      "costs": {
+        "planned": {
+          "incoming_usd": "30.25",
+          "payout_usd": "62.01",
+          "usd": "92.26",
+          "transfers": 9
+        },
+        "actual": {
+          "incoming_usd": "30.27",
+          "payout_usd": "92.00",
+          "usd": "122.27",
+          "transfers": 11,
+          "payout_fees": [
+            {
+              "currency": "AUD",
+              "amount": "4.42"
+            },
+            {
+              "currency": "CAD",
+              "amount": "4.27"
+            },
+            {
+              "currency": "EUR",
+              "amount": "2.71"
+            },
+            {
+              "currency": "GBP",
+              "amount": "2.26"
+            },
+            {
+              "currency": "JPY",
+              "amount": "1599"
+            },
+            {
+              "currency": "MXN",
+              "amount": "185.72"
+            },
+            {
+              "currency": "USD",
+              "amount": "60.00"
+            }
+          ]
+        },
+        "difference_usd": "30.01",
+        "note": "A refused transfer keeps its payout fee and the replacement is charged again, so a batch with a refusal costs one more payout fee than planned for each."
+      },
+      "ledger": [
+        {
+          "currency": "AUD",
+          "came_in": "443.15",
+          "went_out": "443.15",
+          "left": "0.00"
+        },
+        {
+          "currency": "CAD",
+          "came_in": "423.43",
+          "went_out": "423.43",
+          "left": "0.00"
+        },
+        {
+          "currency": "EUR",
+          "came_in": "503.68",
+          "went_out": "503.68",
+          "left": "0.00"
+        },
+        {
+          "currency": "GBP",
+          "came_in": "260.23",
+          "went_out": "260.23",
+          "left": "0.00"
+        },
+        {
+          "currency": "JPY",
+          "came_in": "159174",
+          "went_out": "159174",
+          "left": "0"
+        },
+        {
+          "currency": "MXN",
+          "came_in": "8623.55",
+          "went_out": "8623.55",
+          "left": "0.00"
+        },
+        {
+          "currency": "USD",
+          "came_in": "16514.08",
+          "went_out": "16514.08",
+          "left": "0.00"
+        }
+      ],
+      "balanced": true,
+      "api_calls": 217
+    }
+  },
+  "queensland": {
+    "source": "AU-QLD",
+    "name": "Queensland",
+    "owner_records": 2566684,
+    "amount": 314265964.51,
+    "currency": "AUD",
+    "matches_portal": true,
+    "loaded_at": "2026-11-13T06:41:35+00:00",
+    "attribution": "Unclaimed monies register: The Public Trustee of Queensland, published on the Queensland Government Open Data Portal and used under the Creative Commons Attribution 4.0 licence. The figures shown were computed by Khutlisa from that register.",
+    "licence": "Creative Commons Attribution 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "dataset": "https://www.data.qld.gov.au/dataset/unclaimed-monies",
+    "claim_url": "https://www.pt.qld.gov.au/unclaimed-money/"
+  },
+  "claims": {
+    "mxn_refused_and_replaced": "328fd163ad831a16",
+    "mxn_small_refused_stopped_and_asked": "c29f209ec3e08965",
+    "php_small_claim": "6b94c6ec69d721f9",
+    "proof_not_ready_at_the_handover": "90c0265fbd290831"
+  },
+  "standing_instructions": {
+    "tolerance_percent": "0.5",
+    "small_claim_usd": "250",
+    "route_rule": "most_to_claimant",
+    "deadline_days": 14
+  },
+  "handover": {
+    "at_the_start": {
+      "handover_date": "2027-06-01",
+      "document_days": 30,
+      "set_by": "the holder",
+      "date_words": "1 June 2027",
+      "days_left": 200,
+      "schedule": {
+        "notice": "The Notice Report is due before 1 November. No money is sent with it.",
+        "remit": "The Remit Report and the property are due between 1 and 15 June (1 and 15 December for life insurance companies).",
+        "source": "Code of Civil Procedure 1530(d) and 1532(a); State Controller, how to report",
+        "url": "https://www.sco.ca.gov/upd_how_to_report.html"
+      }
+    },
+    "set_near": "2026-12-01",
+    "schedule": {
+      "notice": "The Notice Report is due before 1 November. No money is sent with it.",
+      "remit": "The Remit Report and the property are due between 1 and 15 June (1 and 15 December for life insurance companies).",
+      "source": "Code of Civil Procedure 1530(d) and 1532(a); State Controller, how to report",
+      "url": "https://www.sco.ca.gov/upd_how_to_report.html"
+    }
+  },
+  "payouts": {
+    "MXN_transfer_refused_and_replaced": {
+      "claim": "328fd163ad831a16",
+      "state": "PAID",
+      "route": "pay_from_balance",
+      "what_if": "transfer_fails",
+      "approved_usd": "2316.40",
+      "arrived_usd": "2316.40",
+      "incoming_fee_usd": "6.95",
+      "left_khutlisas_account": "42293.56 MXN",
+      "payout_fee": "92.86 MXN, taken from the amount sent",
+      "rate": 18.352993,
+      "received": "42200.70 MXN",
+      "airwallex_transfer_id": "2d1c46f1-fafd-4818-8806-6e20f705435a",
+      "airwallex_status": "PAID",
+      "airwallex_reference": "P261113-OHNE6S3",
+      "earlier_transfers": [
+        {
+          "id": "a7cb0045-ec79-4b4e-ac5d-8440bc897be0",
+          "status": "CANCELLED",
+          "fate": "refused by the bank before it was paid",
+          "came_back": "42293.56 MXN"
+        }
+      ],
+      "ledger_lines": [
+        "deposit: DEPOSIT 2316.4 USD",
+        "deposit: FEE -6.95 USD",
+        "earlier transfer: PAYOUT -2309.45 USD",
+        "earlier transfer: PAYOUT_REVERSAL 42293.56 MXN",
+        "transfer: PAYOUT -42293.56 MXN"
+      ],
+      "ledger_sums": [
+        {
+          "currency": "MXN",
+          "came_in": "42293.56",
+          "went_out": "42293.56",
+          "left": "0.00"
+        },
+        {
+          "currency": "USD",
+          "came_in": "2316.4",
+          "went_out": "2316.40",
+          "left": "0.00"
+        }
+      ],
+      "ledger_adds_up_to_zero": true,
+      "deposit_less_fee_equals_sent_usd": true,
+      "environment": "Airwallex sandbox",
+      "claim_usd": "2316.40",
+      "agreed_and_paid": {
+        "agreed": {
+          "amount": "42268.44",
+          "currency": "MXN"
+        },
+        "paid": {
+          "amount": "42200.70",
+          "currency": "MXN"
+        },
+        "difference": {
+          "amount": "-67.74",
+          "currency": "MXN"
+        },
+        "note": "67.74 MXN less than the amount agreed, because the first transfer was refused by the bank and Airwallex charged its payout fee a second time on the replacement. That is inside the holder's tolerance, so the claimant was not asked to agree again."
+      },
+      "decided_without_asking": [
+        "fee_rule",
+        "route_chosen",
+        "better_rate",
+        "route_changed",
+        "replacement_within_tolerance",
+        "replacement_cleared"
+      ],
+      "agent_report": [
+        "Applied the fee rule (Your fee rule): The claim is 2,316.40 USD, which is not below your small-claim line of 250.00 USD, so Airwallex's fees come out of the claim. Airwallex is expected to take 0.3 percent of what arrives (6.95 USD) and about 5.00 USD for the payout: 11.95 USD in all, or 0.5 percent of the claim. That leaves 2,304.45 USD to convert for the claimant.",
+        "Chose the route (Your route rule): Pay with a locked quote would deliver 42,268.44 MXN at Airwallex's quote of 18.342095, after a payout fee of 5.00 USD. Convert, then pay would deliver 42,267.30 MXN, after a payout fee of 92.85 MXN. The first was chosen: 1.14 MXN more reaches the claimant.",
+        "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 18.342095, which gives 42,268.44 MXN. A quote taken at the moment of use was 18.352993, which gives 42,293.55 MXN. The better one was used: 25.11 MXN more for the claimant.",
+        "Changed the route, because the money came back (Your route rule): The money for this claim is already held in MXN, because the earlier transfer came back in that currency. It is paid from that balance and nothing is converted a second time.",
+        "Did not ask the claimant to agree again (Your amount tolerance): The replacement would bring 42,200.71 MXN. That is 0.16 percent less than the 42,268.44 MXN the claimant agreed to, because Airwallex charges its payout fee again. It is inside the tolerance of 0.5 percent, so the claimant is not asked to agree again. The new bank account still has to come from the claimant and be approved by the holder.",
+        "Made sure the first transfer could no longer pay (A fixed rule, not yours to switch off): Before sending the replacement, the earlier transfer a7cb0045-ec79-4b4e-ac5d-8440bc897be0 was read again at Airwallex. It is CANCELLED, so it can no longer pay. One replacement is sent under a new request id, for exactly what Airwallex's records say this claim holds."
+      ]
+    },
+    "MXN_small_claim_refused_stopped_and_asked": {
+      "claim": "c29f209ec3e08965",
+      "state": "PAID",
+      "route": "pay_from_balance",
+      "what_if": "transfer_fails",
+      "approved_usd": "100.31",
+      "arrived_usd": "100.31",
+      "incoming_fee_usd": "0.30",
+      "left_khutlisas_account": "1743.84 MXN",
+      "payout_fee": "92.86 MXN, taken from the amount sent",
+      "rate": 18.354216,
+      "received": "1650.98 MXN",
+      "airwallex_transfer_id": "00686f24-6531-4daf-90dc-3c6edce1bcf9",
+      "airwallex_status": "PAID",
+      "airwallex_reference": "P261113-TMM9H9F",
+      "earlier_transfers": [
+        {
+          "id": "e5185c24-e997-4f57-8831-a66b1e136d4b",
+          "status": "CANCELLED",
+          "fate": "refused by the bank before it was paid",
+          "came_back": "1743.84 MXN"
+        }
+      ],
+      "ledger_lines": [
+        "deposit: DEPOSIT 100.31 USD",
+        "deposit: FEE -0.3 USD",
+        "earlier transfer: PAYOUT -100.01 USD",
+        "earlier transfer: PAYOUT_REVERSAL 1743.84 MXN",
+        "transfer: PAYOUT -1743.84 MXN"
+      ],
+      "ledger_sums": [
+        {
+          "currency": "MXN",
+          "came_in": "1743.84",
+          "went_out": "1743.84",
+          "left": "0.00"
+        },
+        {
+          "currency": "USD",
+          "came_in": "100.31",
+          "went_out": "100.31",
+          "left": "0.00"
+        }
+      ],
+      "ledger_adds_up_to_zero": true,
+      "deposit_less_fee_equals_sent_usd": true,
+      "environment": "Airwallex sandbox",
+      "claim_usd": "95.00",
+      "agreed_and_paid": {
+        "agreed": {
+          "amount": "1650.98",
+          "currency": "MXN"
+        },
+        "paid": {
+          "amount": "1650.98",
+          "currency": "MXN"
+        },
+        "difference": {
+          "amount": "0.00",
+          "currency": "MXN"
+        },
+        "note": "The amount paid is the amount agreed, to the cent."
+      },
+      "decided_without_asking": [
+        "fee_rule",
+        "route_chosen",
+        "better_rate",
+        "route_changed",
+        "replacement_cleared"
+      ],
+      "agent_report": [
+        "Applied the fee rule (Your fee rule): The claim is 95.00 USD, which is below your small-claim line of 250.00 USD, so you bear Airwallex's fees. Airwallex is expected to take 0.3 percent of what arrives and about 5.00 USD for the payout. Taken out of the claim that would be 5.29 USD, or 5.6 percent of it. So you send (95.00 + 5.00) / (1 - 0.003) = 100.31 USD: 0.30 USD incoming fee, 5.00 USD payout fee, and 95.01 USD left to convert for the claimant.",
+        "Chose the route (Your route rule): Pay with a locked quote would deliver 1,743.13 MXN at Airwallex's quote of 18.346791, after a payout fee of 5.00 USD. Convert, then pay would deliver 1,742.00 MXN, after a payout fee of 92.86 MXN. The first was chosen: 1.13 MXN more reaches the claimant.",
+        "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 18.346791, which gives 1,743.13 MXN. A quote taken at the moment of use was 18.354216, which gives 1,743.83 MXN. The better one was used: 0.70 MXN more for the claimant.",
+        "Changed the route, because the money came back (Your route rule): The money for this claim is already held in MXN, because the earlier transfer came back in that currency. It is paid from that balance and nothing is converted a second time.",
+        "Made sure the first transfer could no longer pay (A fixed rule, not yours to switch off): Before sending the replacement, the earlier transfer e5185c24-e997-4f57-8831-a66b1e136d4b was read again at Airwallex. It is CANCELLED, so it can no longer pay. One replacement is sent under a new request id, for exactly what Airwallex's records say this claim holds."
+      ]
+    },
+    "PHP_small_claim_under_the_fee_rule": {
+      "claim": "6b94c6ec69d721f9",
+      "state": "PAID",
+      "route": "pay_with_quote",
+      "what_if": null,
+      "approved_usd": "125.38",
+      "arrived_usd": "125.38",
+      "incoming_fee_usd": "0.38",
+      "left_khutlisas_account": "125 USD",
+      "payout_fee": "5 USD, taken from the amount sent",
+      "rate": 63.008281,
+      "received": "7561.00 PHP",
+      "airwallex_transfer_id": "316eed12-de02-4933-8f8f-7792fe29a162",
+      "airwallex_status": "PAID",
+      "airwallex_reference": "P261113-07BSNGJ",
+      "earlier_transfers": [],
+      "ledger_lines": [
+        "deposit: DEPOSIT 125.38 USD",
+        "deposit: FEE -0.38 USD",
+        "transfer: PAYOUT -125 USD"
+      ],
+      "ledger_sums": [
+        {
+          "currency": "USD",
+          "came_in": "125.38",
+          "went_out": "125.38",
+          "left": "0.00"
+        }
+      ],
+      "ledger_adds_up_to_zero": true,
+      "deposit_less_fee_equals_sent_usd": true,
+      "environment": "Airwallex sandbox",
+      "claim_usd": "120.00",
+      "agreed_and_paid": {
+        "agreed": {
+          "amount": "7557.93",
+          "currency": "PHP"
+        },
+        "paid": {
+          "amount": "7561.00",
+          "currency": "PHP"
+        },
+        "difference": {
+          "amount": "3.07",
+          "currency": "PHP"
+        },
+        "note": "3.07 PHP more than the amount agreed, because a better rate than the one locked with the plan was on offer at the moment it was used, and the better one was taken."
+      },
+      "decided_without_asking": [
+        "fee_rule",
+        "route_chosen",
+        "better_rate"
+      ],
+      "agent_report": [
+        "Applied the fee rule (Your fee rule): The claim is 120.00 USD, which is below your small-claim line of 250.00 USD, so you bear Airwallex's fees. Airwallex is expected to take 0.3 percent of what arrives and about 5.00 USD for the payout. Taken out of the claim that would be 5.36 USD, or 4.5 percent of it. So you send (120.00 + 5.00) / (1 - 0.003) = 125.38 USD: 0.38 USD incoming fee, 5.00 USD payout fee, and 120.00 USD left to convert for the claimant.",
+        "Chose the route (Your route rule): Pay with a locked quote would deliver 7,557.93 PHP at Airwallex's quote of 62.982772, after a payout fee of 5.00 USD. Convert, then pay is not open for this currency: Airwallex does not convert US dollars into a held balance of PHP for this account.",
+        "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 62.982772, which gives 7,557.93 PHP. A quote taken at the moment of use was 63.008281, which gives 7,560.99 PHP. The better one was used: 3.06 PHP more for the claimant."
+      ]
+    }
+  },
+  "opening_search_line": "95,425,821 owner records searched in 2.4 seconds, just now, with Queensland's 2,566,684 beside them",
+  "parts": {
+    "main journey, book, batch and Queensland": {
+      "book_and_batch": {
+        "holder": "Bank of America",
+        "plan": {
+          "inputs": {
+            "tolerance_percent": "0.5",
+            "small_claim_usd": "250.00",
+            "handover_date": "2027-06-01",
+            "document_days": 30
+          },
+          "totals": {
+            "owners": 26190,
+            "usd": 75493097.67,
+            "countries": 147,
+            "local": {
+              "owners": 18891,
+              "usd": 41574795.56,
+              "countries": 80
+            },
+            "swift": {
+              "owners": 5623,
+              "usd": 32950284.7,
+              "countries": 51
+            },
+            "unpayable": {
+              "owners": 582,
+              "usd": 964628.14,
+              "countries": 14
+            },
+            "too_small": {
+              "owners": 854,
+              "usd": 3389.27,
+              "would_cost": 9012.08
+            },
+            "no_cash": {
+              "owners": 240
+            },
+            "over_local_limit": {
+              "owners": 302,
+              "usd": 8213892.86
+            },
+            "too_late": {
+              "owners": 0,
+              "usd": 0,
+              "countries": 0
+            },
+            "planned": {
+              "owners": 24514,
+              "usd": 74525080.26,
+              "countries": 131
+            },
+            "holder_bears": {
+              "owners": 8390,
+              "usd": 705247.62,
+              "adds": 55954.82
+            },
+            "from_claim": {
+              "owners": 16124,
+              "fees": 383933.16
+            },
+            "cost": {
+              "usd": 439887.98,
+              "percent": 0.59,
+              "borne_by_holder": 55954.82,
+              "out_of_claims": 383933.16
+            },
+            "holder_funds_usd": 74581035.08,
+            "refusal": {
+              "inside": 8459,
+              "outside": 16055,
+              "inside_usd": 66174003.61,
+              "outside_usd": 8351076.65
+            },
+            "estimated_fee_corridors": 51,
+            "observed_fee_corridors": 80
+          },
+          "funding": {
+            "holder_funds_usd": 74581035.08,
+            "incoming_fee_usd": 223743.11,
+            "currencies": 81,
+            "saving_usd": 0,
+            "conversions_if_each": 21809,
+            "conversions_planned": 3972,
+            "batch_currencies": 26,
+            "each_currencies": 54,
+            "rate_depends_on_size": false,
+            "ahead_of_approvals": "Nothing is converted for an owner before the holder has approved the claim. Money converted for an owner who is then not paid has to be turned back, and the two quotes for that are in each currency's line."
+          },
+          "order": [
+            "China: $351611.91 a day",
+            "Taiwan: $307391.37 a day",
+            "Japan: $218729.43 a day",
+            "Mexico: $202671.94 a day",
+            "Hong Kong: $139982.28 a day"
+          ]
+        },
+        "small_claim_line_1000": [
+          {
+            "what": "Changed",
+            "before": "",
+            "after": "the small-claim line",
+            "delta": 0
+          },
+          {
+            "what": "Claims on which the holder bears the fees",
+            "before": "8,390",
+            "after": "15,143",
+            "delta": 6753
+          },
+          {
+            "what": "What the holder adds for them",
+            "before": "$55,955",
+            "after": "$127,236",
+            "delta": 71280.99
+          },
+          {
+            "what": "Fees in all",
+            "before": "$439,888",
+            "after": "$440,135",
+            "delta": 247.01
+          },
+          {
+            "what": "What the holder funds",
+            "before": "$74,581,035",
+            "after": "$74,652,316",
+            "delta": 71280.99
+          },
+          {
+            "what": "Claims re-sent after a refusal without asking about the amount",
+            "before": "8,459",
+            "after": "8,469",
+            "delta": 10
+          },
+          {
+            "what": "Claims that would stop and ask the owner",
+            "before": "16,055",
+            "after": "16,045",
+            "delta": -10
+          }
+        ],
+        "handover_in_34_days": [
+          {
+            "what": "Changed",
+            "before": "",
+            "after": "the handover date",
+            "delta": 0
+          },
+          {
+            "what": "Corridors that can finish in time",
+            "before": "131",
+            "after": "39",
+            "delta": -92
+          },
+          {
+            "what": "Dollars paid in time",
+            "before": "$74,525,080",
+            "after": "$42,370,199",
+            "delta": -32154881.69
+          },
+          {
+            "what": "Dollars too close to the handover",
+            "before": "$0.00",
+            "after": "$32,154,882",
+            "delta": 32154881.69
+          },
+          {
+            "what": "Claims on which the holder bears the fees",
+            "before": "8,390",
+            "after": "6,301",
+            "delta": -2089
+          },
+          {
+            "what": "What the holder adds for them",
+            "before": "$55,955",
+            "after": "$27,266",
+            "delta": -28689.25
+          },
+          {
+            "what": "Fees in all",
+            "before": "$439,888",
+            "after": "$201,640",
+            "delta": -238247.79
+          },
+          {
+            "what": "What the holder funds",
+            "before": "$74,581,035",
+            "after": "$42,397,464",
+            "delta": -32183570.94
+          },
+          {
+            "what": "Claims re-sent after a refusal without asking about the amount",
+            "before": "8,459",
+            "after": "6,544",
+            "delta": -1915
+          },
+          {
+            "what": "Claims that would stop and ask the owner",
+            "before": "16,055",
+            "after": "9,939",
+            "delta": -6116
+          },
+          {
+            "what": "Corridors dropped",
+            "before": "",
+            "after": "China, Taiwan, Saudi Arabia, Argentina, Chile, Pakistan, Vietnam, South Africa and 84 more",
+            "delta": -92
+          }
+        ],
+        "tolerance_2_percent": [
+          {
+            "what": "Changed",
+            "before": "",
+            "after": "the tolerance",
+            "delta": 0
+          },
+          {
+            "what": "Claims re-sent after a refusal without asking about the amount",
+            "before": "8,459",
+            "after": "15,037",
+            "delta": 6578
+          },
+          {
+            "what": "Claims that would stop and ask the owner",
+            "before": "16,055",
+            "after": "9,477",
+            "delta": -6578
+          }
+        ],
+        "others": {
+          "APPLE INC": {
+            "totals": {
+              "owners": 49055,
+              "usd": 11923589.28,
+              "countries": 71,
+              "local": {
+                "owners": 16505,
+                "usd": 8913776.24,
+                "countries": 54
+              },
+              "swift": {
+                "owners": 180,
+                "usd": 2852819.93,
+                "countries": 13
+              },
+              "unpayable": {
+                "owners": 203,
+                "usd": 19651.18,
+                "countries": 3
+              },
+              "too_small": {
+                "owners": 32167,
+                "usd": 137341.93,
+                "would_cost": 285687.26
+              },
+              "no_cash": {
+                "owners": 0
+              },
+              "over_local_limit": {
+                "owners": 37,
+                "usd": 1735832.97
+              },
+              "too_late": {
+                "owners": 0,
+                "usd": 0,
+                "countries": 0
+              },
+              "planned": {
+                "owners": 16685,
+                "usd": 11766596.17,
+                "countries": 67
+              },
+              "holder_bears": {
+                "owners": 13821,
+                "usd": 460397.27,
+                "adds": 53043.79
+              },
+              "from_claim": {
+                "owners": 2864,
+                "fees": 55275.95
+              },
+              "cost": {
+                "usd": 108319.74,
+                "percent": 0.92,
+                "borne_by_holder": 53043.79,
+                "out_of_claims": 55275.95
+              },
+              "holder_funds_usd": 11819639.96,
+              "refusal": {
+                "inside": 1810,
+                "outside": 14875,
+                "inside_usd": 10395362.72,
+                "outside_usd": 1371233.45
+              },
+              "estimated_fee_corridors": 29,
+              "observed_fee_corridors": 38
+            },
+            "saving_usd": 0
+          },
+          "HERBALIFE INTERNATIONAL OF AMERICA INC": {
+            "totals": {
+              "owners": 5812,
+              "usd": 987186.42,
+              "countries": 72,
+              "local": {
+                "owners": 3996,
+                "usd": 656437.08,
+                "countries": 50
+              },
+              "swift": {
+                "owners": 496,
+                "usd": 60735.12,
+                "countries": 17
+              },
+              "unpayable": {
+                "owners": 1320,
+                "usd": 270014.22,
+                "countries": 5
+              },
+              "too_small": {
+                "owners": 0,
+                "usd": 0,
+                "would_cost": 0
+              },
+              "no_cash": {
+                "owners": 0
+              },
+              "over_local_limit": {
+                "owners": 0,
+                "usd": 0
+              },
+              "too_late": {
+                "owners": 0,
+                "usd": 0,
+                "countries": 0
+              },
+              "planned": {
+                "owners": 4492,
+                "usd": 717172.2,
+                "countries": 67
+              },
+              "holder_bears": {
+                "owners": 3964,
+                "usd": 404419.75,
+                "adds": 33839.23
+              },
+              "from_claim": {
+                "owners": 528,
+                "fees": 4210.9
+              },
+              "cost": {
+                "usd": 38050.13,
+                "percent": 5.31,
+                "borne_by_holder": 33839.23,
+                "out_of_claims": 4210.9
+              },
+              "holder_funds_usd": 751011.43,
+              "refusal": {
+                "inside": 166,
+                "outside": 4326,
+                "inside_usd": 161307.14,
+                "outside_usd": 555865.06
+              },
+              "estimated_fee_corridors": 27,
+              "observed_fee_corridors": 40
+            },
+            "saving_usd": 0
+          }
+        },
+        "batch": {
+          "id": "cf9e4da5326a",
+          "payments": [
+            {
+              "n": 1,
+              "owner": "Meilin Zhaoqing",
+              "country": "TW",
+              "currency": "USD",
+              "rail": "SWIFT",
+              "owed_usd": "6468.89",
+              "paid": {
+                "amount": "6399.46",
+                "currency": "USD"
+              },
+              "fee": {
+                "amount": "25",
+                "currency": "USD",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": true,
+              "transfer": "3c77aefe-fabb-4acf-9ccc-436028db88db"
+            },
+            {
+              "n": 2,
+              "owner": "Kaede Hoshimori",
+              "country": "JP",
+              "currency": "JPY",
+              "rail": "LOCAL",
+              "owed_usd": "1004.02",
+              "paid": {
+                "amount": "157575",
+                "currency": "JPY"
+              },
+              "fee": {
+                "amount": "1599",
+                "currency": "JPY",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "799c1fcf-a0b6-4f29-9668-6e331dc7c272"
+            },
+            {
+              "n": 3,
+              "owner": "Ximena Olvareda",
+              "country": "MX",
+              "currency": "MXN",
+              "rail": "LOCAL",
+              "owed_usd": "232.20",
+              "paid": {
+                "amount": "4172.49",
+                "currency": "MXN"
+              },
+              "fee": {
+                "amount": "92.85",
+                "currency": "MXN",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": true,
+              "transfer": "3f775e98-7f37-406f-8d50-0342a88cb095"
+            },
+            {
+              "n": 4,
+              "owner": "Odile Marchetier",
+              "country": "CA",
+              "currency": "CAD",
+              "rail": "LOCAL",
+              "owed_usd": "300.01",
+              "paid": {
+                "amount": "419.16",
+                "currency": "CAD"
+              },
+              "fee": {
+                "amount": "4.27",
+                "currency": "CAD",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "cf14a783-642d-41dc-9e32-d7f8be2da141"
+            },
+            {
+              "n": 5,
+              "owner": "Dalisay Marquendo",
+              "country": "PH",
+              "currency": "PHP",
+              "rail": "LOCAL",
+              "owed_usd": "411.50",
+              "paid": {
+                "amount": "25532.86",
+                "currency": "PHP"
+              },
+              "fee": {
+                "amount": "5",
+                "currency": "USD",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "8925e65e-5699-4f14-ad95-22a9c7cfe32b"
+            },
+            {
+              "n": 6,
+              "owner": "Rowan Ashcombe",
+              "country": "GB",
+              "currency": "GBP",
+              "rail": "LOCAL",
+              "owed_usd": "347.56",
+              "paid": {
+                "amount": "257.97",
+                "currency": "GBP"
+              },
+              "fee": {
+                "amount": "2.26",
+                "currency": "GBP",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "ef98d52c-7ca8-4192-9858-eaa51f36204c"
+            },
+            {
+              "n": 7,
+              "owner": "Jonas Feldbrunner",
+              "country": "DE",
+              "currency": "EUR",
+              "rail": "LOCAL",
+              "owed_usd": "561.44",
+              "paid": {
+                "amount": "500.97",
+                "currency": "EUR"
+              },
+              "fee": {
+                "amount": "2.71",
+                "currency": "EUR",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "668a2a50-ca85-4e99-86c7-1785c712b454"
+            },
+            {
+              "n": 8,
+              "owner": "Tamsin Wirralee",
+              "country": "AU",
+              "currency": "AUD",
+              "rail": "LOCAL",
+              "owed_usd": "303.57",
+              "paid": {
+                "amount": "438.73",
+                "currency": "AUD"
+              },
+              "fee": {
+                "amount": "4.42",
+                "currency": "AUD",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "0bcce3d6-be3a-4d80-8081-071cea6253ec"
+            },
+            {
+              "n": 9,
+              "owner": "Kavya Indurkar",
+              "country": "IN",
+              "currency": "INR",
+              "rail": "LOCAL",
+              "owed_usd": "454.71",
+              "paid": {
+                "amount": "41788.07",
+                "currency": "INR"
+              },
+              "fee": {
+                "amount": "5",
+                "currency": "USD",
+                "paid_by": "BENEFICIARY"
+              },
+              "refused_once": false,
+              "transfer": "b0871741-52c3-42ff-977c-edd3d8a8e607"
+            }
+          ],
+          "deposit": {
+            "reference": "KHUTLISA-BATCH-cf9e4da5326a",
+            "id": "ddcd18c1-f327-4c01-aded-ca29d18ded3d",
+            "amount": "10089.62",
+            "fee": "30.27",
+            "pool": "10059.35"
+          },
+          "funding": [
+            {
+              "currency": "AUD",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:20+00:00",
+              "buy": "443.15",
+              "client_rate": 1.46418423,
+              "conversion_id": "22d14d46-bfed-46ee-a730-ca300bbc94e7",
+              "mid_rate": 1.47175265,
+              "payments": 1,
+              "quoted_rate": 0.682975,
+              "sell_usd": "302.66",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "CAD",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:22+00:00",
+              "buy": "423.43",
+              "client_rate": 1.41563304,
+              "conversion_id": "9a79c521-5a80-4ed8-ad58-63413a1f7717",
+              "mid_rate": 1.42298,
+              "payments": 1,
+              "quoted_rate": 1.415629,
+              "sell_usd": "299.11",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "EUR",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:23+00:00",
+              "buy": "503.68",
+              "client_rate": 0.89981421,
+              "conversion_id": "d271ce49-445f-46b0-b197-ecd0f9a0ff61",
+              "mid_rate": 0.90446989,
+              "payments": 1,
+              "quoted_rate": 1.111336,
+              "sell_usd": "559.76",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "GBP",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:24+00:00",
+              "buy": "260.23",
+              "client_rate": 0.75098118,
+              "conversion_id": "547e71a5-03a9-441a-bfed-b9724451f456",
+              "mid_rate": 0.75485371,
+              "payments": 1,
+              "quoted_rate": 1.331612,
+              "sell_usd": "346.52",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "INR",
+              "mode": "each",
+              "why": "Each payment converts inside its own transfer: Airwallex does not convert US dollars into a held balance of INR (the sandbox refused the conversion)."
+            },
+            {
+              "currency": "JPY",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:25+00:00",
+              "buy": "159174",
+              "client_rate": 159.01339647,
+              "conversion_id": "9230b6d3-61cd-417b-a9e9-b8193a9aabd1",
+              "mid_rate": 159.839,
+              "payments": 1,
+              "quoted_rate": 159.01314,
+              "sell_usd": "1001.01",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "MXN",
+              "mode": "batch",
+              "why": "Convert once for the batch and pay every owner from that balance.",
+              "at": "2026-11-13T14:56:26+00:00",
+              "buy": "4358.21",
+              "client_rate": 18.37279204,
+              "conversion_id": "ba5a4ba6-fe7e-4f8b-b587-75900c67528b",
+              "mid_rate": 18.5662,
+              "payments": 1,
+              "quoted_rate": 18.372791,
+              "sell_usd": "237.21",
+              "status": "SETTLED"
+            },
+            {
+              "currency": "PHP",
+              "mode": "each",
+              "why": "Each payment converts inside its own transfer: Airwallex does not convert US dollars into a held balance of PHP (the sandbox refused the conversion)."
+            },
+            {
+              "currency": "USD",
+              "mode": "none",
+              "why": "Paid in US dollars: nothing is converted."
+            }
+          ],
+          "costs": {
+            "planned": {
+              "incoming_usd": "30.25",
+              "payout_usd": "62.01",
+              "usd": "92.26",
+              "transfers": 9
+            },
+            "actual": {
+              "incoming_usd": "30.27",
+              "payout_usd": "92.00",
+              "usd": "122.27",
+              "transfers": 11,
+              "payout_fees": [
+                {
+                  "currency": "AUD",
+                  "amount": "4.42"
+                },
+                {
+                  "currency": "CAD",
+                  "amount": "4.27"
+                },
+                {
+                  "currency": "EUR",
+                  "amount": "2.71"
+                },
+                {
+                  "currency": "GBP",
+                  "amount": "2.26"
+                },
+                {
+                  "currency": "JPY",
+                  "amount": "1599"
+                },
+                {
+                  "currency": "MXN",
+                  "amount": "185.72"
+                },
+                {
+                  "currency": "USD",
+                  "amount": "60.00"
+                }
+              ]
+            },
+            "difference_usd": "30.01",
+            "note": "A refused transfer keeps its payout fee and the replacement is charged again, so a batch with a refusal costs one more payout fee than planned for each."
+          },
+          "ledger": [
+            {
+              "currency": "AUD",
+              "came_in": "443.15",
+              "went_out": "443.15",
+              "left": "0.00"
+            },
+            {
+              "currency": "CAD",
+              "came_in": "423.43",
+              "went_out": "423.43",
+              "left": "0.00"
+            },
+            {
+              "currency": "EUR",
+              "came_in": "503.68",
+              "went_out": "503.68",
+              "left": "0.00"
+            },
+            {
+              "currency": "GBP",
+              "came_in": "260.23",
+              "went_out": "260.23",
+              "left": "0.00"
+            },
+            {
+              "currency": "JPY",
+              "came_in": "159174",
+              "went_out": "159174",
+              "left": "0"
+            },
+            {
+              "currency": "MXN",
+              "came_in": "8623.55",
+              "went_out": "8623.55",
+              "left": "0.00"
+            },
+            {
+              "currency": "USD",
+              "came_in": "16514.08",
+              "went_out": "16514.08",
+              "left": "0.00"
+            }
+          ],
+          "balanced": true,
+          "api_calls": 217
+        }
+      },
+      "queensland": {
+        "source": "AU-QLD",
+        "name": "Queensland",
+        "owner_records": 2566684,
+        "amount": 314265964.51,
+        "currency": "AUD",
+        "matches_portal": true,
+        "loaded_at": "2026-11-13T06:41:35+00:00",
+        "attribution": "Unclaimed monies register: The Public Trustee of Queensland, published on the Queensland Government Open Data Portal and used under the Creative Commons Attribution 4.0 licence. The figures shown were computed by Khutlisa from that register.",
+        "licence": "Creative Commons Attribution 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+        "dataset": "https://www.data.qld.gov.au/dataset/unclaimed-monies",
+        "claim_url": "https://www.pt.qld.gov.au/unclaimed-money/"
+      },
+      "claims": {
+        "mxn_refused_and_replaced": "328fd163ad831a16",
+        "mxn_small_refused_stopped_and_asked": "c29f209ec3e08965",
+        "php_small_claim": "6b94c6ec69d721f9",
+        "proof_not_ready_at_the_handover": "90c0265fbd290831"
+      },
+      "standing_instructions": {
+        "tolerance_percent": "0.5",
+        "small_claim_usd": "250",
+        "route_rule": "most_to_claimant",
+        "deadline_days": 14
+      },
+      "handover": {
+        "at_the_start": {
+          "handover_date": "2027-06-01",
+          "document_days": 30,
+          "set_by": "the holder",
+          "date_words": "1 June 2027",
+          "days_left": 200,
+          "schedule": {
+            "notice": "The Notice Report is due before 1 November. No money is sent with it.",
+            "remit": "The Remit Report and the property are due between 1 and 15 June (1 and 15 December for life insurance companies).",
+            "source": "Code of Civil Procedure 1530(d) and 1532(a); State Controller, how to report",
+            "url": "https://www.sco.ca.gov/upd_how_to_report.html"
+          }
+        },
+        "set_near": "2026-12-01",
+        "schedule": {
+          "notice": "The Notice Report is due before 1 November. No money is sent with it.",
+          "remit": "The Remit Report and the property are due between 1 and 15 June (1 and 15 December for life insurance companies).",
+          "source": "Code of Civil Procedure 1530(d) and 1532(a); State Controller, how to report",
+          "url": "https://www.sco.ca.gov/upd_how_to_report.html"
+        }
+      },
+      "payouts": {
+        "MXN_transfer_refused_and_replaced": {
+          "claim": "328fd163ad831a16",
+          "state": "PAID",
+          "route": "pay_from_balance",
+          "what_if": "transfer_fails",
+          "approved_usd": "2316.40",
+          "arrived_usd": "2316.40",
+          "incoming_fee_usd": "6.95",
+          "left_khutlisas_account": "42293.56 MXN",
+          "payout_fee": "92.86 MXN, taken from the amount sent",
+          "rate": 18.352993,
+          "received": "42200.70 MXN",
+          "airwallex_transfer_id": "2d1c46f1-fafd-4818-8806-6e20f705435a",
+          "airwallex_status": "PAID",
+          "airwallex_reference": "P261113-OHNE6S3",
+          "earlier_transfers": [
+            {
+              "id": "a7cb0045-ec79-4b4e-ac5d-8440bc897be0",
+              "status": "CANCELLED",
+              "fate": "refused by the bank before it was paid",
+              "came_back": "42293.56 MXN"
+            }
+          ],
+          "ledger_lines": [
+            "deposit: DEPOSIT 2316.4 USD",
+            "deposit: FEE -6.95 USD",
+            "earlier transfer: PAYOUT -2309.45 USD",
+            "earlier transfer: PAYOUT_REVERSAL 42293.56 MXN",
+            "transfer: PAYOUT -42293.56 MXN"
+          ],
+          "ledger_sums": [
+            {
+              "currency": "MXN",
+              "came_in": "42293.56",
+              "went_out": "42293.56",
+              "left": "0.00"
+            },
+            {
+              "currency": "USD",
+              "came_in": "2316.4",
+              "went_out": "2316.40",
+              "left": "0.00"
+            }
+          ],
+          "ledger_adds_up_to_zero": true,
+          "deposit_less_fee_equals_sent_usd": true,
+          "environment": "Airwallex sandbox",
+          "claim_usd": "2316.40",
+          "agreed_and_paid": {
+            "agreed": {
+              "amount": "42268.44",
+              "currency": "MXN"
+            },
+            "paid": {
+              "amount": "42200.70",
+              "currency": "MXN"
+            },
+            "difference": {
+              "amount": "-67.74",
+              "currency": "MXN"
+            },
+            "note": "67.74 MXN less than the amount agreed, because the first transfer was refused by the bank and Airwallex charged its payout fee a second time on the replacement. That is inside the holder's tolerance, so the claimant was not asked to agree again."
+          },
+          "decided_without_asking": [
+            "fee_rule",
+            "route_chosen",
+            "better_rate",
+            "route_changed",
+            "replacement_within_tolerance",
+            "replacement_cleared"
+          ],
+          "agent_report": [
+            "Applied the fee rule (Your fee rule): The claim is 2,316.40 USD, which is not below your small-claim line of 250.00 USD, so Airwallex's fees come out of the claim. Airwallex is expected to take 0.3 percent of what arrives (6.95 USD) and about 5.00 USD for the payout: 11.95 USD in all, or 0.5 percent of the claim. That leaves 2,304.45 USD to convert for the claimant.",
+            "Chose the route (Your route rule): Pay with a locked quote would deliver 42,268.44 MXN at Airwallex's quote of 18.342095, after a payout fee of 5.00 USD. Convert, then pay would deliver 42,267.30 MXN, after a payout fee of 92.85 MXN. The first was chosen: 1.14 MXN more reaches the claimant.",
+            "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 18.342095, which gives 42,268.44 MXN. A quote taken at the moment of use was 18.352993, which gives 42,293.55 MXN. The better one was used: 25.11 MXN more for the claimant.",
+            "Changed the route, because the money came back (Your route rule): The money for this claim is already held in MXN, because the earlier transfer came back in that currency. It is paid from that balance and nothing is converted a second time.",
+            "Did not ask the claimant to agree again (Your amount tolerance): The replacement would bring 42,200.71 MXN. That is 0.16 percent less than the 42,268.44 MXN the claimant agreed to, because Airwallex charges its payout fee again. It is inside the tolerance of 0.5 percent, so the claimant is not asked to agree again. The new bank account still has to come from the claimant and be approved by the holder.",
+            "Made sure the first transfer could no longer pay (A fixed rule, not yours to switch off): Before sending the replacement, the earlier transfer a7cb0045-ec79-4b4e-ac5d-8440bc897be0 was read again at Airwallex. It is CANCELLED, so it can no longer pay. One replacement is sent under a new request id, for exactly what Airwallex's records say this claim holds."
+          ]
+        },
+        "MXN_small_claim_refused_stopped_and_asked": {
+          "claim": "c29f209ec3e08965",
+          "state": "PAID",
+          "route": "pay_from_balance",
+          "what_if": "transfer_fails",
+          "approved_usd": "100.31",
+          "arrived_usd": "100.31",
+          "incoming_fee_usd": "0.30",
+          "left_khutlisas_account": "1743.84 MXN",
+          "payout_fee": "92.86 MXN, taken from the amount sent",
+          "rate": 18.354216,
+          "received": "1650.98 MXN",
+          "airwallex_transfer_id": "00686f24-6531-4daf-90dc-3c6edce1bcf9",
+          "airwallex_status": "PAID",
+          "airwallex_reference": "P261113-TMM9H9F",
+          "earlier_transfers": [
+            {
+              "id": "e5185c24-e997-4f57-8831-a66b1e136d4b",
+              "status": "CANCELLED",
+              "fate": "refused by the bank before it was paid",
+              "came_back": "1743.84 MXN"
+            }
+          ],
+          "ledger_lines": [
+            "deposit: DEPOSIT 100.31 USD",
+            "deposit: FEE -0.3 USD",
+            "earlier transfer: PAYOUT -100.01 USD",
+            "earlier transfer: PAYOUT_REVERSAL 1743.84 MXN",
+            "transfer: PAYOUT -1743.84 MXN"
+          ],
+          "ledger_sums": [
+            {
+              "currency": "MXN",
+              "came_in": "1743.84",
+              "went_out": "1743.84",
+              "left": "0.00"
+            },
+            {
+              "currency": "USD",
+              "came_in": "100.31",
+              "went_out": "100.31",
+              "left": "0.00"
+            }
+          ],
+          "ledger_adds_up_to_zero": true,
+          "deposit_less_fee_equals_sent_usd": true,
+          "environment": "Airwallex sandbox",
+          "claim_usd": "95.00",
+          "agreed_and_paid": {
+            "agreed": {
+              "amount": "1650.98",
+              "currency": "MXN"
+            },
+            "paid": {
+              "amount": "1650.98",
+              "currency": "MXN"
+            },
+            "difference": {
+              "amount": "0.00",
+              "currency": "MXN"
+            },
+            "note": "The amount paid is the amount agreed, to the cent."
+          },
+          "decided_without_asking": [
+            "fee_rule",
+            "route_chosen",
+            "better_rate",
+            "route_changed",
+            "replacement_cleared"
+          ],
+          "agent_report": [
+            "Applied the fee rule (Your fee rule): The claim is 95.00 USD, which is below your small-claim line of 250.00 USD, so you bear Airwallex's fees. Airwallex is expected to take 0.3 percent of what arrives and about 5.00 USD for the payout. Taken out of the claim that would be 5.29 USD, or 5.6 percent of it. So you send (95.00 + 5.00) / (1 - 0.003) = 100.31 USD: 0.30 USD incoming fee, 5.00 USD payout fee, and 95.01 USD left to convert for the claimant.",
+            "Chose the route (Your route rule): Pay with a locked quote would deliver 1,743.13 MXN at Airwallex's quote of 18.346791, after a payout fee of 5.00 USD. Convert, then pay would deliver 1,742.00 MXN, after a payout fee of 92.86 MXN. The first was chosen: 1.13 MXN more reaches the claimant.",
+            "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 18.346791, which gives 1,743.13 MXN. A quote taken at the moment of use was 18.354216, which gives 1,743.83 MXN. The better one was used: 0.70 MXN more for the claimant.",
+            "Changed the route, because the money came back (Your route rule): The money for this claim is already held in MXN, because the earlier transfer came back in that currency. It is paid from that balance and nothing is converted a second time.",
+            "Made sure the first transfer could no longer pay (A fixed rule, not yours to switch off): Before sending the replacement, the earlier transfer e5185c24-e997-4f57-8831-a66b1e136d4b was read again at Airwallex. It is CANCELLED, so it can no longer pay. One replacement is sent under a new request id, for exactly what Airwallex's records say this claim holds."
+          ]
+        },
+        "PHP_small_claim_under_the_fee_rule": {
+          "claim": "6b94c6ec69d721f9",
+          "state": "PAID",
+          "route": "pay_with_quote",
+          "what_if": null,
+          "approved_usd": "125.38",
+          "arrived_usd": "125.38",
+          "incoming_fee_usd": "0.38",
+          "left_khutlisas_account": "125 USD",
+          "payout_fee": "5 USD, taken from the amount sent",
+          "rate": 63.008281,
+          "received": "7561.00 PHP",
+          "airwallex_transfer_id": "316eed12-de02-4933-8f8f-7792fe29a162",
+          "airwallex_status": "PAID",
+          "airwallex_reference": "P261113-07BSNGJ",
+          "earlier_transfers": [],
+          "ledger_lines": [
+            "deposit: DEPOSIT 125.38 USD",
+            "deposit: FEE -0.38 USD",
+            "transfer: PAYOUT -125 USD"
+          ],
+          "ledger_sums": [
+            {
+              "currency": "USD",
+              "came_in": "125.38",
+              "went_out": "125.38",
+              "left": "0.00"
+            }
+          ],
+          "ledger_adds_up_to_zero": true,
+          "deposit_less_fee_equals_sent_usd": true,
+          "environment": "Airwallex sandbox",
+          "claim_usd": "120.00",
+          "agreed_and_paid": {
+            "agreed": {
+              "amount": "7557.93",
+              "currency": "PHP"
+            },
+            "paid": {
+              "amount": "7561.00",
+              "currency": "PHP"
+            },
+            "difference": {
+              "amount": "3.07",
+              "currency": "PHP"
+            },
+            "note": "3.07 PHP more than the amount agreed, because a better rate than the one locked with the plan was on offer at the moment it was used, and the better one was taken."
+          },
+          "decided_without_asking": [
+            "fee_rule",
+            "route_chosen",
+            "better_rate"
+          ],
+          "agent_report": [
+            "Applied the fee rule (Your fee rule): The claim is 120.00 USD, which is below your small-claim line of 250.00 USD, so you bear Airwallex's fees. Airwallex is expected to take 0.3 percent of what arrives and about 5.00 USD for the payout. Taken out of the claim that would be 5.36 USD, or 4.5 percent of it. So you send (120.00 + 5.00) / (1 - 0.003) = 125.38 USD: 0.38 USD incoming fee, 5.00 USD payout fee, and 120.00 USD left to convert for the claimant.",
+            "Chose the route (Your route rule): Pay with a locked quote would deliver 7,557.93 PHP at Airwallex's quote of 62.982772, after a payout fee of 5.00 USD. Convert, then pay is not open for this currency: Airwallex does not convert US dollars into a held balance of PHP for this account.",
+            "Used a better rate than the one locked (Your route rule): The rate locked with the plan was 62.982772, which gives 7,557.93 PHP. A quote taken at the moment of use was 63.008281, which gives 7,560.99 PHP. The better one was used: 3.06 PHP more for the claimant."
+          ]
+        }
+      },
+      "opening_search_line": "95,425,821 owner records searched in 2.4 seconds, just now, with Queensland's 2,566,684 beside them"
+    },
+    "Metal funding": {
+      "claim": "c5615db6777c71e8",
+      "scale": "Scale: 1 *USDZ on Metal testnet stands for 100 US dollars of the claim, because the testnet faucet gives an address at most 100 *USDZ. Mandates count in *USDZ cents, so one cent on chain stands for 1.00 US dollars and amounts are rounded up to it. No real money moves.",
+      "mandate": "0x6a55d59322e7081b3678087597e70458ebca8caa1d0f98871306a04d450a6062",
+      "bind": "0xb99b35180178775a7b039878a6d7e4a6a239cd27e08337695941b6f874f9e65f",
+      "refusals": [
+        {
+          "asked": "Pull one *USDZ cent more than the cap",
+          "reason": "mandate_cap_exceeded",
+          "transaction": "0x7b306f601414e38caf8bc87beec9ad887604edf1162876179ef176c896ab95d3"
+        },
+        {
+          "asked": "Pull to an address other than Khutlisa's settlement address",
+          "reason": "mandate_payee_not_listed",
+          "transaction": "0x6c06c1409a6a9a3436a57641b04649f73514e4f6b7e9c0573b2548c034be8134"
+        }
+      ],
+      "pull": "0x9e40a41e40c14e3ea8cd9a17dcf59b464828756836a3a93472ba4c3574739812",
+      "pulled_usdz": "4.13",
+      "deposit_reference": "0x9e40a41e40c14e3ea8cd9a17dcf59b464828756836a3a93472ba4c3574739812",
+      "state": "PAID",
+      "received": "25573.16 PHP",
+      "ledger_adds_up_to_zero": true
+    },
+    "holder's own list and an answered notice": {
+      "mapping_proposed_by": "a language model, from the column titles and 20 masked rows",
+      "rows": 3217,
+      "usable": 3089,
+      "failed": 128,
+      "failures": [
+        "19: The amount is negative, so nothing is owed on this row.",
+        "17: The date cannot be used.",
+        "17: The amount is not a number.",
+        "16: The country is not one that can be recognised.",
+        "15: This row repeats an earlier row: the same owner, reference, amount and date.",
+        "13: The date of last activity is in the future.",
+        "12: There is no owner name.",
+        "9: There is no country, and the state or province is not one of the United States.",
+        "8: There is no amount.",
+        "2: There is no date of last activity."
+      ],
+      "owed_abroad": "937 owners, 322462.32 USD",
+      "due_soon": "310 owners, 117319.72 USD, to the State in 18 days (2026-12-01)",
+      "in_the_notice_window_now": "306 owners, 98855.55 USD",
+      "under_50_dollars": "121 owners",
+      "countries": 39,
+      "top_countries": [
+        "Japan 77323.06",
+        "Mexico 41765.10",
+        "Canada 33649.80",
+        "United Kingdom 28455.16",
+        "China 20642.38"
+      ],
+      "notices_prepared": 527,
+      "notices_ready": 527,
+      "notices_held_back": 0,
+      "languages": [
+        "English only 157",
+        "Japanese 106",
+        "Spanish 92",
+        "Chinese (simplified) 40",
+        "Chinese (traditional) 33",
+        "German 32",
+        "French 17",
+        "Portuguese 10",
+        "Filipino 8",
+        "Italian 7",
+        "Korean 7",
+        "Dutch 6",
+        "Russian 4",
+        "Swedish 3",
+        "Indonesian 3",
+        "Vietnamese 2"
+      ],
+      "payment": {
+        "state": "PAID",
+        "received": "23411.42 MXN",
+        "environment": "Airwallex sandbox"
+      },
+      "funnel": {
+        "prepared": "527 (213355.42 USD)",
+        "sent": "527 (213355.42 USD)",
+        "opened": "1 (1284.60 USD)",
+        "responded": "1 (1284.60 USD)",
+        "proven": "1 (1284.60 USD)",
+        "paid": "1 (1284.60 USD)"
+      },
+      "days_left": 18,
+      "at_the_handover_date": {
+        "date": "2026-12-01",
+        "did": "At the date: 1 already paid, pay 0, hold 0 for proof, release 309 to the State.",
+        "money": "$1,284.60 to owners, $0.00 held, $116,035.12 on the Remit Report."
+      }
+    },
+    "estate settlement": {
+      "claim": "4d46e45cc91f96ea",
+      "shares": {
+        "Lucía Beltrán de Ibarra": "1/3",
+        "Carmela Ibarra Solano": "2/9",
+        "Tomás Ibarra Solano": "2/9",
+        "Naomi Ibarra Sato": "2/9"
+      },
+      "plan_round_1": {
+        "holder_sends": "3592.07",
+        "incoming_fee_expected": "10.78",
+        "legs": [
+          {
+            "name": "Lucía Beltrán de Ibarra",
+            "share": "1/3",
+            "usd": "1534.84",
+            "currency": "MXN",
+            "route": "Pay with a locked quote",
+            "expected": "28053.70"
+          },
+          {
+            "name": "Carmela Ibarra Solano",
+            "share": "2/9",
+            "usd": "1023.23",
+            "currency": "PHP",
+            "route": "Pay with a locked quote",
+            "expected": "64153.01"
+          },
+          {
+            "name": "Tomás Ibarra Solano",
+            "share": "2/9",
+            "usd": "1023.22",
+            "currency": "GBP",
+            "route": "Convert, then pay",
+            "expected": "765.64"
+          }
+        ],
+        "held": [
+          {
+            "name": "Naomi Ibarra Sato",
+            "usd": "1026.30"
+          }
+        ]
+      },
+      "heirs": [
+        {
+          "name": "Lucía Beltrán de Ibarra",
+          "relation": "spouse",
+          "country": "MX",
+          "share": "1/3",
+          "entitlement_usd": "1539.46",
+          "paid": "27960.86 MXN"
+        },
+        {
+          "name": "Carmela Ibarra Solano",
+          "relation": "child",
+          "country": "PH",
+          "share": "2/9",
+          "entitlement_usd": "1026.31",
+          "paid": "64153.01 PHP"
+        },
+        {
+          "name": "Tomás Ibarra Solano",
+          "relation": "child",
+          "country": "GB",
+          "share": "2/9",
+          "entitlement_usd": "1026.30",
+          "paid": "765.63 GBP"
+        },
+        {
+          "name": "Naomi Ibarra Sato",
+          "relation": "grandchild",
+          "country": "JP",
+          "share": "2/9",
+          "entitlement_usd": "1026.30",
+          "paid": "160949 JPY"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "deposit": "3592.07",
+          "incoming_fee": "10.78",
+          "net": "3581.29",
+          "legs": [
+            {
+              "name": "Lucía Beltrán de Ibarra",
+              "sent_usd": "1534.84",
+              "route": "Pay with a locked quote",
+              "payout_fee": "92.84 MXN",
+              "received": "27960.86 MXN",
+              "refused_first": 1
+            },
+            {
+              "name": "Carmela Ibarra Solano",
+              "sent_usd": "1023.23",
+              "route": "Pay with a locked quote",
+              "payout_fee": "5 USD",
+              "received": "64153.01 PHP",
+              "refused_first": 0
+            },
+            {
+              "name": "Tomás Ibarra Solano",
+              "sent_usd": "1023.22",
+              "route": "Convert, then pay",
+              "payout_fee": "2.27 GBP",
+              "received": "765.63 GBP",
+              "refused_first": 0
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "deposit": "1026.30",
+          "incoming_fee": "3.08",
+          "net": "1023.22",
+          "legs": [
+            {
+              "name": "Naomi Ibarra Sato",
+              "sent_usd": "1023.22",
+              "route": "Convert, then pay",
+              "payout_fee": "1599 JPY",
+              "received": "160949 JPY",
+              "refused_first": 0
+            }
+          ]
+        }
+      ],
+      "reconciliation": {
+        "sums": [
+          {
+            "currency": "GBP",
+            "came_in": "767.9",
+            "went_out": "767.9",
+            "left": "0.0"
+          },
+          {
+            "currency": "JPY",
+            "came_in": "162548",
+            "went_out": "162548",
+            "left": "0"
+          },
+          {
+            "currency": "MXN",
+            "came_in": "28053.7",
+            "went_out": "28053.7",
+            "left": "0.0"
+          },
+          {
+            "currency": "USD",
+            "came_in": "4618.37",
+            "went_out": "4618.37",
+            "left": "0.00"
+          }
+        ],
+        "statement": "Every line Airwallex booked for this estate adds up to zero in every currency: what arrived, less Airwallex's fees, is exactly what was sent to the heirs."
+      }
+    },
+    "risk view": {
+      "counts": {
+        "claims": 80,
+        "groups_flagged": 4,
+        "groups_linked": 1,
+        "held": 11,
+        "suspended": 2,
+        "released": 0,
+        "paid_before": 2,
+        "from_notice": 1,
+        "estates": 1,
+        "held_usd": 21273.41,
+        "paid_before_usd": 3986.28
+      },
+      "screenshots": 10
+    }
+  },
+  "notes": [
+    "Opening: Stanford University is owed $55,690.09. Harvard reported it. Both are in California's public file. Warner Bros. Entertainment is owed $78,438.00, reported by The Walt Disney Company. Internal Revenue Services is owed $89,055.72, reported by Oracle America. The whole file lists $12.74 billion in 89 million properties. $275,373,406 of it, in 234,883 properties, is owed to people whose last known address is in another country. 95,425,821 owner records searched in 2.4 seconds, just now, with Queensland's 2,566,684 beside them The State's only way to pay is a cheque in the post. Khutlisa lets the company that owes the money find the owner abroad, check it is really her, and pay her at home. Begin: follow one payment See who is owed For holders Play again California State Controller, public unclaimed property records, 4 Nov 2026. Queensland: unclaimed monies register, The Public Trustee of Queensland, CC BY 4.0",
+    "Typed search: 4 properties owned by an organisation with \"university of tokyo\" in its name. Searched 95,425,821 owner records in 0.3 seconds.",
+    "Queensland: A SECOND REGISTER: QUEENSLAND 2,566,684 records worth 314,265,964.51 AUD, searched in the same pass. Australian dollars, kept apart from California's US dollars. Unclaimed monies register: The Public Trustee of Queensland, published on the Queensland Government Open Data Portal and used under the Creative Commons Attribution 4.0 licence. The figures shown were computed by Khutlisa from that register. The data, the licence. A typed name (\"telstra\") found 3 properties in California's file and 20 in Queensland's register.",
+    "For holders: 4,965 holders, 234,883 properties, $275,373,406. Largest: Bank of America, Charles Schwab, Union Bank, CATHAY BANK, APPLE INC. The law in a sentence: THE LAW IN A SENTENCE California's law tells a holder to pay the owner itself if the owner proves the claim before the handover (Code of Civil Procedure 1532(b)), and lets it pay afterwards and be repaid by the State (1560(b)). 200 days to the next handover, 1 June 2027 The property is due to the State between 1 and 15 June each year (1532(a)). Once the State holds it, the only way it pays is a cheque in the post. Sources: 1532(b): general reporting information, 1560(b): holder reimbursement guide, 1532(a): how to report, Payment by cheque",
+    "Why a holder pays: WHO CAN PAY, AND WHY IT WOULD Any holder with a bank account can pay by transfer today: an employer or payroll company holding final wages, a marketplace or platform holding balances and credits, a bank, a broker, an insurer. The State cannot. It pays by a cheque in the post. It has to write to the owner anyway It may charge at most two dollars for that notice It reports twice and keeps the records for seven years If the owner answers in time, the money never goes to the State Being late costs 12 percent a year What these duties cost any one holder is not published, and no figure for it is given here. Kinds of money: Bank accounts and deposits $162,666,763 in 69,622; Shares, dividends and brokerage balances $83,977,002 in 77,768; Cashier's cheques, money orders and other bank cheques $6,398,400 in 17,811; Refunds, overpayments and customer credit balances $5,614,179 in 29,135; Other and unidentified $4,354,324 in 11,523; Vendor payments and accounts payable $3,822,697 in 7,381; Retirement accounts and pensions $2,132,792 in 293; Escrow, trust and court funds $1,960,768 in 2,939; Royalties and mineral proceeds $1,719,487 in 6,918; Wages, payroll and commissions $1,445,038 in 8,593; Insurance benefits and premiums $1,281,856 in 2,258; Safe deposit boxes and other tangible property $100 in 642.",
+    "What is real here: What is real here Close Real California's whole public unclaimed property file: 95,425,821 owner records, searched live on this server. Queensland's public unclaimed money register: 2,566,684 records, searched in the same pass. Its amounts stay in Australian dollars. The organisations that are owed money, the figures by kind of money and of holder, and every holder's book, read from those two files. California's rules for holders: the notice a holder must send, the dormancy periods and the handover calendar, read on the State Controller's pages, and the checks every notice passes in code. Every Airwallex call, made on the Airwallex sandbox: the corridors, rates, quotes, fees, transfers, refusals and ledger lines are what it returned. Metal testnet: each mandate, pull and refusal is a real signed transaction on the testnet, with a link to its explorer. The shares of an estate, the checks across claims, the fee rule and the deadlines are worked out in code, from the holder's standing instructions. Not real yet Sandbox and testnet money only. No real money moves anywhere. On Metal testnet one *USDZ stands for 100 US dollars of a claim, because the testnet faucet gives at most 100 *USDZ. The scale is shown beside every amount on Metal. The people followed through a claim, the families of the estates, the owners in a batch and every document they show are a demonstration: invented, marked SAMPLE, and the voice is synthetic. The holder's own list is an invented file of invented owners. Notices are prepared here and never sent: the holder sends them and marks them sent. No holder uses Khutlisa yet. A holder's book is a plan made from public figures; the holder's view is this same app behind a key, and its deposit is staged on the sandbox. Documents are read, not verified with the issuing authority. The holder approves every payment. Paying an owner abroad by bank transfer under sections 1532(b) and 1560(b) is our reading of the law. The main path is the holder paying the owner directly; claiming from the State yourself is the fallback.",
+    "The holder's screen: 200 days until you must hand unclaimed property to the State, on 1 June 2027. Before that date you pay the owner yourself (Code of Civil Procedure 1532(b)). After it you may still pay, and the State repays you (1560(b)). Limits: 0.5% less than agreed, without asking the owner to confirm the amount $250.00 below this, you bear the fees Best route the one that delivers most 14 days to send the money after you approve 30 days before the handover, stop waiting for documents",
+    "The book of Bank of America: 26,190 properties, $75,493,098, 147 countries. $41,574,796 by local rails in 80 countries, $32,950,285 by SWIFT in 51, $964,628 not payable in 14; 854 claims smaller than their fees. Fees $439,888, 0.59% of $74,525,080. The holder funds $74,581,035; 26 currencies converted once, saving $0.00 on the rate and 17,837 conversions.",
+    "The plan's decision cards: {\"book_routes\":[\"26,190 properties in 147 countries, $75,493,098.\",\"Local rails where Airwallex has them, SWIFT where it does not, no transfer where it has neither.\",\"80 countries by local rails, 51 by SWIFT, 14 not payable by transfer.\",\"$41,574,796 local, $32,950,285 SWIFT, $964,628 stays with the State.\"],\"book_fees\":[\"8,390 claims below $250.00; 16,124 at or above it.\",\"Below $250.00 the holder bears the fees. From there up, they come out of the claim.\",\"The holder adds $55,955 so the small claims arrive whole.\",\"Fees $439,888 in all: 0.59% of $74,525,080 paid.\"],\"book_small\":[\"854 claims, $3,389, are smaller than the fees to send them.\",\"A claim is not sent when the fees are at least the claim itself.\",\"They stay with the State process.\",\"Sending them would cost $9,012 to deliver $3,389.\"],\"book_funding\":[\"Airwallex quoted the same rate at 6 sizes, 10 to 1,000,000 USD.\",\"Convert each payment as it is approved, or once per currency for the batch: take the cheaper.\",\"Once per currency in 26 currencies; inside each transfer in 54 that cannot be held ahead.\",\"The holder funds $74,581,035. Saves $0.00 and 17,837 conversions.\"],\"book_order\":[\"200 days until the handover on 1 June 2027.\",\"An owner needs about 30 days to send a document; then the rail takes its own days.\",\"Start with China, Taiwan, Japan. 0 corridors cannot finish in time.\",\"$74,525,080 can be paid in time; $0.00 is too close and goes on the Remit Report.\"],\"book_tolerance\":[\"A refused transfer costs a second payout fee, which comes out of the replacement.\",\"Up to 0.5% less than agreed, without asking the owner about the amount again.\",\"8,459 claims would be re-sent on that rule; 16,055 would stop and ask the owner.\",\"$66,174,004 inside the tolerance, $8,351,077 outside it.\"]}",
+    "Small-claim line raised from $250 to $1,000: Claims on which the holder bears the fees: 8,390 to 15,143; What the holder adds for them: $55,955 to $127,236; Fees in all: $439,888 to $440,135; What the holder funds: $74,581,035 to $74,652,316; Claims re-sent after a refusal without asking about the amount: 8,459 to 8,469; Claims that would stop and ask the owner: 16,055 to 16,045.",
+    "Handover date moved to 2026-12-17 (34 days): Corridors that can finish in time: 131 to 39; Dollars paid in time: $74,525,080 to $42,370,199; Dollars too close to the handover: $0.00 to $32,154,882; Claims on which the holder bears the fees: 8,390 to 6,301; What the holder adds for them: $55,955 to $27,266; Fees in all: $439,888 to $201,640; What the holder funds: $74,581,035 to $42,397,464; Claims re-sent after a refusal without asking about the amount: 8,459 to 6,544; Claims that would stop and ask the owner: 16,055 to 9,939; Corridors dropped: China, Taiwan, Saudi Arabia, Argentina, Chile, Pakistan, Vietnam, South Africa and 84 more.",
+    "Tolerance raised from 0.5% to 2%: Claims re-sent after a refusal without asking about the amount: 8,459 to 15,037; Claims that would stop and ask the owner: 16,055 to 9,477.",
+    "The book of APPLE INC: 49,055 properties, $11,923,589. $8,913,776 local, $2,852,820 SWIFT, $19,651 not payable; 32,167 claims ($137,342) smaller than their fees. Fees $108,320, 0.92%.",
+    "The book of HERBALIFE INTERNATIONAL OF AMERICA INC: 5,812 properties, $987,186. $656,437 local, $60,735 SWIFT, $270,014 not payable; 0 claims ($0) smaller than their fees. Fees $38,050, 5.31%.",
+    "What was done for the two refused payments, in order: Meilin Zhaoqing: Demonstration owner: give the corrected account; Meilin Zhaoqing: Holder: approve the account ending 9055; Ximena Olvareda: Demonstration owner: give the corrected account; Ximena Olvareda: Holder: approve the account ending 8232; Ximena Olvareda: Demonstration owner: agree to the smaller amount.",
+    "The batch cf9e4da5326a: Meilin Zhaoqing (Taiwan) 6399.46 USD, after a refusal (inside the tolerance: the owner was not asked about the amount); Kaede Hoshimori (Japan) 157575 JPY; Ximena Olvareda (Mexico) 4172.49 MXN, after a refusal (outside the tolerance: the owner was asked about the amount); Odile Marchetier (Canada) 419.16 CAD; Dalisay Marquendo (Philippines) 25532.86 PHP; Rowan Ashcombe (United Kingdom) 257.97 GBP; Jonas Feldbrunner (Germany) 500.97 EUR; Tamsin Wirralee (Australia) 438.73 AUD; Kavya Indurkar (India) 41788.07 INR. Deposit 10089.62 USD, Airwallex's fee 30.27 USD. Planned cost 92.26 USD, booked 122.27 USD. Ledger: AUD left 0.00, CAD left 0.00, EUR left 0.00, GBP left 0.00, JPY left 0, MXN left 0.00, USD left 0.00. 217 calls to Airwallex.",
+    "First search: Searched 97,992,505 owner records in California's and Queensland's public files, and 8 demonstration records, in 1.6 seconds. 8 cards shown, 5 of them real owners from California's file (masked on the page and blurred in the pictures).",
+    "Follow-up question asked: What was the postcode of the area where you lived in Salinas, California?",
+    "The answer changed the wages record: Before the answer: possible match, 0.75 Now: strong match, 0.87 What changed: The record's postcode is one you lived in. What makes this a strong match: the holder you named together with the postcode you gave.",
+    "In pesos today, on the strong card: about 42,329.82 MXN today Indicative Airwallex rate 18.368728, not locked",
+    "With the badge refused and 200 days in hand, the deadline card on her claim: [\"200 days until the handover to the State on 1 June 2027.\",\"An owner needs about 30 days to send a document.\",\"Time in hand: it asked the owner for photo identification and 2 more.\",\"$2,316.40 waits for that document.\"]",
+    "The route card: [\"Two routes to MXN, priced with Airwallex's own quote and fees.\",\"Take the route that delivers the most to the owner.\",\"Chose: pay with a locked quote.\",\"42,268.44 MXN expected. The other route would bring about the same.\"]. The fee card: [\"A claim of $2,316.40. Fees are about $11.95, 0.5% of it.\",\"From $250.00 up, fees come out of the claim.\",\"The holder sends $2,316.40.\",\"$2,304.45 is left to convert for the owner.\"]. In full: Pay with a locked quote would deliver 42,268.44 MXN at Airwallex's quote of 18.342095, after a payout fee of 5.00 USD. Convert, then pay would deliver 42,267.30 MXN, after a payout fee of 92.85 MXN. The first was chosen: 1.14 MXN more reaches the claimant.",
+    "The bank refused the transfer. The money's line: The holder sends $2,316.40 Airwallex's fee $6.95 First transfer leaves to account ending 7771 STOP The bank refuses it Invalid account name/number The money comes back 42,293.56 MXN The agent decides 0.16% less: amount not asked about again Replacement leaves to a corrected account Paid at home. The decision card: [\"The bank refused the transfer to account ending 7771. 42,293.56 MXN came back.\",\"Up to 0.5% less than agreed, without asking the owner to confirm the amount.\",\"0.16% less, inside the limit: did not ask the owner to confirm the amount. Still asked: the corrected account and the holder's approval.\",\"42,200.71 MXN in place of 42,268.44 MXN.\"]",
+    "The same refusal on the 95.00 dollar claim: [\"The bank refused the transfer to account ending 7771. 1,743.84 MXN came back.\",\"Up to 0.5% less than agreed, without asking the owner to confirm the amount.\",\"The replacement is 5.29% less. Outside the limit: it stopped and asked the owner.\",\"1,650.98 MXN in place of 1,743.13 MXN, waiting for the owner's answer.\"]",
+    "Side by side: The same event, the same limits, two outcomes The bank refused both transfers. Your limit: up to 0.5% less than agreed without asking the owner to confirm the amount. A corrected account is always asked for, and you always approve it. $2,316.40 Marisol Elena Tolmedo Peralmonte, wages, payroll, salaries 0.16% less Inside the limit: the owner was not asked about the amount again THE REFUSED TRANSFER What happened The bank refused the transfer to account ending 7771. 42,293.56 MXN came back. The limits allowed Up to 0.5% less than agreed, without asking the owner to confirm the amount. What the agent did 0.16% less, inside the limit: did not ask the owner to confirm the amount. Still asked: the corrected account and the holder's approval. Result Paid 42,200.70 MXN, in place of 42,268.44 MXN. Why First account ending 7771, corrected to 7823. Paid. $95.00 Marisol Elena Tolmedo Peralmonte, utility deposits 5.29% less Outside the limit: it stopped and asked the owner THE REFUSED TRANSFER What happened The bank refused the transfer to account ending 7771. 1,743.84 MXN came back. The limits allowed Up to 0.5% less than agreed, without asking the owner to confirm the amount. What the agent did The replacement is 5.29% less. Outside the limit: it stopped and asked the owner. Result 1,650.98 MXN in place of 1,743.13 MXN, waiting for the owner's answer. Why First account ending 7771, corrected to 7823. Payment under way.",
+    "The fee card on the 120.00 dollar claim: [\"A claim of $120.00. Fees would take $5.36, 4.5% of it.\",\"Below $250.00 the holder bears the fees.\",\"The holder sends $125.38.\",\"The owner gets the whole $120.00.\"]",
+    "The deadline choice with 200 days left: [\"200 days until the handover to the State on 1 June 2027.\",\"An owner needs about 30 days to send a document.\",\"Time in hand: it asked the owner for photo identification and 2 more.\",\"$1,840.55 waits for that document.\"]",
+    "With the handover date set to 2026-12-01: [\"18 days until the handover to the State on 1 December 2026.\",\"An owner needs about 30 days to send a document.\",\"Too close to wait: this property is released to the State process.\",\"$1,840.55 goes on the Remit Report. The owner claims it from the State.\"]. Across the queue: [\"18 days until the handover to the State on 1 December 2026.\",\"An owner needs about 30 days to send a document.\",\"Near the date: it pays what is proven (3 claims) and releases the rest (1 claim) to the State process.\",\"$2,531.40 to owners. $1,840.55 goes on the Remit Report.\"]",
+    "The fallback packet for the State: 6 pages rendered to docs/shots/walk/packet/.",
+    "Metal: {\"claim\":\"c5615db6777c71e8\",\"scale\":\"Scale: 1 *USDZ on Metal testnet stands for 100 US dollars of the claim, because the testnet faucet gives an address at most 100 *USDZ. Mandates count in *USDZ cents, so one cent on chain stands for 1.00 US dollars and amounts are rounded up to it. No real money moves.\",\"mandate\":\"0x6a55d59322e7081b3678087597e70458ebca8caa1d0f98871306a04d450a6062\",\"bind\":\"0xb99b35180178775a7b039878a6d7e4a6a239cd27e08337695941b6f874f9e65f\",\"refusals\":[{\"asked\":\"Pull one *USDZ cent more than the cap\",\"reason\":\"mandate_cap_exceeded\",\"transaction\":\"0x7b306f601414e38caf8bc87beec9ad887604edf1162876179ef176c896ab95d3\"},{\"asked\":\"Pull to an address other than Khutlisa's settlement address\",\"reason\":\"mandate_payee_not_listed\",\"transaction\":\"0x6c06c1409a6a9a3436a57641b04649f73514e4f6b7e9c0573b2548c034be8134\"}],\"pull\":\"0x9e40a41e40c14e3ea8cd9a17dcf59b464828756836a3a93472ba4c3574739812\",\"pulled_usdz\":\"4.13\",\"deposit_reference\":\"0x9e40a41e40c14e3ea8cd9a17dcf59b464828756836a3a93472ba4c3574739812\",\"state\":\"PAID\",\"received\":\"25573.16 PHP\",\"ledger_adds_up_to_zero\":true}",
+    "Outreach, the columns: proposed by a language model, from the column titles and 20 masked rows. address_1 = Last Known Addr 1; address_2 = Addr 2; amount = Net Amt; city = City; country = Ctry; e_consent = Paperless Consent; email = E-mail; last_activity = Chk Date; owner_name = Employee Name (Last, First MI); phone = Phone; postcode = Zip/Postal; property_type = Pay Type; reference = EE ID; region = St/Prov. Not used: Dept, Hire Dt, Term Dt, Chk No.",
+    "Outreach, the queue: 3,217 rows read 3,089 usable 128 failed, with reasons $322,462 owed to 937 owners abroad $117,320 of it goes to the State in 18 days",
+    "Outreach, the notices: 527 prepared, 527 ready, 0 held back. English only 157, Japanese 106, Spanish 92, Chinese (simplified) 40, Chinese (traditional) 33, German 32, French 17, Portuguese 10, Filipino 8, Italian 7, Korean 7, Dutch 6, Russian 4, Swedish 3, Indonesian 3, Vietnamese 2.",
+    "Outreach, the decision cards: [[\"Who is notified first\",\"937 owners abroad are owed $322,462.32. $117,319.72 goes to the State in 18 days.\",\"Notify owners of $50.00 or more, soonest handover first.\",\"Every owner who can be notified today has a notice.\",\"$213,355.42 is covered by a notice. $109,106.90 waits or is under the line.\"],[\"At the handover date\",\"18 days to the handover on 1 December 2026. 310 balances abroad, $117,319.72, are due.\",\"Pay what is proven. Hold what an owner has answered. Release the rest.\",\"At the date: pay 0, hold 0 for proof, release 310 to the State.\",\"$0.00 to owners, $0.00 held, $117,319.72 on the Remit Report.\"]]",
+    "Outreach, her letter: 2 pages rendered to docs/shots/walk/letter/ (invented person). A batch of 40 letters is 446796 bytes.",
+    "Outreach, the funnel after her answer: {\"prepared\":\"527 (213355.42 USD)\",\"sent\":\"527 (213355.42 USD)\",\"opened\":\"1 (1284.60 USD)\",\"responded\":\"1 (1284.60 USD)\",\"proven\":\"1 (1284.60 USD)\",\"paid\":\"1 (1284.60 USD)\"}, 18 days to the handover.",
+    "Outreach, at the handover date (2026-12-01): 18 days to the handover on 1 December 2026. 310 balances abroad, $117,319.72, are due. At the date: 1 already paid, pay 0, hold 0 for proof, release 309 to the State. $1,284.60 to owners, $0.00 held, $116,035.12 on the Remit Report.",
+    "Without the register database: California's file is not loaded on this server, so only the 8 demonstration records were searched, in under a tenth of a second."
+  ],
+  "problems": [],
+  "screenshots": 101
+}

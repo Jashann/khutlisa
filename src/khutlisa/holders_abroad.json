@@ -1,0 +1,1946 @@
+{
+ "source": "California State Controller, unclaimed property records, file dated 2026-11-04",
+ "url": "https://www.sco.ca.gov/upd_download_property_records.html",
+ "generated_at": "2026-11-13T07:37:09+00:00",
+ "rule": "Each property is counted once, under the holder that reported it, when at least one of its owners has a last known address in another country (United States territories are not another country). Holder names are as California's file writes them. Spellings that differ only in punctuation are one line, and the spellings of the few companies listed under 'families' are added together. A holder name that could be a person's name is counted in the totals and never listed.",
+ "properties": 234883,
+ "amount": 275373406.11,
+ "holders_with_an_owner_abroad": 4965,
+ "passed_over_as_possibly_a_person": 0,
+ "by_amount": [
+  {
+   "name": "Bank of America",
+   "properties": 26190,
+   "amount": 75493097.67,
+   "spellings": 834,
+   "as_written": [
+    "BANK OF AMERICA - CALIFORNIA NA (318)",
+    "BANK OF AMERICA - CALIFORNIA",
+    "BANK OF AMERICA N A",
+    "Bank of America - Passbook Accounts"
+   ]
+  },
+  {
+   "name": "Charles Schwab",
+   "properties": 14133,
+   "amount": 61911493.54,
+   "spellings": 3,
+   "as_written": [
+    "CHARLES SCHWAB & CO INC",
+    "CHARLES SCHWAB & CO.",
+    "CHARLES SCHWAB"
+   ]
+  },
+  {
+   "name": "Union Bank",
+   "properties": 9289,
+   "amount": 25372707.95,
+   "spellings": 7,
+   "as_written": [
+    "UNION BANK N.A.",
+    "UNION BANK OF CALIFORNIA, N.A.",
+    "UNION BANK OF CALIFORNIA N A",
+    "UNION BANK OF CALIFORNIA N.A."
+   ]
+  },
+  {
+   "name": "CATHAY BANK",
+   "properties": 6352,
+   "amount": 19585238.11,
+   "spellings": 1,
+   "as_written": [
+    "CATHAY BANK"
+   ]
+  },
+  {
+   "name": "APPLE INC",
+   "properties": 49055,
+   "amount": 11923589.28,
+   "spellings": 2,
+   "as_written": [
+    "APPLE INC",
+    "APPLE INC."
+   ]
+  },
+  {
+   "name": "Wells Fargo",
+   "properties": 3845,
+   "amount": 7754649.93,
+   "spellings": 86,
+   "as_written": [
+    "WELLS FARGO BANK NA",
+    "WELLS FARGO BANK",
+    "WELLS FARGO BANK NA (APECS 1009)",
+    "WELLS FARGO BANK, N.A., TIJUANA BORDER"
+   ]
+  },
+  {
+   "name": "Citibank",
+   "properties": 3081,
+   "amount": 6175339.64,
+   "spellings": 16,
+   "as_written": [
+    "CITIBANK N. A.",
+    "CITIBANK (BANAMEX USA)",
+    "CITIBANK (WEST) FSB (CA)",
+    "CITIBANK N A"
+   ]
+  },
+  {
+   "name": "BANAMEX USA",
+   "properties": 12079,
+   "amount": 3974666.54,
+   "spellings": 1,
+   "as_written": [
+    "BANAMEX USA"
+   ]
+  },
+  {
+   "name": "BMO BANK NA (FKA) BMO HARRIS BANK NA)",
+   "properties": 873,
+   "amount": 3251296.19,
+   "spellings": 1,
+   "as_written": [
+    "BMO BANK NA (FKA) BMO HARRIS BANK NA)"
+   ]
+  },
+  {
+   "name": "Cisco Systems",
+   "properties": 8333,
+   "amount": 2988931.68,
+   "spellings": 3,
+   "as_written": [
+    "CISCO SYSTEMS",
+    "CISCO SYSTEMS INC",
+    "CISCO SYSTEMS INC."
+   ]
+  },
+  {
+   "name": "Washington Mutual",
+   "properties": 1313,
+   "amount": 1982368.61,
+   "spellings": 5,
+   "as_written": [
+    "WASHINGTON MUTUAL BANK (68-0172274)",
+    "WASHINGTON MUTUAL BANK F.A.",
+    "WASHINGTON MUTUAL BANK AND SUCCESSOR TO PROVIDIAN NATIONAL BANK",
+    "WASHINGTON MUTUAL BANK, FA"
+   ]
+  },
+  {
+   "name": "BANK OF THE WEST",
+   "properties": 1025,
+   "amount": 1476218.72,
+   "spellings": 1,
+   "as_written": [
+    "BANK OF THE WEST"
+   ]
+  },
+  {
+   "name": "THE BANK OF NEW YORK MELLON TRUST COMPAN",
+   "properties": 34,
+   "amount": 1398994.01,
+   "spellings": 1,
+   "as_written": [
+    "THE BANK OF NEW YORK MELLON TRUST COMPAN"
+   ]
+  },
+  {
+   "name": "CTBC BANK CORP USA",
+   "properties": 1267,
+   "amount": 1393348.51,
+   "spellings": 2,
+   "as_written": [
+    "CTBC BANK CORP USA",
+    "CTBC BANK CORP (USA)"
+   ]
+  },
+  {
+   "name": "CITY NATIONAL BANK",
+   "properties": 208,
+   "amount": 1203707.46,
+   "spellings": 1,
+   "as_written": [
+    "CITY NATIONAL BANK"
+   ]
+  },
+  {
+   "name": "BANCOMER TRANSFER SERVICES INC.",
+   "properties": 1,
+   "amount": 1148161.37,
+   "spellings": 1,
+   "as_written": [
+    "BANCOMER TRANSFER SERVICES INC."
+   ]
+  },
+  {
+   "name": "STANFORD FEDERAL CREDIT UNION",
+   "properties": 966,
+   "amount": 1063379.94,
+   "spellings": 1,
+   "as_written": [
+    "STANFORD FEDERAL CREDIT UNION"
+   ]
+  },
+  {
+   "name": "FAR EAST NATIONAL BANK",
+   "properties": 523,
+   "amount": 1004649.38,
+   "spellings": 1,
+   "as_written": [
+    "FAR EAST NATIONAL BANK"
+   ]
+  },
+  {
+   "name": "HERBALIFE INTERNATIONAL OF AMERICA INC",
+   "properties": 5812,
+   "amount": 987186.42,
+   "spellings": 2,
+   "as_written": [
+    "HERBALIFE INTERNATIONAL OF AMERICA INC",
+    "HERBALIFE INTERNATIONAL OF AMERICA INC."
+   ]
+  },
+  {
+   "name": "DISNEY ENTERPRISES INC.",
+   "properties": 844,
+   "amount": 982156.38,
+   "spellings": 1,
+   "as_written": [
+    "DISNEY ENTERPRISES INC."
+   ]
+  },
+  {
+   "name": "CALIFORNIA BANK & TRUST",
+   "properties": 489,
+   "amount": 955247.51,
+   "spellings": 1,
+   "as_written": [
+    "CALIFORNIA BANK & TRUST"
+   ]
+  },
+  {
+   "name": "INTEL CORPORATION",
+   "properties": 119,
+   "amount": 870469.41,
+   "spellings": 1,
+   "as_written": [
+    "INTEL CORPORATION"
+   ]
+  },
+  {
+   "name": "CALIFORNIA BANK AND TRUST",
+   "properties": 274,
+   "amount": 826220.52,
+   "spellings": 1,
+   "as_written": [
+    "CALIFORNIA BANK AND TRUST"
+   ]
+  },
+  {
+   "name": "SHANGHAI COMMERCIAL BANK LTD.",
+   "properties": 392,
+   "amount": 782850.45,
+   "spellings": 2,
+   "as_written": [
+    "SHANGHAI COMMERCIAL BANK LTD.",
+    "SHANGHAI COMMERCIAL BANK LTD"
+   ]
+  },
+  {
+   "name": "THE BOARD OF TRUSTEES OF LELAND STANFORD",
+   "properties": 1947,
+   "amount": 687295.31,
+   "spellings": 1,
+   "as_written": [
+    "THE BOARD OF TRUSTEES OF LELAND STANFORD"
+   ]
+  }
+ ],
+ "by_properties": [
+  {
+   "name": "APPLE INC",
+   "properties": 49055,
+   "amount": 11923589.28,
+   "spellings": 2,
+   "as_written": [
+    "APPLE INC",
+    "APPLE INC."
+   ]
+  },
+  {
+   "name": "Bank of America",
+   "properties": 26190,
+   "amount": 75493097.67,
+   "spellings": 834,
+   "as_written": [
+    "BANK OF AMERICA - CALIFORNIA NA (318)",
+    "BANK OF AMERICA - CALIFORNIA",
+    "BANK OF AMERICA N A",
+    "Bank of America - Passbook Accounts"
+   ]
+  },
+  {
+   "name": "Charles Schwab",
+   "properties": 14133,
+   "amount": 61911493.54,
+   "spellings": 3,
+   "as_written": [
+    "CHARLES SCHWAB & CO INC",
+    "CHARLES SCHWAB & CO.",
+    "CHARLES SCHWAB"
+   ]
+  },
+  {
+   "name": "BANAMEX USA",
+   "properties": 12079,
+   "amount": 3974666.54,
+   "spellings": 1,
+   "as_written": [
+    "BANAMEX USA"
+   ]
+  },
+  {
+   "name": "Union Bank",
+   "properties": 9289,
+   "amount": 25372707.95,
+   "spellings": 7,
+   "as_written": [
+    "UNION BANK N.A.",
+    "UNION BANK OF CALIFORNIA, N.A.",
+    "UNION BANK OF CALIFORNIA N A",
+    "UNION BANK OF CALIFORNIA N.A."
+   ]
+  },
+  {
+   "name": "Cisco Systems",
+   "properties": 8333,
+   "amount": 2988931.68,
+   "spellings": 3,
+   "as_written": [
+    "CISCO SYSTEMS",
+    "CISCO SYSTEMS INC",
+    "CISCO SYSTEMS INC."
+   ]
+  },
+  {
+   "name": "CATHAY BANK",
+   "properties": 6352,
+   "amount": 19585238.11,
+   "spellings": 1,
+   "as_written": [
+    "CATHAY BANK"
+   ]
+  },
+  {
+   "name": "TURNITIN LLC",
+   "properties": 5962,
+   "amount": 117295.1,
+   "spellings": 1,
+   "as_written": [
+    "TURNITIN LLC"
+   ]
+  },
+  {
+   "name": "HERBALIFE INTERNATIONAL OF AMERICA INC",
+   "properties": 5812,
+   "amount": 987186.42,
+   "spellings": 2,
+   "as_written": [
+    "HERBALIFE INTERNATIONAL OF AMERICA INC",
+    "HERBALIFE INTERNATIONAL OF AMERICA INC."
+   ]
+  },
+  {
+   "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+   "properties": 5779,
+   "amount": 668481.11,
+   "spellings": 1,
+   "as_written": [
+    "UNIVERSITY OF SOUTHERN CALIFORNIA"
+   ]
+  },
+  {
+   "name": "Wells Fargo",
+   "properties": 3845,
+   "amount": 7754649.93,
+   "spellings": 86,
+   "as_written": [
+    "WELLS FARGO BANK NA",
+    "WELLS FARGO BANK",
+    "WELLS FARGO BANK NA (APECS 1009)",
+    "WELLS FARGO BANK, N.A., TIJUANA BORDER"
+   ]
+  },
+  {
+   "name": "KIVA USER FUNDS LLC",
+   "properties": 3470,
+   "amount": 192642.06,
+   "spellings": 1,
+   "as_written": [
+    "KIVA USER FUNDS LLC"
+   ]
+  },
+  {
+   "name": "Citibank",
+   "properties": 3081,
+   "amount": 6175339.64,
+   "spellings": 16,
+   "as_written": [
+    "CITIBANK N. A.",
+    "CITIBANK (BANAMEX USA)",
+    "CITIBANK (WEST) FSB (CA)",
+    "CITIBANK N A"
+   ]
+  },
+  {
+   "name": "GEP ATL LLC DBA ENTERTAINMENT PARTNERS",
+   "properties": 2843,
+   "amount": 299808.56,
+   "spellings": 1,
+   "as_written": [
+    "GEP ATL LLC DBA ENTERTAINMENT PARTNERS"
+   ]
+  },
+  {
+   "name": "EPSON AMERICA INC.",
+   "properties": 2069,
+   "amount": 106510.09,
+   "spellings": 1,
+   "as_written": [
+    "EPSON AMERICA INC."
+   ]
+  },
+  {
+   "name": "FITNESS INTERNATIONAL LLC",
+   "properties": 1980,
+   "amount": 3028.11,
+   "spellings": 1,
+   "as_written": [
+    "FITNESS INTERNATIONAL LLC"
+   ]
+  },
+  {
+   "name": "THE BOARD OF TRUSTEES OF LELAND STANFORD",
+   "properties": 1947,
+   "amount": 687295.31,
+   "spellings": 1,
+   "as_written": [
+    "THE BOARD OF TRUSTEES OF LELAND STANFORD"
+   ]
+  },
+  {
+   "name": "SPE CORPORATE SERVICES INC",
+   "properties": 1473,
+   "amount": 125225.7,
+   "spellings": 1,
+   "as_written": [
+    "SPE CORPORATE SERVICES INC"
+   ]
+  },
+  {
+   "name": "FIRST TECH FEDERAL CREDIT UNION",
+   "properties": 1320,
+   "amount": 595673.51,
+   "spellings": 1,
+   "as_written": [
+    "FIRST TECH FEDERAL CREDIT UNION"
+   ]
+  },
+  {
+   "name": "Washington Mutual",
+   "properties": 1313,
+   "amount": 1982368.61,
+   "spellings": 5,
+   "as_written": [
+    "WASHINGTON MUTUAL BANK (68-0172274)",
+    "WASHINGTON MUTUAL BANK F.A.",
+    "WASHINGTON MUTUAL BANK AND SUCCESSOR TO PROVIDIAN NATIONAL BANK",
+    "WASHINGTON MUTUAL BANK, FA"
+   ]
+  },
+  {
+   "name": "CTBC BANK CORP USA",
+   "properties": 1267,
+   "amount": 1393348.51,
+   "spellings": 2,
+   "as_written": [
+    "CTBC BANK CORP USA",
+    "CTBC BANK CORP (USA)"
+   ]
+  },
+  {
+   "name": "STANFORD UNIVERSITY",
+   "properties": 1221,
+   "amount": 405145.46,
+   "spellings": 1,
+   "as_written": [
+    "STANFORD UNIVERSITY"
+   ]
+  },
+  {
+   "name": "GEP TALENT SERVICE LLC DBA ENTERTAINMEN",
+   "properties": 1172,
+   "amount": 98635.36,
+   "spellings": 1,
+   "as_written": [
+    "GEP TALENT SERVICE LLC DBA ENTERTAINMEN"
+   ]
+  },
+  {
+   "name": "BROADCOM CORPORATION",
+   "properties": 1043,
+   "amount": 544546.47,
+   "spellings": 1,
+   "as_written": [
+    "BROADCOM CORPORATION"
+   ]
+  },
+  {
+   "name": "BANK OF THE WEST",
+   "properties": 1025,
+   "amount": 1476218.72,
+   "spellings": 1,
+   "as_written": [
+    "BANK OF THE WEST"
+   ]
+  }
+ ],
+ "share_of_top_ten": {
+  "amount_percent": 79.3,
+  "properties_percent": 56.7
+ },
+ "property_types": [
+  {
+   "type": "AC01: CHECKING ACCOUNTS",
+   "properties": 22053,
+   "amount": 66876465.88
+  },
+  {
+   "type": "SC12: UNDERLYING SHARES/OUTSTAND CER",
+   "properties": 7689,
+   "amount": 58931036.6
+  },
+  {
+   "type": "AC02: SAVINGS ACCOUNTS",
+   "properties": 16276,
+   "amount": 32262346.02
+  },
+  {
+   "type": "AC03: MATURED CD OR SAVE CERT",
+   "properties": 1506,
+   "amount": 25484332.21
+  },
+  {
+   "type": "56: Non Standard NAUPA Code for - Checking accounts, dmnd depsit",
+   "properties": 12320,
+   "amount": 17051615.33
+  },
+  {
+   "type": "82: Non Standard NAUPA Code for - Savings accts/crdt union shrs",
+   "properties": 14191,
+   "amount": 13963919.29
+  },
+  {
+   "type": "SC20: CREDIT BALANCES",
+   "properties": 9393,
+   "amount": 12840489.81
+  },
+  {
+   "type": "83: Non Standard NAUPA Code for - Time deposits, CD accounts",
+   "properties": 823,
+   "amount": 6294126.33
+  }
+ ],
+ "kinds_of_money": [
+  {
+   "key": "bank_accounts",
+   "label": "Bank accounts and deposits",
+   "properties": 69622,
+   "amount": 162666762.89,
+   "unverified_properties": 28676,
+   "unverified_amount": 37404984.13,
+   "codes": [
+    {
+     "code": "AC01",
+     "as_written": "AC01: CHECKING ACCOUNTS",
+     "properties": 22053,
+     "amount": 66876465.88,
+     "verified": true
+    },
+    {
+     "code": "AC02",
+     "as_written": "AC02: SAVINGS ACCOUNTS",
+     "properties": 16276,
+     "amount": 32262346.02,
+     "verified": true
+    },
+    {
+     "code": "AC03",
+     "as_written": "AC03: MATURED CD OR SAVE CERT",
+     "properties": 1506,
+     "amount": 25484332.21,
+     "verified": true
+    },
+    {
+     "code": "56",
+     "as_written": "56: Non Standard NAUPA Code for - Checking accounts, dmnd depsit",
+     "properties": 12320,
+     "amount": 17051615.33,
+     "verified": false
+    },
+    {
+     "code": "82",
+     "as_written": "82: Non Standard NAUPA Code for - Savings accts/crdt union shrs",
+     "properties": 14191,
+     "amount": 13963919.29,
+     "verified": false
+    },
+    {
+     "code": "83",
+     "as_written": "83: Non Standard NAUPA Code for - Time deposits, CD accounts",
+     "properties": 823,
+     "amount": 6294126.33,
+     "verified": false
+    },
+    {
+     "code": "AC07",
+     "as_written": "AC07: UNIDENTIFIED DEPOSIT",
+     "properties": 335,
+     "amount": 333027.41,
+     "verified": true
+    },
+    {
+     "code": "AC06",
+     "as_written": "AC06: SECURITY DEPOSIT",
+     "properties": 752,
+     "amount": 278336.21,
+     "verified": true
+    },
+    {
+     "code": "AC55",
+     "as_written": "AC55: Formerly AC51-53 accounts",
+     "properties": 1340,
+     "amount": 94898.68,
+     "verified": false
+    },
+    {
+     "code": "AC05",
+     "as_written": "AC05: MONEY ON DEPOSI TO SECURE FUND",
+     "properties": 8,
+     "amount": 12349.93,
+     "verified": true
+    },
+    {
+     "code": "AC08",
+     "as_written": "AC08: SUSPENSE ACCOUNTS",
+     "properties": 5,
+     "amount": 7747.48,
+     "verified": true
+    },
+    {
+     "code": "AC99",
+     "as_written": "AC99: AGGREGATE ACCOUNT BALANCES",
+     "properties": 10,
+     "amount": 6768.18,
+     "verified": true
+    },
+    {
+     "code": "57",
+     "as_written": "57: Non Standard NAUPA Code for - Christmas Club accounts",
+     "properties": 2,
+     "amount": 424.5,
+     "verified": false
+    },
+    {
+     "code": "HS01",
+     "as_written": "HS01: HEALTH SAVINGS ACCOUNT",
+     "properties": 1,
+     "amount": 405.44,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "securities",
+   "label": "Shares, dividends and brokerage balances",
+   "properties": 77768,
+   "amount": 83977002.4,
+   "unverified_properties": 3748,
+   "unverified_amount": 4035671.62,
+   "codes": [
+    {
+     "code": "SC12",
+     "as_written": "SC12: UNDERLYING SHARES/OUTSTAND CER",
+     "properties": 7689,
+     "amount": 58931036.6,
+     "verified": true
+    },
+    {
+     "code": "SC20",
+     "as_written": "SC20: CREDIT BALANCES",
+     "properties": 9393,
+     "amount": 12840489.81,
+     "verified": true
+    },
+    {
+     "code": "11",
+     "as_written": "11: Non Standard NAUPA Code for - Securities",
+     "properties": 1512,
+     "amount": 2756170.92,
+     "verified": false
+    },
+    {
+     "code": "SC16",
+     "as_written": "SC16: MUTUAL FUND SHARES",
+     "properties": 70,
+     "amount": 2267621.43,
+     "verified": true
+    },
+    {
+     "code": "SC08",
+     "as_written": "SC08: SHARES OF STOCK (RTRNED BY PO)",
+     "properties": 696,
+     "amount": 1499854.53,
+     "verified": true
+    },
+    {
+     "code": "SC01",
+     "as_written": "SC01: DIVIDENDS",
+     "properties": 54633,
+     "amount": 1291486.52,
+     "verified": true
+    },
+    {
+     "code": "SC03",
+     "as_written": "SC03: PRINCIPAL PAYMENTS",
+     "properties": 11,
+     "amount": 902689.06,
+     "verified": true
+    },
+    {
+     "code": "SC13",
+     "as_written": "SC13: FUNDS FOR LIQUIDATION",
+     "properties": 574,
+     "amount": 814330.54,
+     "verified": true
+    },
+    {
+     "code": "SC02",
+     "as_written": "SC02: INTEREST (BOND COUPONS)",
+     "properties": 38,
+     "amount": 434530.99,
+     "verified": true
+    },
+    {
+     "code": "04",
+     "as_written": "04: Non Standard NAUPA Code for - Dividends",
+     "properties": 1547,
+     "amount": 367626.83,
+     "verified": false
+    },
+    {
+     "code": "SC06",
+     "as_written": "SC06: FUNDS PAID TO PURCHASE SHARES",
+     "properties": 23,
+     "amount": 313329.16,
+     "verified": true
+    },
+    {
+     "code": "SC19",
+     "as_written": "SC19: DIVIDEND REINVESTMENT PLAN",
+     "properties": 70,
+     "amount": 235763.14,
+     "verified": true
+    },
+    {
+     "code": "08",
+     "as_written": "08: Non Standard NAUPA Code for - Mutual/Money market funds",
+     "properties": 70,
+     "amount": 220128.17,
+     "verified": false
+    },
+    {
+     "code": "SC09",
+     "as_written": "SC09: CASH FOR FRACTIONAL SHARES",
+     "properties": 611,
+     "amount": 172220.08,
+     "verified": true
+    },
+    {
+     "code": "SC10",
+     "as_written": "SC10: UNEXCH STOCK OF SUCCESSOR CO",
+     "properties": 158,
+     "amount": 169158.15,
+     "verified": true
+    },
+    {
+     "code": "15",
+     "as_written": "15: Non Standard NAUPA Code for - Liquidating fund earnings",
+     "properties": 63,
+     "amount": 151724.95,
+     "verified": false
+    },
+    {
+     "code": "12",
+     "as_written": "12: Non Standard NAUPA Code for - Securities exchanged for cash",
+     "properties": 125,
+     "amount": 142605.37,
+     "verified": false
+    },
+    {
+     "code": "10",
+     "as_written": "10: Non Standard NAUPA Code for - Shares exchanged for shares",
+     "properties": 61,
+     "amount": 139416.14,
+     "verified": false
+    },
+    {
+     "code": "01",
+     "as_written": "01: Non Standard NAUPA Code for - Cash in lieu of fract shares",
+     "properties": 94,
+     "amount": 84584.5,
+     "verified": false
+    },
+    {
+     "code": "73",
+     "as_written": "73: Non Standard NAUPA Code for - Liquidating funds",
+     "properties": 190,
+     "amount": 69250.52,
+     "verified": false
+    },
+    {
+     "code": "SC04",
+     "as_written": "SC04: EQUITY PAYMENTS",
+     "properties": 39,
+     "amount": 62617.0,
+     "verified": true
+    },
+    {
+     "code": "06",
+     "as_written": "06: Non Standard NAUPA Code for - Liquidating fund- securities",
+     "properties": 42,
+     "amount": 49760.67,
+     "verified": false
+    },
+    {
+     "code": "17",
+     "as_written": "17: Non Standard NAUPA Code for - Bond interest",
+     "properties": 26,
+     "amount": 37965.97,
+     "verified": false
+    },
+    {
+     "code": "02",
+     "as_written": "02: Non Standard NAUPA Code for - Units",
+     "properties": 5,
+     "amount": 9030.39,
+     "verified": false
+    },
+    {
+     "code": "14",
+     "as_written": "14: Non Standard NAUPA Code for - Rights",
+     "properties": 1,
+     "amount": 4261.02,
+     "verified": false
+    },
+    {
+     "code": "SC56",
+     "as_written": "SC56: Non Standard NAUPA Code for - Units",
+     "properties": 1,
+     "amount": 3204.51,
+     "verified": true
+    },
+    {
+     "code": "16",
+     "as_written": "16: Non Standard NAUPA Code for - Municipal bond earnings",
+     "properties": 2,
+     "amount": 2250.0,
+     "verified": false
+    },
+    {
+     "code": "SC07",
+     "as_written": "SC07: FUNDS FOR STOCKS & BONDS",
+     "properties": 2,
+     "amount": 2067.14,
+     "verified": true
+    },
+    {
+     "code": "09",
+     "as_written": "09: Non Standard NAUPA Code for - Mutual/Money fund earnings",
+     "properties": 8,
+     "amount": 893.29,
+     "verified": false
+    },
+    {
+     "code": "SC17",
+     "as_written": "SC17: WARRANTS (RIGHTS)",
+     "properties": 7,
+     "amount": 535.33,
+     "verified": true
+    },
+    {
+     "code": "SC18",
+     "as_written": "SC18: MATURED BOND PRINCIPAL",
+     "properties": 2,
+     "amount": 396.79,
+     "verified": true
+    },
+    {
+     "code": "13",
+     "as_written": "13: Non Standard NAUPA Code for - Warrants",
+     "properties": 2,
+     "amount": 2.88,
+     "verified": false
+    },
+    {
+     "code": "SC11",
+     "as_written": "SC11: OTHER CERT OF OWNERSHIP",
+     "properties": 2,
+     "amount": 0.0,
+     "verified": true
+    },
+    {
+     "code": "SC14",
+     "as_written": "SC14: DEBENTURES",
+     "properties": 1,
+     "amount": 0.0,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "bank_cheques",
+   "label": "Cashier's cheques, money orders and other bank cheques",
+   "properties": 17811,
+   "amount": 6398400.33,
+   "unverified_properties": 315,
+   "unverified_amount": 77933.05,
+   "codes": [
+    {
+     "code": "CK01",
+     "as_written": "CK01: CASHIER'S CHECKS",
+     "properties": 13226,
+     "amount": 5596024.22,
+     "verified": true
+    },
+    {
+     "code": "CK15",
+     "as_written": "CK15: OUTSTANDING OFFICIAL CHECKS",
+     "properties": 2280,
+     "amount": 400383.81,
+     "verified": true
+    },
+    {
+     "code": "CK07",
+     "as_written": "CK07: MONEY ORDERS",
+     "properties": 1011,
+     "amount": 187335.91,
+     "verified": true
+    },
+    {
+     "code": "CK16",
+     "as_written": "CK16: CD INTEREST CHECKS",
+     "properties": 810,
+     "amount": 84941.02,
+     "verified": true
+    },
+    {
+     "code": "CK05",
+     "as_written": "CK05: DRAFTS",
+     "properties": 135,
+     "amount": 49657.55,
+     "verified": true
+    },
+    {
+     "code": "70",
+     "as_written": "70: Non Standard NAUPA Code for - Interest checks",
+     "properties": 198,
+     "amount": 46945.54,
+     "verified": false
+    },
+    {
+     "code": "28",
+     "as_written": "28: Non Standard NAUPA Code for - Cashier's/certified checks",
+     "properties": 82,
+     "amount": 21598.32,
+     "verified": false
+    },
+    {
+     "code": "87",
+     "as_written": "87: Non Standard NAUPA Code for - Drafts",
+     "properties": 31,
+     "amount": 8805.91,
+     "verified": false
+    },
+    {
+     "code": "CK02",
+     "as_written": "CK02: CERTIFIED CHECKS",
+     "properties": 16,
+     "amount": 1084.7,
+     "verified": true
+    },
+    {
+     "code": "CK06",
+     "as_written": "CK06: WARRANTS",
+     "properties": 16,
+     "amount": 836.2,
+     "verified": true
+    },
+    {
+     "code": "26",
+     "as_written": "26: Non Standard NAUPA Code for - Money orders",
+     "properties": 4,
+     "amount": 583.28,
+     "verified": false
+    },
+    {
+     "code": "CK03",
+     "as_written": "CK03: REGISTERED CHECKS",
+     "properties": 2,
+     "amount": 203.87,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "refunds",
+   "label": "Refunds, overpayments and customer credit balances",
+   "properties": 29135,
+   "amount": 5614178.9,
+   "unverified_properties": 2529,
+   "unverified_amount": 1230922.08,
+   "codes": [
+    {
+     "code": "MS09",
+     "as_written": "MS09: CREDIT BAL -  ACCTS RECEIVABLE",
+     "properties": 20810,
+     "amount": 2955873.3,
+     "verified": true
+    },
+    {
+     "code": "MS11",
+     "as_written": "MS11: REFUNDS DUE",
+     "properties": 3764,
+     "amount": 1092447.39,
+     "verified": true
+    },
+    {
+     "code": "61",
+     "as_written": "61: Non Standard NAUPA Code for - Credit balances",
+     "properties": 1229,
+     "amount": 929254.52,
+     "verified": false
+    },
+    {
+     "code": "79",
+     "as_written": "79: Non Standard NAUPA Code for - Refunds",
+     "properties": 1300,
+     "amount": 301667.56,
+     "verified": false
+    },
+    {
+     "code": "MS05",
+     "as_written": "MS05: CUSTOMER OVERPAYMENTS",
+     "properties": 293,
+     "amount": 125807.77,
+     "verified": true
+    },
+    {
+     "code": "UT03",
+     "as_written": "UT03: REFUNDS OR REBATES",
+     "properties": 542,
+     "amount": 92997.89,
+     "verified": true
+    },
+    {
+     "code": "UT01",
+     "as_written": "UT01: UTILITY DEPOSIT",
+     "properties": 803,
+     "amount": 60723.35,
+     "verified": true
+    },
+    {
+     "code": "CK12",
+     "as_written": "CK12: CREDIT CHECKS OR MEMOS",
+     "properties": 106,
+     "amount": 37528.34,
+     "verified": true
+    },
+    {
+     "code": "MS12",
+     "as_written": "MS12: UNREDEEMED GIFT CERTIFICATE",
+     "properties": 202,
+     "amount": 13102.26,
+     "verified": true
+    },
+    {
+     "code": "UT99",
+     "as_written": "UT99: AGGREGATE UTILITIES",
+     "properties": 3,
+     "amount": 3645.42,
+     "verified": true
+    },
+    {
+     "code": "MS07",
+     "as_written": "MS07: UNREFUNDED OVERCHARGES",
+     "properties": 81,
+     "amount": 1039.41,
+     "verified": true
+    },
+    {
+     "code": "UT04",
+     "as_written": "UT04: CAPITAL CREDIT DISTRIBUTIONS",
+     "properties": 2,
+     "amount": 91.69,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "other",
+   "label": "Other and unidentified",
+   "properties": 11523,
+   "amount": 4354324.48,
+   "unverified_properties": 6174,
+   "unverified_amount": 1787939.34,
+   "codes": [
+    {
+     "code": "76",
+     "as_written": "76: Non Standard NAUPA Code for - Other",
+     "properties": 6150,
+     "amount": 1770997.48,
+     "verified": false
+    },
+    {
+     "code": "ZZZZ",
+     "as_written": "ZZZZ: PROPERTIES NOT IDENTIFIED ABOV",
+     "properties": 47,
+     "amount": 1297982.6,
+     "verified": true
+    },
+    {
+     "code": "MS16",
+     "as_written": "MS16: MISC OUTSTANDING CHECKS",
+     "properties": 3303,
+     "amount": 532883.13,
+     "verified": true
+    },
+    {
+     "code": "CK10",
+     "as_written": "CK10: EXPENSE CHECKS",
+     "properties": 623,
+     "amount": 337913.65,
+     "verified": true
+    },
+    {
+     "code": "MS15",
+     "as_written": "MS15: DISSOLUTION OR LIQUIDATION",
+     "properties": 850,
+     "amount": 161769.29,
+     "verified": true
+    },
+    {
+     "code": "MS06",
+     "as_written": "MS06: UNIDENTIFIED REMITTANCES",
+     "properties": 20,
+     "amount": 99197.68,
+     "verified": true
+    },
+    {
+     "code": "MS17",
+     "as_written": "MS17: MISC INTANGIBLE PROP",
+     "properties": 449,
+     "amount": 68413.4,
+     "verified": true
+    },
+    {
+     "code": "CK99",
+     "as_written": "CK99: AGGREGATE UNCASHED CHECKS",
+     "properties": 44,
+     "amount": 47248.14,
+     "verified": true
+    },
+    {
+     "code": "MS13",
+     "as_written": "MS13: UNCLAIMED LOAN COLLATERAL",
+     "properties": 2,
+     "amount": 20754.96,
+     "verified": true
+    },
+    {
+     "code": "58",
+     "as_written": "58: Non Standard NAUPA Code for - Collections",
+     "properties": 21,
+     "amount": 16824.45,
+     "verified": false
+    },
+    {
+     "code": "MS99",
+     "as_written": "MS99: AGGREGATE MISC PROPERTY",
+     "properties": 8,
+     "amount": 128.67,
+     "verified": true
+    },
+    {
+     "code": "51",
+     "as_written": "51: Non Standard NAUPA Code for - 51 - Legacy Type",
+     "properties": 3,
+     "amount": 117.41,
+     "verified": false
+    },
+    {
+     "code": "CK14",
+     "as_written": "CK14: CHECKS WRITTEN OFF TO INCOME",
+     "properties": 3,
+     "amount": 93.62,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "vendor",
+   "label": "Vendor payments and accounts payable",
+   "properties": 7381,
+   "amount": 3822696.85,
+   "unverified_properties": 2142,
+   "unverified_amount": 1039498.63,
+   "codes": [
+    {
+     "code": "MS08",
+     "as_written": "MS08: ACCOUNTS PAYABLE",
+     "properties": 3120,
+     "amount": 1936370.51,
+     "verified": true
+    },
+    {
+     "code": "85",
+     "as_written": "85: Non Standard NAUPA Code for - Vendor payments",
+     "properties": 2142,
+     "amount": 1039498.63,
+     "verified": false
+    },
+    {
+     "code": "CK13",
+     "as_written": "CK13: VENDOR CHECKS",
+     "properties": 2028,
+     "amount": 790156.95,
+     "verified": true
+    },
+    {
+     "code": "MS04",
+     "as_written": "MS04: PAYMENTS FOR GOODS & SERVICES",
+     "properties": 91,
+     "amount": 56670.76,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "retirement",
+   "label": "Retirement accounts and pensions",
+   "properties": 293,
+   "amount": 2132791.64,
+   "unverified_properties": 39,
+   "unverified_amount": 63413.03,
+   "codes": [
+    {
+     "code": "IR01",
+     "as_written": "IR01: TRADITIONAL IRA - CASH",
+     "properties": 146,
+     "amount": 1072635.07,
+     "verified": true
+    },
+    {
+     "code": "IR03",
+     "as_written": "IR03: TRADITIONAL IRA - SECURITIES",
+     "properties": 10,
+     "amount": 847286.87,
+     "verified": true
+    },
+    {
+     "code": "IR02",
+     "as_written": "IR02: TRADITIONAL IRA - MUTUAL FUNDS",
+     "properties": 8,
+     "amount": 69146.5,
+     "verified": true
+    },
+    {
+     "code": "MS14",
+     "as_written": "MS14: PENSION & PROFIT SHARING",
+     "properties": 14,
+     "amount": 52256.41,
+     "verified": true
+    },
+    {
+     "code": "71",
+     "as_written": "71: Non Standard NAUPA Code for - IRAs",
+     "properties": 7,
+     "amount": 37743.88,
+     "verified": false
+    },
+    {
+     "code": "78",
+     "as_written": "78: Non Standard NAUPA Code for - Pensions, retirement funds",
+     "properties": 32,
+     "amount": 25669.15,
+     "verified": false
+    },
+    {
+     "code": "CK11",
+     "as_written": "CK11: PENSION CHECKS",
+     "properties": 66,
+     "amount": 23861.61,
+     "verified": true
+    },
+    {
+     "code": "IR05",
+     "as_written": "IR05: ROTH IRA - CASH",
+     "properties": 10,
+     "amount": 4192.15,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "escrow",
+   "label": "Escrow, trust and court funds",
+   "properties": 2939,
+   "amount": 1960768.06,
+   "unverified_properties": 776,
+   "unverified_amount": 381899.82,
+   "codes": [
+    {
+     "code": "TR04",
+     "as_written": "TR04: ESCROW ACCOUNTS",
+     "properties": 1137,
+     "amount": 712933.53,
+     "verified": true
+    },
+    {
+     "code": "CT01",
+     "as_written": "CT01: ESCROW FUNDS",
+     "properties": 465,
+     "amount": 353548.13,
+     "verified": true
+    },
+    {
+     "code": "64",
+     "as_written": "64: Non Standard NAUPA Code for - Escrow check/deposit/Disputed",
+     "properties": 537,
+     "amount": 294659.07,
+     "verified": false
+    },
+    {
+     "code": "TR03",
+     "as_written": "TR03: FUNDS HELD IN FIDUCIARY CAPACI",
+     "properties": 336,
+     "amount": 258276.21,
+     "verified": true
+    },
+    {
+     "code": "TR89",
+     "as_written": "TR89: Non Standard NAUPA Code for - IOLTA, Interest on Lwyrs Trust",
+     "properties": 55,
+     "amount": 107340.87,
+     "verified": true
+    },
+    {
+     "code": "CT05",
+     "as_written": "CT05: OTHER COURT DEPOSITS",
+     "properties": 140,
+     "amount": 72042.26,
+     "verified": true
+    },
+    {
+     "code": "84",
+     "as_written": "84: Non Standard NAUPA Code for - Trusts",
+     "properties": 95,
+     "amount": 59220.01,
+     "verified": false
+    },
+    {
+     "code": "TR05",
+     "as_written": "TR05: TRUST VOUCHERS",
+     "properties": 19,
+     "amount": 49357.47,
+     "verified": true
+    },
+    {
+     "code": "60",
+     "as_written": "60: Non Standard NAUPA Code for - Court settlements",
+     "properties": 140,
+     "amount": 27742.48,
+     "verified": false
+    },
+    {
+     "code": "CT99",
+     "as_written": "CT99: AGGREGATE COURT DEPOSITS",
+     "properties": 1,
+     "amount": 13623.34,
+     "verified": true
+    },
+    {
+     "code": "TR01",
+     "as_written": "TR01: PAYING AGENT ACCOUNTS",
+     "properties": 1,
+     "amount": 6899.16,
+     "verified": true
+    },
+    {
+     "code": "TR02",
+     "as_written": "TR02: UNDELIVERED/UNCASHED DIVIDENDS",
+     "properties": 5,
+     "amount": 2432.8,
+     "verified": true
+    },
+    {
+     "code": "TR06",
+     "as_written": "TR06: PRE-NEED FUNERAL PLANS",
+     "properties": 2,
+     "amount": 1990.8,
+     "verified": true
+    },
+    {
+     "code": "TR99",
+     "as_written": "TR99: AGGREGATE TRUST PROPERTY",
+     "properties": 2,
+     "amount": 423.67,
+     "verified": true
+    },
+    {
+     "code": "77",
+     "as_written": "77: Non Standard NAUPA Code for - Patient trust funds",
+     "properties": 2,
+     "amount": 181.3,
+     "verified": false
+    },
+    {
+     "code": "67",
+     "as_written": "67: Non Standard NAUPA Code for - Inmates trust funds",
+     "properties": 2,
+     "amount": 96.96,
+     "verified": false
+    }
+   ]
+  },
+  {
+   "key": "royalties",
+   "label": "Royalties and mineral proceeds",
+   "properties": 6918,
+   "amount": 1719486.54,
+   "unverified_properties": 6114,
+   "unverified_amount": 1226015.53,
+   "codes": [
+    {
+     "code": "80",
+     "as_written": "80: Non Standard NAUPA Code for - Royalties/residuals",
+     "properties": 6091,
+     "amount": 1219901.58,
+     "verified": false
+    },
+    {
+     "code": "MI02",
+     "as_written": "MI02: ROYALTIES",
+     "properties": 609,
+     "amount": 407639.22,
+     "verified": true
+    },
+    {
+     "code": "MI09",
+     "as_written": "MI09: MINIMUM ROYALTIES",
+     "properties": 194,
+     "amount": 84976.67,
+     "verified": true
+    },
+    {
+     "code": "75",
+     "as_written": "75: Non Standard NAUPA Code for - Mineral proceeds",
+     "properties": 23,
+     "amount": 6113.95,
+     "verified": false
+    },
+    {
+     "code": "MI08",
+     "as_written": "MI08: SHUT-IN ROYALTIES",
+     "properties": 1,
+     "amount": 855.12,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "wages",
+   "label": "Wages, payroll and commissions",
+   "properties": 8593,
+   "amount": 1445037.78,
+   "unverified_properties": 941,
+   "unverified_amount": 227087.62,
+   "codes": [
+    {
+     "code": "MS01",
+     "as_written": "MS01: WAGES, PAYROLL, SALARIES",
+     "properties": 7463,
+     "amount": 1175352.62,
+     "verified": true
+    },
+    {
+     "code": "81",
+     "as_written": "81: Non Standard NAUPA Code for - Salaries/wages",
+     "properties": 450,
+     "amount": 165883.89,
+     "verified": false
+    },
+    {
+     "code": "59",
+     "as_written": "59: Non Standard NAUPA Code for - Commissions",
+     "properties": 491,
+     "amount": 61203.73,
+     "verified": false
+    },
+    {
+     "code": "MS02",
+     "as_written": "MS02: COMMISSIONS",
+     "properties": 189,
+     "amount": 42597.54,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance benefits and premiums",
+   "properties": 2258,
+   "amount": 1281856.24,
+   "unverified_properties": 892,
+   "unverified_amount": 287287.28,
+   "codes": [
+    {
+     "code": "IN03",
+     "as_written": "IN03: PROCEEDS DUE BENEFICIARIES",
+     "properties": 49,
+     "amount": 480665.4,
+     "verified": true
+    },
+    {
+     "code": "IN01",
+     "as_written": "IN01: INDIVIDUAL POLICY BENEFIT/CLM",
+     "properties": 305,
+     "amount": 297035.6,
+     "verified": true
+    },
+    {
+     "code": "68",
+     "as_written": "68: Non Standard NAUPA Code for - Insurance claim checks",
+     "properties": 483,
+     "amount": 192784.57,
+     "verified": false
+    },
+    {
+     "code": "IN02",
+     "as_written": "IN02: GROUP POLICY BENEFIT/CLM PMTS",
+     "properties": 369,
+     "amount": 100301.88,
+     "verified": true
+    },
+    {
+     "code": "IN07",
+     "as_written": "IN07: OTHER AMTS DUE UNDER POLICY",
+     "properties": 290,
+     "amount": 58920.43,
+     "verified": true
+    },
+    {
+     "code": "IN05",
+     "as_written": "IN05: PREMIUM REFUNDS",
+     "properties": 287,
+     "amount": 43622.51,
+     "verified": true
+    },
+    {
+     "code": "69",
+     "as_written": "69: Non Standard NAUPA Code for - Insurance premiums",
+     "properties": 261,
+     "amount": 42775.46,
+     "verified": false
+    },
+    {
+     "code": "74",
+     "as_written": "74: Non Standard NAUPA Code for - Matured/terminated policies",
+     "properties": 52,
+     "amount": 35670.98,
+     "verified": false
+    },
+    {
+     "code": "55",
+     "as_written": "55: Non Standard NAUPA Code for - Annuities",
+     "properties": 22,
+     "amount": 10541.29,
+     "verified": false
+    },
+    {
+     "code": "IN06",
+     "as_written": "IN06: UNIDENTIFIED REMITTANCES",
+     "properties": 10,
+     "amount": 6616.77,
+     "verified": true
+    },
+    {
+     "code": "MS03",
+     "as_written": "MS03: WORKER'S COMPENSATION BENEFITS",
+     "properties": 35,
+     "amount": 4610.35,
+     "verified": true
+    },
+    {
+     "code": "63",
+     "as_written": "63: Non Standard NAUPA Code for - Endowments",
+     "properties": 1,
+     "amount": 3058.68,
+     "verified": false
+    },
+    {
+     "code": "IN04",
+     "as_written": "IN04: PROCEEDS-POLICY ENDOW, ANNUITY",
+     "properties": 20,
+     "amount": 2787.34,
+     "verified": true
+    },
+    {
+     "code": "90",
+     "as_written": "90: Non Standard NAUPA Code for - Earthquake Insurance Refund",
+     "properties": 72,
+     "amount": 2306.3,
+     "verified": false
+    },
+    {
+     "code": "62",
+     "as_written": "62: Non Standard NAUPA Code for - Death benefits",
+     "properties": 1,
+     "amount": 150.0,
+     "verified": false
+    },
+    {
+     "code": "IN08",
+     "as_written": "IN08: AGENT CREDIT BALANCES",
+     "properties": 1,
+     "amount": 8.68,
+     "verified": true
+    }
+   ]
+  },
+  {
+   "key": "tangible",
+   "label": "Safe deposit boxes and other tangible property",
+   "properties": 642,
+   "amount": 100.0,
+   "unverified_properties": 188,
+   "unverified_amount": 0.0,
+   "codes": [
+    {
+     "code": "SD02",
+     "as_written": "SD02: OTHER SAFEKEEPING",
+     "properties": 1,
+     "amount": 100.0,
+     "verified": true
+    },
+    {
+     "code": "41",
+     "as_written": "41: Non Standard NAUPA Code for - Safe-deposit box contents",
+     "properties": 187,
+     "amount": 0.0,
+     "verified": false
+    },
+    {
+     "code": "42",
+     "as_written": "42: Non Standard NAUPA Code for - Safekeeping items",
+     "properties": 1,
+     "amount": 0.0,
+     "verified": false
+    },
+    {
+     "code": "SD01",
+     "as_written": "SD01: SAFE DEPOSIT BOX CONTENTS",
+     "properties": 444,
+     "amount": 0.0,
+     "verified": true
+    },
+    {
+     "code": "SD03",
+     "as_written": "SD03: OTHER TANGIBLE PROPERTY",
+     "properties": 9,
+     "amount": 0.0,
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "kinds_of_holder": [
+  {
+   "key": "bank",
+   "label": "Banks and credit unions",
+   "holders": 1270,
+   "properties": 85197,
+   "amount": 170855341.05,
+   "top": [
+    {
+     "name": "Bank of America",
+     "properties": 26190,
+     "amount": 75493097.67
+    },
+    {
+     "name": "Union Bank",
+     "properties": 9289,
+     "amount": 25372707.95
+    },
+    {
+     "name": "CATHAY BANK",
+     "properties": 6352,
+     "amount": 19585238.11
+    }
+   ]
+  },
+  {
+   "key": "broker",
+   "label": "Brokers and investment funds",
+   "holders": 45,
+   "properties": 14449,
+   "amount": 62648898.51,
+   "top": [
+    {
+     "name": "Charles Schwab",
+     "properties": 14133,
+     "amount": 61911493.54
+    },
+    {
+     "name": "WEDBUSH SECURITIES INC",
+     "properties": 136,
+     "amount": 226872.74
+    },
+    {
+     "name": "LPL FINANCIAL CORPORATION",
+     "properties": 50,
+     "amount": 191675.52
+    }
+   ]
+  },
+  {
+   "key": "education_health",
+   "label": "Universities, colleges and hospitals",
+   "holders": 200,
+   "properties": 13523,
+   "amount": 3003498.44,
+   "top": [
+    {
+     "name": "THE BOARD OF TRUSTEES OF LELAND STANFORD",
+     "properties": 1947,
+     "amount": 687295.31
+    },
+    {
+     "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+     "properties": 5779,
+     "amount": 668481.11
+    },
+    {
+     "name": "STANFORD UNIVERSITY",
+     "properties": 1221,
+     "amount": 405145.46
+    }
+   ]
+  },
+  {
+   "key": "platform",
+   "label": "Marketplaces, platforms and money transfer companies",
+   "holders": 8,
+   "properties": 6294,
+   "amount": 1894142.56,
+   "top": [
+    {
+     "name": "BANCOMER TRANSFER SERVICES INC.",
+     "properties": 1,
+     "amount": 1148161.37
+    },
+    {
+     "name": "INTERNET ESCROW SERVICES INC",
+     "properties": 991,
+     "amount": 293733.97
+    },
+    {
+     "name": "KIVA USER FUNDS LLC",
+     "properties": 3470,
+     "amount": 192642.06
+    }
+   ]
+  },
+  {
+   "key": "utility",
+   "label": "Utilities and telephone companies",
+   "holders": 55,
+   "properties": 3475,
+   "amount": 1621479.22,
+   "top": [
+    {
+     "name": "EDISON INTERNATIONAL",
+     "properties": 247,
+     "amount": 557318.81
+    },
+    {
+     "name": "PACIFIC GAS & ELECTRIC CO",
+     "properties": 249,
+     "amount": 324229.8
+    },
+    {
+     "name": "SEMPRA ENERGY",
+     "properties": 143,
+     "amount": 223486.13
+    }
+   ]
+  },
+  {
+   "key": "insurer",
+   "label": "Insurers and health plans",
+   "holders": 234,
+   "properties": 2767,
+   "amount": 1422881.45,
+   "top": [
+    {
+     "name": "FIREMAN'S FUND INSURANCE COMPANY",
+     "properties": 177,
+     "amount": 227803.09
+    },
+    {
+     "name": "AURORA NATIONAL LIFE",
+     "properties": 400,
+     "amount": 174530.16
+    },
+    {
+     "name": "KAISER FOUNDATION HEALTH PLAN OF SO CAL",
+     "properties": 87,
+     "amount": 115017.41
+    }
+   ]
+  },
+  {
+   "key": "payroll",
+   "label": "Payroll companies",
+   "holders": 32,
+   "properties": 4009,
+   "amount": 603300.08,
+   "top": [
+    {
+     "name": "GEP ATL LLC DBA ENTERTAINMENT PARTNERS",
+     "properties": 2843,
+     "amount": 299808.56
+    },
+    {
+     "name": "CAST & CREW PAYROLL LLC",
+     "properties": 178,
+     "amount": 93753.84
+    },
+    {
+     "name": "CAST & CREW PAYROLL LLC CC",
+     "properties": 237,
+     "amount": 90386.04
+    }
+   ]
+  },
+  {
+   "key": "unclassified",
+   "label": "Not classified from the name",
+   "holders": 3121,
+   "properties": 105169,
+   "amount": 33323864.8,
+   "top": []
+  }
+ ],
+ "wages": {
+  "holders": 305,
+  "properties": 8593,
+  "amount": 1445037.78,
+  "top": [
+   {
+    "name": "GEP ATL LLC DBA ENTERTAINMENT PARTNERS",
+    "properties": 2843,
+    "amount": 299808.56
+   },
+   {
+    "name": "THE BOARD OF TRUSTEES OF LELAND STANFORD",
+    "properties": 291,
+    "amount": 124337.26
+   },
+   {
+    "name": "GEP TALENT SERVICE LLC DBA ENTERTAINMEN",
+    "properties": 1172,
+    "amount": 98635.36
+   },
+   {
+    "name": "CAST & CREW PAYROLL LLC",
+    "properties": 178,
+    "amount": 93753.84
+   },
+   {
+    "name": "CAST & CREW PAYROLL LLC CC",
+    "properties": 237,
+    "amount": 90386.04
+   }
+  ]
+ },
+ "kinds_source": {
+  "label": "State Controller, Standard NAUPA II Electronic File Format Codes and Dormancy Periods",
+  "url": "https://www.sco.ca.gov/Files-UPD/upd_naupa_II_codes_dormancy_periods.pdf",
+  "read_on": "13 Nov 2026"
+ },
+ "families": [
+  {
+   "name": "Bank of America",
+   "starts_with": [
+    "BANK OF AMERICA"
+   ]
+  },
+  {
+   "name": "Charles Schwab",
+   "starts_with": [
+    "CHARLES SCHWAB"
+   ]
+  },
+  {
+   "name": "Union Bank",
+   "starts_with": [
+    "UNION BANK N A",
+    "UNION BANK NA",
+    "UNION BANK OF CALIFORNIA"
+   ]
+  },
+  {
+   "name": "Wells Fargo",
+   "starts_with": [
+    "WELLS FARGO"
+   ]
+  },
+  {
+   "name": "Citibank",
+   "starts_with": [
+    "CITIBANK"
+   ]
+  },
+  {
+   "name": "Cisco Systems",
+   "starts_with": [
+    "CISCO SYSTEMS"
+   ]
+  },
+  {
+   "name": "Washington Mutual",
+   "starts_with": [
+    "WASHINGTON MUTUAL"
+   ]
+  },
+  {
+   "name": "JPMorgan Chase",
+   "starts_with": [
+    "JPMORGAN CHASE",
+    "JP MORGAN CHASE"
+   ]
+  }
+ ]
+}

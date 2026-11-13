@@ -1,0 +1,223 @@
+{
+  "note": "The demonstration estate. Every person, organisation, street, date and amount here is invented, and every document carries the word SAMPLE.",
+  "record_id": "DEMO-ES-0001",
+  "owner": "Rafael Ibarra Quintanar",
+  "about": "He packed and stored produce in Salinas, California, and died there in 2024. His widow lives in Guadalajara, his daughter in Cebu, his son in Leeds and his granddaughter in Osaka.",
+  "claimant": {
+    "name": "Lucía Beltrán de Ibarra",
+    "address": "Avenida Chapultepec 480, Colonia Americana\nGuadalajara, Jalisco 44160",
+    "country": "MX",
+    "email": "lucia.beltran@example.com",
+    "relationship": "heir"
+  },
+  "search": {
+    "given_names": [
+      "Rafael"
+    ],
+    "family_names": [
+      "Ibarra",
+      "Quintanar"
+    ],
+    "places": [
+      {
+        "city": "Salinas",
+        "region": "CA",
+        "postcode": "93905",
+        "country": "US",
+        "street": ""
+      }
+    ],
+    "employers": [
+      "Harrowgate Cold Storage"
+    ],
+    "current_country": "MX"
+  },
+  "language": "Spanish",
+  "words": "Mi esposo, Rafael Ibarra Quintanar, murió el 14 de marzo de 2024 en Salinas, California, donde vivíamos. No dejó testamento. Yo soy su esposa, Lucía Beltrán de Ibarra. Nos casamos en 2016 y ahora vivo en Guadalajara, en México. Rafael tuvo tres hijos de su primer matrimonio: Carmela Ibarra Solano, que vive en Cebú, en Filipinas; Tomás Ibarra Solano, que vive en Leeds, en Inglaterra; y Esteban Ibarra Solano, que murió en 2019. El dinero es salario que Rafael ganó antes de que nos casáramos.",
+  "answer": "Sí. Esteban dejó una hija, Naomi Ibarra Sato, que vive en Osaka, en Japón.",
+  "family": {
+    "decedent": {
+      "name": "Rafael Ibarra Quintanar",
+      "died_on": "2024-03-14",
+      "domicile_country": "US",
+      "domicile_state": "CA"
+    },
+    "disposition": "intestate",
+    "property": "separate",
+    "has_spouse": true,
+    "spouse": {
+      "name": "Lucía Beltrán de Ibarra",
+      "alive": true,
+      "country": "MX"
+    },
+    "children": [
+      {
+        "name": "Carmela Ibarra Solano",
+        "alive": true,
+        "country": "PH"
+      },
+      {
+        "name": "Tomás Ibarra Solano",
+        "alive": true,
+        "country": "GB"
+      },
+      {
+        "name": "Esteban Ibarra Solano",
+        "alive": false,
+        "children_known": true,
+        "children": [
+          {
+            "name": "Naomi Ibarra Sato",
+            "alive": true,
+            "country": "JP"
+          }
+        ]
+      }
+    ],
+    "children_known": true
+  },
+  "estate_documents": [
+    {
+      "file": "es_death_certificate.png",
+      "kind": "death_certificate",
+      "label": "Rafael's death certificate"
+    }
+  ],
+  "heirs": [
+    {
+      "id": "s1",
+      "name": "Lucía Beltrán de Ibarra",
+      "country": "MX",
+      "email": "lucia.beltran@example.com",
+      "bank": {
+        "currency": "MXN",
+        "first_name": "Lucia",
+        "last_name": "Beltran de Ibarra",
+        "account_number": "002010077777788113",
+        "street_address": "Avenida Chapultepec 480, Colonia Americana",
+        "city": "Guadalajara",
+        "postcode": "44160",
+        "state": "MX-JAL"
+      },
+      "documents": [
+        {
+          "file": "es_marriage_certificate.png",
+          "kind": "name_change",
+          "label": "Marriage certificate"
+        },
+        {
+          "file": "es_passport_lucia.png",
+          "kind": "id",
+          "label": "Lucía's passport photo page"
+        }
+      ],
+      "bank_corrected": {
+        "currency": "MXN",
+        "first_name": "Lucia",
+        "last_name": "Beltran de Ibarra",
+        "account_number": "002010077777788524",
+        "street_address": "Avenida Chapultepec 480, Colonia Americana",
+        "city": "Guadalajara",
+        "postcode": "44160",
+        "state": "MX-JAL"
+      }
+    },
+    {
+      "id": "c1",
+      "name": "Carmela Ibarra Solano",
+      "country": "PH",
+      "email": "carmela.ibarra@example.com",
+      "bank": {
+        "currency": "PHP",
+        "first_name": "Carmela",
+        "last_name": "Ibarra Solano",
+        "account_number": "4455667788",
+        "swift_code": "BOPIPHMM",
+        "street_address": "14 Gorordo Avenue, Lahug",
+        "city": "Cebu City",
+        "postcode": "6000"
+      },
+      "documents": [
+        {
+          "file": "es_birth_carmela.png",
+          "kind": "birth_certificate",
+          "label": "Carmela's birth certificate"
+        },
+        {
+          "file": "es_passport_carmela.png",
+          "kind": "id",
+          "label": "Carmela's passport photo page"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Tomás Ibarra Solano",
+      "country": "GB",
+      "email": "tomas.ibarra@example.com",
+      "bank": {
+        "currency": "GBP",
+        "first_name": "Tomas",
+        "last_name": "Ibarra Solano",
+        "account_number": "55779911",
+        "sort_code": "200000",
+        "street_address": "12 Example Lane",
+        "city": "Leeds",
+        "postcode": "LS1 4AP"
+      },
+      "documents": [
+        {
+          "file": "es_birth_tomas.png",
+          "kind": "birth_certificate",
+          "label": "Tomás's birth certificate"
+        },
+        {
+          "file": "es_passport_tomas.png",
+          "kind": "id",
+          "label": "Tomás's passport photo page"
+        }
+      ]
+    },
+    {
+      "id": "c3.1",
+      "name": "Naomi Ibarra Sato",
+      "country": "JP",
+      "email": "naomi.ibarra@example.com",
+      "later": true,
+      "bank": {
+        "currency": "JPY",
+        "first_name": "Naomi",
+        "last_name": "Ibarra Sato",
+        "account_number": "1234567",
+        "bank_code": "0005",
+        "branch_code": "001",
+        "account_type": "Savings",
+        "street_address": "1-2-3 Example Cho, Kita",
+        "city": "Osaka",
+        "postcode": "530-0001"
+      },
+      "documents": [
+        {
+          "file": "es_birth_esteban.png",
+          "kind": "birth_certificate",
+          "label": "Esteban's birth certificate"
+        },
+        {
+          "file": "es_death_esteban.png",
+          "kind": "death_certificate",
+          "label": "Esteban's death certificate"
+        },
+        {
+          "file": "es_birth_naomi.png",
+          "kind": "birth_certificate",
+          "label": "Naomi's birth certificate"
+        },
+        {
+          "file": "es_passport_naomi.png",
+          "kind": "id",
+          "label": "Naomi's passport photo page"
+        }
+      ]
+    }
+  ]
+}

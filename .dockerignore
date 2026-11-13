@@ -1,0 +1,14 @@
+# Nothing from the machine's data, keys or build folders goes into the image.
+.git
+.venv
+data
+data-shared
+**/node_modules
+web/dist
+docs
+tests
+**/__pycache__
+*.pyc
+.env
+*.env
+.airwallex_sandbox

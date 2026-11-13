@@ -1,0 +1,98 @@
+/* The opening, the holders screen and the claimant's path: one story, little text. */
+
+/* ---- the "What is real here" button and its one panel ---- */
+.real-button { background: none; cursor: pointer; font-size: 0.9rem; padding: 5px 16px; }
+.real-button:hover { background: rgba(227, 154, 74, 0.12); }
+.real-button-small { margin-left: auto; }
+.real-veil { position: fixed; inset: 0; z-index: 50; background: rgba(4, 8, 18, 0.72); display: grid; place-items: center; padding: 24px; }
+.real-panel { width: min(1180px, 100%); background: var(--navy-raised); border: 1px solid var(--navy-line); border-radius: 18px; padding: 30px 38px 34px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5); }
+.real-head { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 18px; }
+.real-head h2 { margin: 0; font-size: 2rem; letter-spacing: -0.02em; }
+.real-close { margin: 0; }
+.real-copy { margin: -6px 0 18px; font-size: 1.05rem; line-height: 1.5; }
+.real-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.real-col h3 { margin: 0 0 10px; font-size: 1.3rem; }
+.real-yes h3 { color: var(--green); }
+.real-no h3 { color: var(--amber); }
+.real-col ul { margin: 0; padding-left: 1.1em; display: grid; gap: 10px; font-size: 1.15rem; line-height: 1.4; }
+@media (max-width: 900px) { .real-cols { grid-template-columns: 1fr; } }
+
+/* ---- the opening: one fact, the size of it, the cheque, what Khutlisa does ---- */
+.opening .masthead { align-items: center; }
+.opening-lead { animation: rise 0.6s ease-out both; }
+.lead-fact { font-size: clamp(1.7rem, 2.5vw, 3rem); font-weight: 650; letter-spacing: -0.02em; line-height: 1.15; }
+.lead-amount { color: var(--gold); white-space: nowrap; }
+.lead-by { font-size: clamp(1.3rem, 1.8vw, 2.1rem); margin-top: 4px; color: var(--paper); }
+.lead-by strong { color: var(--gold-soft); }
+.lead-source { color: var(--paper-faint); font-size: 0.55em; }
+.opening .owed-three { margin-top: clamp(8px, 1.4vh, 16px); gap: 2px; }
+.opening .owed-three li { border-bottom: 0; padding-bottom: 0; }
+.opening .owed-three .owed-by { font-size: 0.95rem; color: var(--paper-faint); }
+.opening .owed-three .owed-by strong { color: var(--paper-soft); }
+.beat { opacity: 0; transform: translateY(8px); transition: opacity 0.6s, transform 0.6s; }
+.beat-in { opacity: 1; transform: none; }
+.opening-whole { margin-top: clamp(14px, 2.6vh, 30px); font-size: clamp(1.15rem, 1.5vw, 1.8rem); color: var(--paper-soft); }
+.opening-whole strong { color: var(--paper); }
+.opening-abroad { margin-top: clamp(4px, 0.8vh, 10px); }
+.opening .counter { font-size: clamp(2.8rem, 4.6vw, 5.6rem); }
+.opening .lede { font-size: clamp(1.05rem, 1.25vw, 1.45rem); max-width: 34em; }
+.opening .live { margin-top: clamp(10px, 1.8vh, 20px); padding: 9px 16px; }
+.opening-cheque { margin-top: clamp(12px, 2.2vh, 26px); font-size: clamp(1.3rem, 1.75vw, 2.1rem); font-weight: 600; letter-spacing: -0.01em; }
+.opening-does { margin-top: 6px; font-size: clamp(1.1rem, 1.35vw, 1.6rem); color: var(--gold-soft); max-width: 30em; line-height: 1.35; }
+.opening .opening-actions { margin-top: clamp(14px, 2.4vh, 30px); gap: 20px; flex-wrap: wrap; }
+.opening .source { margin-top: clamp(10px, 1.8vh, 22px); }
+@media (prefers-reduced-motion: reduce) { .beat { opacity: 1; transform: none; transition: none; } }
+
+/* ---- who is owed, and for holders ---- */
+.owed-intro { font-size: 1.05rem; }
+.owed-side .owed-total .panel-amount { font-size: 2.4rem; margin-bottom: 0; }
+.owed-side .panel, .owed-side .who-pays { font-size: 1.02rem; }
+.holder-number { font-size: 2.9rem; }
+.holder-caption { font-size: 1rem; }
+.holder-list .owed-name { font-size: 1.2rem; }
+.holder-list .owed-amount { font-size: 1.25rem; }
+.law-short { padding: 22px 26px !important; border-left: 6px solid var(--gold); }
+.law-pay { font-size: 1.3rem; line-height: 1.4; font-weight: 500; }
+.law-days { display: flex; align-items: baseline; gap: 14px; margin: 16px 0 8px; }
+.law-days-number { font-size: 4rem; font-weight: 650; color: var(--gold); line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.law-days-words { font-size: 1.25rem; color: var(--paper); }
+.law-line { font-size: 1.15rem; color: var(--paper-soft); margin-top: 4px; }
+.law-cheque { color: var(--paper); font-weight: 600; }
+.law-sources { margin-top: 12px; font-size: 0.86rem; color: var(--paper-faint); }
+.law-sources a, .holder-detail a { color: var(--gold); }
+.holders-actions { flex: none; }
+.holder-detail { min-height: 0; overflow-y: auto; scrollbar-width: thin; flex: 0 1 auto; }
+.holder-detail summary { cursor: pointer; color: var(--gold); font-size: 1rem; }
+.holder-detail .panel-label { margin-top: 14px; }
+
+/* ---- the claim: proof, bank account, and the fallback kept apart ---- */
+.tab-fallback { margin-left: 22px; border-style: dashed; color: var(--paper-faint); }
+.tab-fallback.tab-on { color: var(--paper); }
+.fallback { border: 1px dashed var(--navy-line); border-radius: 14px; padding: 18px 22px; }
+.fallback-label { color: var(--amber); }
+.fallback h2 { font-size: 1.5rem; line-height: 1.25; margin: 4px 0 8px; }
+.claim-deadline { display: flex; align-items: center; gap: 18px; flex: none; margin-bottom: 12px; }
+.claim-deadline .decision { flex: 1; }
+.holder-next { margin-top: 18px; }
+.holder-next p { font-size: 1.3rem; font-weight: 600; }
+.money-strip-main { font-size: 1.2rem; }
+.money-strip-amount { font-size: 1.5rem; color: var(--gold); }
+.money-strip .plan-tag { color: var(--paper-faint); font-size: 0.95rem; border: 0; padding: 0; background: none; margin: 0; }
+.money-strip .plan-tag { text-transform: none; letter-spacing: 0; display: inline; }
+.lead-fact { font-size: clamp(1.5rem, 2.1vw, 2.5rem); }
+.lead-by { font-size: clamp(1.2rem, 1.6vw, 1.9rem); }
+.lead-source { white-space: nowrap; }
+.opening-whole { margin-top: clamp(10px, 1.8vh, 22px); font-size: clamp(1.05rem, 1.3vw, 1.55rem); }
+.opening .counter { font-size: clamp(2.6rem, 4.2vw, 5rem); margin: 0 0 0.05em; }
+.opening .live { margin-top: clamp(8px, 1.4vh, 16px); padding: 7px 16px; }
+.opening .live-line { font-size: clamp(1rem, 1.15vw, 1.3rem); }
+.opening-cheque { margin-top: clamp(10px, 1.6vh, 20px); font-size: clamp(1.2rem, 1.5vw, 1.8rem); }
+.opening .opening-actions { gap: 14px; flex-wrap: nowrap; margin-top: clamp(12px, 1.8vh, 22px); }
+.opening .opening-actions .primary { padding: 14px 28px; font-size: 1.05rem; white-space: nowrap; }
+.opening .opening-second { padding: 13px 22px; font-size: 1rem; white-space: nowrap; }
+.opening .opening-actions .plain { white-space: nowrap; }
+.opening .source { margin-top: clamp(8px, 1.2vh, 14px); }
+.holder-number { font-size: 2.5rem; white-space: nowrap; }
+.tab-fallback.tab-on { color: #1a1305; border-style: solid; }
+.fallback-link { display: inline-block; text-decoration: none; }
+.onescreen .flow-body.flow-two { display: grid; align-content: start; }

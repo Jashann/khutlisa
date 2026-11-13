@@ -1,0 +1,81 @@
+/* The holder's risk view: counts in large figures, groups of linked claims as a picture, the points, the release. */
+.riskview .risk-strip { flex: none; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; padding: 14px clamp(24px, 3.4vw, 64px) 0; max-width: 1840px; width: 100%; margin: 0 auto; }
+.risk-cols { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(420px, 0.62fr) minmax(0, 1.4fr); gap: clamp(24px, 2.4vw, 48px); padding: 14px clamp(24px, 3.4vw, 64px) 16px; max-width: 1840px; width: 100%; margin: 0 auto; }
+.risk-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.risk-head h1 { font-size: 1.7rem; }
+.risk-link { color: var(--gold); font-size: 0.95rem; white-space: nowrap; text-underline-offset: 4px; }
+.risk-demo { font-size: 0.95rem; margin: 2px 0 10px; }
+.risk-count { background: var(--navy-raised); border: 1px solid var(--navy-line); border-radius: 14px; padding: 10px 18px 12px; min-width: 0; }
+.risk-figure { font-size: 2.5rem; font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.risk-label { color: var(--paper-soft); font-size: 0.92rem; line-height: 1.3; }
+.risk-count-money { border-color: var(--gold); background: rgba(242, 184, 75, 0.06); }
+.risk-count-money .risk-figure { color: var(--gold); font-size: 2.1rem; line-height: 1.38; }
+.risk-count-measured { border-style: dashed; }
+.risk-groups { margin-top: 12px; }
+.risk-groups .payer-pick { grid-template-columns: minmax(0, 1fr) auto auto; }
+.risk-state-held, .risk-state-suspended { border-color: #e2574c; color: #ff9a8f; }
+.risk-state-paid_before { border-color: var(--gold); color: var(--gold); }
+.risk-state-released { border-color: var(--green); color: var(--green); }
+.risk-state-closed { border-color: var(--amber); color: var(--amber); }
+.risk-queue .panel-label { margin: 14px 0 6px; }
+.risk-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+.risk-chips .state { padding: 2px 11px; font-size: 0.84rem; }
+.risk-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.risk-row { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: center; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--navy-line); padding: 6px 4px; cursor: pointer; }
+.risk-row-on { background: var(--navy-raised); }
+.risk-row-name { font-weight: 550; overflow-wrap: anywhere; }
+.risk-row-amount { color: var(--gold); font-variant-numeric: tabular-nums; }
+.risk-row .state { padding: 2px 12px; font-size: 0.84rem; }
+.risk-clear { margin-top: 8px; font-size: 0.95rem; }
+
+.risk-group { display: grid; gap: 10px; }
+.risk-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.risk-tab { background: none; border: 1px solid var(--navy-line); border-radius: 999px; padding: 7px 18px; color: var(--paper-soft); cursor: pointer; font-size: 0.98rem; }
+.risk-tab-on { border-color: var(--gold); color: var(--gold); }
+.risk-legend { font-size: 0.92rem; }
+
+.ring-graph { width: 100%; height: auto; max-height: 44vh; display: block; }
+.ring-line { fill: none; stroke: var(--paper-faint); stroke-width: 1.6; stroke-dasharray: 5 6; opacity: 0.55; }
+.ring-line-linking { stroke: var(--gold); stroke-width: 2.4; stroke-dasharray: none; opacity: 0.8; }
+.ring-line-lit { opacity: 1; stroke-width: 3.4; }
+.ring-line-dim { opacity: 0.12; }
+.ring-hub rect { fill: var(--navy); stroke: var(--paper-faint); stroke-width: 1.5; stroke-dasharray: 5 5; }
+.ring-hub-linking rect { fill: rgba(242, 184, 75, 0.14); stroke: var(--gold); stroke-width: 2; stroke-dasharray: none; }
+.ring-hub-lit rect { stroke-width: 3; }
+.ring-hub-kind { fill: var(--paper); font-size: 17px; font-weight: 650; }
+.ring-hub-linking .ring-hub-kind { fill: var(--gold-soft); }
+.ring-hub-element { fill: var(--paper-soft); font-size: 15px; }
+.ring-node { cursor: pointer; }
+.ring-node rect { fill: var(--navy-raised); stroke: var(--navy-line); stroke-width: 2; }
+.ring-node-held rect, .ring-node-suspended rect { stroke: #e2574c; }
+.ring-node-paid_before rect { stroke: var(--gold); stroke-dasharray: 6 5; }
+.ring-node-released rect { stroke: var(--green); }
+.ring-node-on rect { stroke-width: 4; }
+.ring-node-name { fill: var(--paper); font-size: 17px; font-weight: 650; }
+.ring-node-amount { fill: var(--gold); font-size: 16px; font-weight: 600; }
+.ring-node-status { fill: var(--paper-soft); font-size: 14px; }
+.ring-node-held .ring-node-status, .ring-node-suspended .ring-node-status { fill: #ff9a8f; }
+.ring-node-released .ring-node-status { fill: var(--green); }
+
+.risk-points { width: 100%; border-collapse: collapse; font-size: 1.02rem; }
+.risk-points th { text-align: left; font-weight: 500; color: var(--paper-faint); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 6px 10px; border-bottom: 1px solid var(--navy-line); }
+.risk-points td { padding: 10px; border-bottom: 1px solid var(--navy-line); vertical-align: top; }
+.risk-points .risk-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.risk-points-value { font-size: 1.3rem; font-weight: 650; color: var(--paper); }
+.risk-points tfoot td { border-bottom: 0; font-weight: 600; }
+.risk-points-total { font-size: 2rem; font-weight: 700; color: var(--gold); }
+.risk-rule { font-size: 0.95rem; max-width: 100ch; }
+
+.risk-members { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.risk-member { border: 1px solid var(--navy-line); border-radius: 12px; padding: 12px 16px; display: grid; gap: 8px; }
+.risk-member-on { border-color: var(--gold); }
+.risk-member-head { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 16px; align-items: center; }
+.risk-member-name { font-size: 1.2rem; font-weight: 600; }
+.risk-member-name .quiet { font-weight: 400; font-size: 1rem; }
+.risk-member-amount { color: var(--gold); font-size: 1.2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.risk-event { font-size: 0.95rem; }
+.risk-released { color: var(--green); }
+.risk-release { justify-self: start; }
+.risk-release-form { margin-top: 0 !important; display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.risk-release-form .field { flex: 1 1 360px; margin-bottom: 0; }
+@media (max-width: 1100px) { .risk-cols { grid-template-columns: 1fr; } .riskview .risk-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

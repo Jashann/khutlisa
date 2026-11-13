@@ -1,0 +1,68 @@
+{
+  "note": "Demonstration records, added by Khutlisa. Every person, organisation, street and amount in this file is invented. None of it comes from California's file, and the search keeps these records in a table of their own.",
+  "records": [
+    {"record_id": "DEMO-MX-0001", "owner_name": "TOLMEDO MARISOL", "owner_street": "618 CAMINO LUNAMAR APT 3", "owner_city": "SALINAS", "owner_region": "CA", "owner_postcode": "93905", "owner_country": "US", "amount": 2316.40, "holder_name": "EMPACADORA VALLE SERENO", "property_type": "MS01: WAGES, PAYROLL, SALARIES"},
+    {"record_id": "DEMO-MX-0002", "owner_name": "TOLMEDO MARISOL E", "owner_street": "618 CAMINO LUNAMAR APT 3", "owner_city": "SALINAS", "owner_region": "CA", "owner_postcode": "93905", "owner_country": "US", "amount": 95.00, "holder_name": "PUNTA CLARA WATER AND LIGHT", "property_type": "UT01: UTILITY DEPOSITS"},
+    {"record_id": "DEMO-MX-0003", "owner_name": "MARISOL TOLMEDO PERALMONTE", "owner_street": "2207 FENWHISTLE ROAD", "owner_city": "WATSONVILLE", "owner_region": "CA", "owner_postcode": "95076", "owner_country": "US", "amount": 640.25, "holder_name": "BRISA CLARA COMMUNITY CREDIT UNION", "property_type": "AC02: SAVINGS ACCOUNTS"},
+    {"record_id": "DEMO-PH-0001", "owner_name": "DALISAY AMIHAN", "owner_street": "1420 LARKMOOR STREET APT 5", "owner_city": "DALY CITY", "owner_region": "CA", "owner_postcode": "94015", "owner_country": "US", "amount": 1840.55, "holder_name": "BAYVIEW MERCY HOSPITAL", "property_type": "MS01: WAGES, PAYROLL, SALARIES"},
+    {"record_id": "DEMO-PH-0002", "owner_name": "DALISAY AMIHAN", "owner_street": "1420 LARKMOOR STREET APT 5", "owner_city": "DALY CITY", "owner_region": "CA", "owner_postcode": "94015", "owner_country": "US", "amount": 120.00, "holder_name": "GOLDEN COAST POWER AND WATER", "property_type": "UT01: UTILITY DEPOSITS"},
+    {"record_id": "DEMO-PH-0003", "owner_name": "AMIHAN D VILLAREAL", "owner_street": "88 TIDEWORT COURT", "owner_city": "SOUTH SAN FRANCISCO", "owner_region": "CA", "owner_postcode": "94080", "owner_country": "US", "amount": 412.07, "holder_name": "GOLDEN COAST CREDIT UNION", "property_type": "AC02: SAVINGS ACCOUNTS"},
+    {"record_id": "DEMO-PH-0004", "owner_name": "DALISAY ROMULO", "owner_street": "17 PELLWORTH ROAD", "owner_city": "FRESNO", "owner_region": "CA", "owner_postcode": "93701", "owner_country": "US", "amount": 96.30, "holder_name": "BAYVIEW MERCY HOSPITAL", "property_type": "MS01: WAGES, PAYROLL, SALARIES"},
+    {"record_id": "DEMO-ES-0001", "owner_name": "IBARRA QUINTANAR RAFAEL", "owner_street": "44 CALLE ALONDRA APT 2", "owner_city": "SALINAS", "owner_region": "CA", "owner_postcode": "93905", "owner_country": "US", "amount": 4618.37, "holder_name": "HARROWGATE COLD STORAGE", "property_type": "MS01: WAGES, PAYROLL, SALARIES"}
+  ],
+  "people": [
+    {
+      "key": "marisol",
+      "name": "Marisol Elena Tolmedo Peralmonte",
+      "short_name": "Marisol",
+      "about": "She packed vegetables in Salinas, California, from 2008 to 2015 and now lives in Guadalajara, Mexico.",
+      "language": "Spanish",
+      "language_code": "es",
+      "words": "Me llamo Marisol Elena Tolmedo Peralmonte. Viví en Salinas, California, desde 2008 hasta 2015. Allí trabajé en la Empacadora Valle Sereno. Ahora vivo en Guadalajara, en México.",
+      "audio": "/demo/marisol_history_es.m4a",
+      "answer": "Mi dirección era 618 Camino Lunamar, apartamento 3, en Salinas, California, código postal 93905. La luz y el agua las tenía con Punta Clara Water and Light.",
+      "answer_audio": "/demo/marisol_answer_es.m4a",
+      "voice": "Paulina, the synthetic Mexican Spanish voice that comes with macOS",
+      "spoken_note": "A synthetic voice (Paulina, which comes with macOS) reads a prepared account. The words shown are what the speech recogniser on this machine heard from that sound. Nothing here is a real person's voice.",
+      "prepared_note": "A synthetic voice (Paulina, which comes with macOS) reads a prepared account. The words shown are the prepared text: the sound was not transcribed on this machine. Nothing here is a real person's voice.",
+      "claimant": {"name": "Marisol Elena Tolmedo Peralmonte", "address": "Calle Fresno 214, Colonia Americana\nGuadalajara, Jalisco 44160", "country": "MX", "email": "marisol.tolmedo@example.com", "relationship": "self"},
+      "bank": {"currency": "MXN", "first_name": "Marisol", "last_name": "Tolmedo", "account_number": "002010077777777771", "swift_code": "", "street_address": "Calle Fresno 214, Colonia Americana", "city": "Guadalajara", "postcode": "44160", "state": "MX-JAL"},
+      "bank_corrected": {"currency": "MXN", "first_name": "Marisol", "last_name": "Tolmedo", "account_number": "002010077777777823", "swift_code": "", "street_address": "Calle Fresno 214, Colonia Americana", "city": "Guadalajara", "postcode": "44160", "state": "MX-JAL"},
+      "main_record": "DEMO-MX-0001",
+      "documents": [
+        {"file": "mx_staff_badge.png", "kind": "id", "label": "Staff badge from the packing company", "order": "first"},
+        {"file": "mx_passport_id.png", "kind": "id", "label": "Passport photo page", "order": "then"},
+        {"file": "mx_tax_number_letter.png", "kind": "tax_number", "label": "Taxpayer number letter", "order": "then"},
+        {"file": "mx_bank_statement.png", "kind": "proof_of_address", "label": "Bank statement at her address now", "order": "then"},
+        {"file": "mx_payslip.png", "kind": "payslip", "label": "Old payslip from Salinas", "order": "extra"}
+      ]
+    },
+    {
+      "key": "amihan",
+      "name": "Amihan Dalisay Villareal",
+      "short_name": "Amihan",
+      "about": "She nursed in Daly City, California, from 2009 to 2018 and now lives in Cebu City, in the Philippines.",
+      "language": "Tagalog",
+      "language_code": "tl",
+      "words": "Ako si Amihan Dalisay Villareal. Dalisay ang apelyido ko noong dalaga pa ako, at Villareal na ngayon dahil nag-asawa ako noong 2015. Nagtrabaho ako bilang nars sa Bayview Mercy Hospital sa Daly City, California mula 2009 hanggang 2018. Nakatira ako noon sa 1420 Larkmoor Street, Daly City, 94015. May account din ako noon sa Golden Coast Credit Union. Ngayon ay nakatira na ako sa Cebu City, dito sa Pilipinas.",
+      "audio": null,
+      "answer": "Mula 2016 hanggang 2018 ang account ko sa Golden Coast Credit Union. Noong 2016 lumipat ako sa 88 Tidewort Court, South San Francisco, 94080. Sa Golden Coast Power and Water ang kuryente at tubig ko.",
+      "answer_audio": null,
+      "voice": null,
+      "spoken_note": null,
+      "prepared_note": null,
+      "claimant": {"name": "Amihan Dalisay Villareal", "address": "27 Sampaguita Lane, Lahug\nCebu City 6000", "country": "PH", "email": "amihan.villareal@example.com", "relationship": "self"},
+      "bank": {"currency": "PHP", "first_name": "Amihan", "last_name": "Villareal", "account_number": "1234567890", "swift_code": "BOPIPHMM", "street_address": "27 Sampaguita Lane, Lahug", "city": "Cebu City", "postcode": "6000", "state": ""},
+      "bank_corrected": {"currency": "PHP", "first_name": "Amihan", "last_name": "Villareal", "account_number": "1234567834", "swift_code": "BOPIPHMM", "street_address": "27 Sampaguita Lane, Lahug", "city": "Cebu City", "postcode": "6000", "state": ""},
+      "main_record": "DEMO-PH-0002",
+      "documents": [
+        {"file": "sample_staff_badge.png", "kind": "id", "label": "Staff badge from the hospital", "order": "first"},
+        {"file": "sample_passport_id.png", "kind": "id", "label": "Passport photo page", "order": "then"},
+        {"file": "sample_tax_number_letter.png", "kind": "tax_number", "label": "Taxpayer number letter", "order": "then"},
+        {"file": "sample_bank_statement.png", "kind": "proof_of_address", "label": "Bank statement at her address now", "order": "then"},
+        {"file": "sample_payslip.png", "kind": "payslip", "label": "Old payslip from Daly City", "order": "extra"},
+        {"file": "sample_utility_bill.png", "kind": "proof_of_address", "label": "Old utility bill from Daly City", "order": "extra"}
+      ]
+    }
+  ]
+}

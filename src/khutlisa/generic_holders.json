@@ -1,0 +1,1313 @@
+{
+ "made_by": "scripts/make_generic_holders.py",
+ "made_on": "2026-11-12",
+ "rule": "Holders grouped by match.holder_key that reported at least one owner record in 1,000.",
+ "owner_records": 95425821,
+ "at_least": 95426,
+ "holder_names_in_the_register": 119561,
+ "owner_records_under_these_holders": 57833253,
+ "holders": [
+  {
+   "key": "WELLS FARGO",
+   "owner_records": 2460051,
+   "written_as": [
+    "WELLS FARGO BANK NA (APECS 1009)",
+    "WELLS FARGO BANK NA",
+    "WELLS FARGO BANK NA (APECS 111)"
+   ]
+  },
+  {
+   "key": "CAPITAL ONE",
+   "owner_records": 2382522,
+   "written_as": [
+    "CAPITAL ONE NA",
+    "CAPITAL ONE BANK, NATIONAL ASSOCIATION",
+    "CAPITAL ONE BANK USA NA"
+   ]
+  },
+  {
+   "key": "CITIBANK",
+   "owner_records": 2315699,
+   "written_as": [
+    "CITIBANK N A",
+    "CITIBANK NA",
+    "CITIBANK N. A."
+   ]
+  },
+  {
+   "key": "JPMORGAN CHASE",
+   "owner_records": 2089291,
+   "written_as": [
+    "JPMORGAN CHASE BANK N.A (300056)",
+    "JPMORGAN CHASE BANK NA (300056)",
+    "JPMORGAN CHASE BANK NA (908802)"
+   ]
+  },
+  {
+   "key": "BANK AMERICA",
+   "owner_records": 2054883,
+   "written_as": [
+    "BANK OF AMERICA - CALIFORNIA NA (318)",
+    "BANK OF AMERICA NA",
+    "Bank of America - Passbook Accounts"
+   ]
+  },
+  {
+   "key": "PAYPAL",
+   "owner_records": 2053984,
+   "written_as": [
+    "PAYPAL",
+    "PAYPAL INC"
+   ]
+  },
+  {
+   "key": "GOOGLE PAYMENT",
+   "owner_records": 1653521,
+   "written_as": [
+    "GOOGLE PAYMENT CORPORATION"
+   ]
+  },
+  {
+   "key": "SYNCHRONY BANK",
+   "owner_records": 1503706,
+   "written_as": [
+    "SYNCHRONY BANK"
+   ]
+  },
+  {
+   "key": "AMERICAN EXPRESS",
+   "owner_records": 1393582,
+   "written_as": [
+    "AMERICAN EXPRESS COMPANY",
+    "AMERICAN EXPRESS PREPAID CARD MANAGEMENT",
+    "AMERICAN EXPRESS PREPAID CARD MANAGEMENT CO"
+   ]
+  },
+  {
+   "key": "KAISER FOUNDATION",
+   "owner_records": 1113925,
+   "written_as": [
+    "KAISER FOUNDATION HEALTH PLAN OF SO CAL",
+    "KAISER FOUNDATION HEALTH PLAN",
+    "KAISER FOUNDATION HOSPITAL CA"
+   ]
+  },
+  {
+   "key": "GENERAL ELECTRIC",
+   "owner_records": 1103977,
+   "written_as": [
+    "GENERAL ELECTRIC COMPANY",
+    "GENERAL ELECTRIC LIFE INSURANCE",
+    "GENERAL ELECTRIC CO/IONICS INC"
+   ]
+  },
+  {
+   "key": "AT T",
+   "owner_records": 991174,
+   "written_as": [
+    "AT&T SERVICES INC",
+    "AT&T INC",
+    "AT&T UNLIMITED DATA SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "WALT DISNEY",
+   "owner_records": 989462,
+   "written_as": [
+    "THE WALT DISNEY COMPANY",
+    "WALT DISNEY COMPANY THE",
+    "WALT DISNEY COMPANY (21CF) THE"
+   ]
+  },
+  {
+   "key": "SOUTHERN CALIFORNIA",
+   "owner_records": 927764,
+   "written_as": [
+    "SOUTHERN CALIFORNIA GAS COMPANY",
+    "SOUTHERN CALIFORNIA EDISON COMPANY",
+    "SOUTHERN CALIFORNIA GAS CO."
+   ]
+  },
+  {
+   "key": "INTERINSURANCE EXCHANGE",
+   "owner_records": 919516,
+   "written_as": [
+    "INTERINSURANCE EXCHANGE OF THE AUTOMOBILE CLUB",
+    "INTERINSURANCE EXCHANGE OF THE AUTOMOBIL",
+    "INTERINSURANCE EXCHANGE OF THE AUTO CLUB OF SO CALIF"
+   ]
+  },
+  {
+   "key": "COMENITY BANK",
+   "owner_records": 893793,
+   "written_as": [
+    "COMENITY BANK",
+    "COMENITY BANK FKA WORLD FINANCIAL NET NA"
+   ]
+  },
+  {
+   "key": "STATE FARM",
+   "owner_records": 847494,
+   "written_as": [
+    "STATE FARM MUTUAL AUTOMOBILE INS CO",
+    "STATE FARM GENERAL INSURANCE COMPANY",
+    "STATE FARM MUTUAL AUTOMOBILE INSURANCE C"
+   ]
+  },
+  {
+   "key": "BANCORP BANK",
+   "owner_records": 803123,
+   "written_as": [
+    "THE BANCORP BANK",
+    "BANCORP BANK THE"
+   ]
+  },
+  {
+   "key": "CELLCO PARTNERSHIP",
+   "owner_records": 786794,
+   "written_as": [
+    "CELLCO PARTNERSHIP DBA VERIZON WIRELESS",
+    "CELLCO PARTNERSHIP"
+   ]
+  },
+  {
+   "key": "PRICE V",
+   "owner_records": 738786,
+   "written_as": [
+    "PRICE V UBER TECHNOLOGIES INC SETTLEMENT FUND",
+    "PRICE V HEART HOSPITAL",
+    "PRICE V 13 COINS HOLDINGS LLC FUND"
+   ]
+  },
+  {
+   "key": "METLIFE",
+   "owner_records": 701854,
+   "written_as": [
+    "METLIFE INC",
+    "METLIFE INC.",
+    "METLIFE"
+   ]
+  },
+  {
+   "key": "U S",
+   "owner_records": 674817,
+   "written_as": [
+    "U. S. BANK, N. A.",
+    "U.S. BANK - PARS",
+    "U.S. BANK NA"
+   ]
+  },
+  {
+   "key": "PACIFIC GAS",
+   "owner_records": 668166,
+   "written_as": [
+    "PACIFIC GAS & ELECTRIC COMPANY",
+    "PACIFIC GAS & ELECTRIC CO",
+    "PACIFIC GAS AND ELECTRIC CO 6.00% PFD"
+   ]
+  },
+  {
+   "key": "MEDIANEWS GROUP",
+   "owner_records": 628605,
+   "written_as": [
+    "MEDIANEWS GROUP INC"
+   ]
+  },
+  {
+   "key": "ANTHEM",
+   "owner_records": 588956,
+   "written_as": [
+    "ANTHEM INC"
+   ]
+  },
+  {
+   "key": "ALLIANCE UNITED",
+   "owner_records": 579432,
+   "written_as": [
+    "ALLIANCE UNITED INS. SVCS LLC",
+    "ALLIANCE UNITED INS. CO LLC"
+   ]
+  },
+  {
+   "key": "DISCOVER BANK",
+   "owner_records": 569061,
+   "written_as": [
+    "DISCOVER BANK"
+   ]
+  },
+  {
+   "key": "WAL MART",
+   "owner_records": 533602,
+   "written_as": [
+    "WAL-MART STORES INC. AND SUBSIDIARIES",
+    "WAL-MART STORES INC",
+    "WAL MART STORES INC"
+   ]
+  },
+  {
+   "key": "FARMERS INSURANCE",
+   "owner_records": 530452,
+   "written_as": [
+    "FARMERS INSURANCE EXCHANGE",
+    "FARMERS INSURANCE GROUP, C/O CALIF. DEPT. OF INSURANCE",
+    "FARMERS INSURANCE GROUP FCU"
+   ]
+  },
+  {
+   "key": "T MOBILE",
+   "owner_records": 469366,
+   "written_as": [
+    "T-MOBILE USA",
+    "T MOBILE USA INC",
+    "T-MOBILE US INC"
+   ]
+  },
+  {
+   "key": "COMCAST CABLE",
+   "owner_records": 466575,
+   "written_as": [
+    "COMCAST CABLE COMM MGMT LLC",
+    "COMCAST CABLE COMMUNICATIONS LLC",
+    "COMCAST CABLE QUALIFIED SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "BRISTOL WEST",
+   "owner_records": 460777,
+   "written_as": [
+    "BRISTOL WEST HOLDINGS INC",
+    "BRISTOL WEST INS SER OF CA INC",
+    "BRISTOL WEST INS SER OF FL INC"
+   ]
+  },
+  {
+   "key": "GAMESTOP",
+   "owner_records": 446464,
+   "written_as": [
+    "GAMESTOP CORP.",
+    "GAMESTOP CORP",
+    "GAMESTOP INC."
+   ]
+  },
+  {
+   "key": "MERCURY INSURANCE",
+   "owner_records": 369958,
+   "written_as": [
+    "MERCURY INSURANCE COMPANY",
+    "MERCURY INSURANCE SERVICES",
+    "MERCURY INSURANCE GROUP, C/O CALIF. DEPT. OF INSURANCE"
+   ]
+  },
+  {
+   "key": "ALLSTATE INSURANCE",
+   "owner_records": 366865,
+   "written_as": [
+    "ALLSTATE INSURANCE COMPANY",
+    "ALLSTATE INSURANCE COMPANY CLAIMS PAYMEN",
+    "Allstate Insurance Company"
+   ]
+  },
+  {
+   "key": "CHARTER COMMUNICATIONS",
+   "owner_records": 365724,
+   "written_as": [
+    "CHARTER COMMUNICATIONS INC",
+    "CHARTER COMMUNICATIONS INC FKA TIME WARNER INC",
+    "CHARTER COMMUNICATIONS HOLINGS CO LLC"
+   ]
+  },
+  {
+   "key": "CALIFORNIA PHYSICIANS",
+   "owner_records": 356305,
+   "written_as": [
+    "CALIFORNIA PHYSICIANS DBA BLUE SHIELD OF CA",
+    "CALIFORNIA PHYSICIANS SERVICE",
+    "CALIFORNIA PHYSICIAN'S SERVICE DBA BLUE"
+   ]
+  },
+  {
+   "key": "JP MORGAN",
+   "owner_records": 354005,
+   "written_as": [
+    "JP MORGAN CHASE BANK N A (931802)",
+    "JP MORGAN CHASE BANK NA 703",
+    "JP MORGAN"
+   ]
+  },
+  {
+   "key": "CHARLES SCHWAB",
+   "owner_records": 352465,
+   "written_as": [
+    "CHARLES SCHWAB & CO INC",
+    "CHARLES SCHWAB & CO.",
+    "CHARLES SCHWAB"
+   ]
+  },
+  {
+   "key": "BLOCK",
+   "owner_records": 346916,
+   "written_as": [
+    "BLOCK INC"
+   ]
+  },
+  {
+   "key": "SAN DIEGO",
+   "owner_records": 338566,
+   "written_as": [
+    "SAN DIEGO GAS AND ELECTRIC",
+    "SAN DIEGO COUNTY CREDIT UNION",
+    "SAN DIEGO GAS & ELECTRIC"
+   ]
+  },
+  {
+   "key": "CAREMARKPCS L",
+   "owner_records": 336919,
+   "written_as": [
+    "CAREMARKPCS L L C"
+   ]
+  },
+  {
+   "key": "PHOENIX SETTLEMENT",
+   "owner_records": 335579,
+   "written_as": [
+    "PHOENIX SETTLEMENT ADMN. (EVANS V. WALMART 2023)",
+    "PHOENIX SETTLEMENT ADMN (MAGADIA V WALMART)",
+    "PHOENIX SETTLEMENT ADMN.(CRANDALL V MAXIM HEALTHCARE)"
+   ]
+  },
+  {
+   "key": "TURRIETA V",
+   "owner_records": 335020,
+   "written_as": [
+    "TURRIETA V LYFT SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "GOVERNMENT EMPLOYEES",
+   "owner_records": 331939,
+   "written_as": [
+    "GOVERNMENT EMPLOYEES INSURANCE COMPANY",
+    "GOVERNMENT EMPLOYEES INSURANCE CO",
+    "GOVERNMENT EMPLOYEES LIFE INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "WESTERN UNION",
+   "owner_records": 326868,
+   "written_as": [
+    "WESTERN UNION FINANCIAL SVCS INC",
+    "WESTERN UNION FINANCIAL SERVICES INC",
+    "WESTERN UNION FINANCIAL SERVICES, INC."
+   ]
+  },
+  {
+   "key": "GEP ADMINISTRATIVE",
+   "owner_records": 324932,
+   "written_as": [
+    "GEP ADMINISTRATIVE SERVICES INC DBA EN"
+   ]
+  },
+  {
+   "key": "CSAA INSURANCE",
+   "owner_records": 310575,
+   "written_as": [
+    "CSAA INSURANCE EXCHANGE",
+    "CSAA INSURANCE GROUP",
+    "CSAA INSURANCE SERVICES, INC."
+   ]
+  },
+  {
+   "key": "CORPAY TECHNOLOGIES",
+   "owner_records": 307836,
+   "written_as": [
+    "CORPAY TECHNOLOGIES OPERATING CO LLC"
+   ]
+  },
+  {
+   "key": "PACIFIC BELL",
+   "owner_records": 301950,
+   "written_as": [
+    "PACIFIC BELL TELEPHONE COMPANY",
+    "PACIFIC BELL INTERNET SERVICES",
+    "PACIFIC BELL WAGE AND HOUR SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "ALLSTATE INDEMNITY",
+   "owner_records": 300338,
+   "written_as": [
+    "ALLSTATE INDEMNITY COMPANY",
+    "Allstate Indemnity Company"
+   ]
+  },
+  {
+   "key": "FIRST AMERICAN",
+   "owner_records": 296628,
+   "written_as": [
+    "FIRST AMERICAN TITLE COMPANY",
+    "FIRST AMERICAN TITLE CO",
+    "FIRST AMERICAN P&C  INS CO"
+   ]
+  },
+  {
+   "key": "HSBC FINANCE",
+   "owner_records": 290644,
+   "written_as": [
+    "HSBC FINANCE CORPORATION",
+    "HSBC FINANCE CORPORATION (HOLDER 10)",
+    "HSBC FINANCE CORP"
+   ]
+  },
+  {
+   "key": "SALLIE MAE",
+   "owner_records": 254000,
+   "written_as": [
+    "SALLIE MAE INC",
+    "SALLIE MAE BANK",
+    "SALLIE MAE INC."
+   ]
+  },
+  {
+   "key": "UNION BANK",
+   "owner_records": 248846,
+   "written_as": [
+    "UNION BANK N.A.",
+    "UNION BANK OF CALIFORNIA, N.A.",
+    "UNION BANK OF CALIFORNIA N.A."
+   ]
+  },
+  {
+   "key": "GOOGLE AFFILIATES",
+   "owner_records": 247899,
+   "written_as": [
+    "GOOGLE LLC AND AFFILIATES"
+   ]
+  },
+  {
+   "key": "GUTIERREZ V",
+   "owner_records": 246532,
+   "written_as": [
+    "GUTIERREZ V WELLS FARGO BANK NA QUALIFIED SETTLEMENT",
+    "GUTIERREZ V SAARMAN CONSTRUCTION LTD FUND",
+    "GUTIERREZ V ZACKY FARMS SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "ROBINHOOD SECURITIES",
+   "owner_records": 245236,
+   "written_as": [
+    "ROBINHOOD SECURITIES LLC"
+   ]
+  },
+  {
+   "key": "GOLDEN CREDIT",
+   "owner_records": 241761,
+   "written_as": [
+    "GOLDEN 1 CREDIT UNION",
+    "THE GOLDEN 1 CREDIT UNION",
+    "GOLDEN 1 CREDIT UNION THE"
+   ]
+  },
+  {
+   "key": "GREEN DOT",
+   "owner_records": 239629,
+   "written_as": [
+    "GREEN DOT BANK",
+    "GREEN DOT CORPORATION",
+    "GREEN DOT PUBLIC SCHOOLS CA"
+   ]
+  },
+  {
+   "key": "TOYOTA MOTOR",
+   "owner_records": 234318,
+   "written_as": [
+    "TOYOTA MOTOR CREDIT CORPORATION",
+    "TOYOTA MOTOR INSURANCE SERVICE",
+    "TOYOTA MOTOR SALES USA INC"
+   ]
+  },
+  {
+   "key": "PRUDENTIAL FINANCIAL",
+   "owner_records": 233508,
+   "written_as": [
+    "PRUDENTIAL FINANCIAL INC",
+    "PRUDENTIAL FINANCIAL INC COMMON",
+    "PRUDENTIAL FINANCIAL INC KBA"
+   ]
+  },
+  {
+   "key": "TOYOTA MDL",
+   "owner_records": 233353,
+   "written_as": [
+    "TOYOTA MDL QUALIFIED SETTLEMENT FUND"
+   ]
+  },
+  {
+   "key": "GOOGLE",
+   "owner_records": 230232,
+   "written_as": [
+    "GOOGLE, LLC",
+    "GOOGLE INC",
+    "GOOGLE LLC"
+   ]
+  },
+  {
+   "key": "METROPOLITAN LIFE",
+   "owner_records": 227588,
+   "written_as": [
+    "METROPOLITAN LIFE INSURANCE COMPANY",
+    "METROPOLITAN LIFE INSURANCE  COMPANY",
+    "METROPOLITAN LIFE INSURANCE CO"
+   ]
+  },
+  {
+   "key": "VERIZON COMMUNICATIONS",
+   "owner_records": 226786,
+   "written_as": [
+    "VERIZON COMMUNICATIONS INC",
+    "VERIZON COMMUNICATIONS INC.",
+    "VERIZON COMMUNICATIONS INC/GTE CORP"
+   ]
+  },
+  {
+   "key": "WM CORPORATE",
+   "owner_records": 226479,
+   "written_as": [
+    "WM CORPORATE SERVICES INC"
+   ]
+  },
+  {
+   "key": "UPROMISE",
+   "owner_records": 221776,
+   "written_as": [
+    "UPROMISE LLC",
+    "UPROMISE INC.",
+    "UPROMISE INC"
+   ]
+  },
+  {
+   "key": "PATHWARD",
+   "owner_records": 218120,
+   "written_as": [
+    "PATHWARD"
+   ]
+  },
+  {
+   "key": "TIME WARNER",
+   "owner_records": 217638,
+   "written_as": [
+    "TIME WARNER CABLE INC",
+    "TIME WARNER INC",
+    "TIME WARNER ENTERTAINMENT CO LP DBA TWC"
+   ]
+  },
+  {
+   "key": "INFINITY INSURANCE",
+   "owner_records": 216301,
+   "written_as": [
+    "INFINITY INSURANCE COMPANY",
+    "INFINITY INSURANCE CO"
+   ]
+  },
+  {
+   "key": "FRONTIER COMMUNICATIONS",
+   "owner_records": 208467,
+   "written_as": [
+    "FRONTIER COMMUNICATIONS CORPORATION",
+    "FRONTIER COMMUNICATIONS NORTHWEST INC",
+    "FRONTIER COMMUNICATIONS"
+   ]
+  },
+  {
+   "key": "GE MONEY",
+   "owner_records": 206070,
+   "written_as": [
+    "GE MONEY",
+    "GE MONEY MARKET FUND C",
+    "GE MONEY MARKET FUND A"
+   ]
+  },
+  {
+   "key": "ELEVANCE HEALTH",
+   "owner_records": 205690,
+   "written_as": [
+    "ELEVANCE HEALTH INC"
+   ]
+  },
+  {
+   "key": "21ST CENTURY",
+   "owner_records": 204914,
+   "written_as": [
+    "21ST CENTURY NORTH AMERICA INS CO",
+    "21ST CENTURY INSURANCE COMPANY",
+    "21ST CENTURY SECURITY INS CO"
+   ]
+  },
+  {
+   "key": "SAFECO INS",
+   "owner_records": 198408,
+   "written_as": [
+    "SAFECO INS CO OF AMERICA"
+   ]
+  },
+  {
+   "key": "SAN FRANCISCO",
+   "owner_records": 194657,
+   "written_as": [
+    "SAN FRANCISCO CHRONICLE",
+    "SAN FRANCISCO FIRE CREDIT UNION",
+    "SAN FRANCISCO FEDERAL CREDIT UNION"
+   ]
+  },
+  {
+   "key": "AMAZON COM",
+   "owner_records": 188330,
+   "written_as": [
+    "AMAZON.COM INC. AND SUBSIDIARIES",
+    "AMAZON.COM.INC",
+    "AMAZON.COM INC & SUBSIDIARIES"
+   ]
+  },
+  {
+   "key": "DRAFTKINGS",
+   "owner_records": 188081,
+   "written_as": [
+    "DRAFTKINGS INC.",
+    "DRAFTKINGS INC"
+   ]
+  },
+  {
+   "key": "US FIDELITY",
+   "owner_records": 187359,
+   "written_as": [
+    "US FIDELITY & GUARANTY"
+   ]
+  },
+  {
+   "key": "COMENITY CAPITAL",
+   "owner_records": 184089,
+   "written_as": [
+    "COMENITY CAPITAL BANK"
+   ]
+  },
+  {
+   "key": "UBER TECHNOLOGIES",
+   "owner_records": 183070,
+   "written_as": [
+    "UBER TECHNOLOGIES INC",
+    "UBER TECHNOLOGIES INC."
+   ]
+  },
+  {
+   "key": "OPTUMRX",
+   "owner_records": 182800,
+   "written_as": [
+    "OPTUMRX"
+   ]
+  },
+  {
+   "key": "DIRECTV",
+   "owner_records": 182345,
+   "written_as": [
+    "DIRECTV LLC",
+    "DIRECTV INC.",
+    "DIRECTV"
+   ]
+  },
+  {
+   "key": "HEALTH NET",
+   "owner_records": 180181,
+   "written_as": [
+    "HEALTH NET PHARMACEUTICAL",
+    "HEALTH NET OF CALIFORNIA INC",
+    "HEALTH NET LIFE INSURANCE CO"
+   ]
+  },
+  {
+   "key": "US BANK",
+   "owner_records": 173591,
+   "written_as": [
+    "US BANK NA",
+    "US BANK UNCASHED CHECKS",
+    "US BANK TCK"
+   ]
+  },
+  {
+   "key": "CSG SYSTEMS",
+   "owner_records": 172637,
+   "written_as": [
+    "CSG SYSTEMS INTERNATIONAL INC",
+    "CSG SYSTEMS INC",
+    "CSG SYSTEMS INC."
+   ]
+  },
+  {
+   "key": "CVS PHARMACY",
+   "owner_records": 169963,
+   "written_as": [
+    "CVS PHARMACY INC",
+    "CVS PHARMACY WH CASES FUND- CPT DISB AG"
+   ]
+  },
+  {
+   "key": "HSBC BANK",
+   "owner_records": 166916,
+   "written_as": [
+    "HSBC BANK USA NA HOLDER 03",
+    "HSBC BANK USA NA",
+    "HSBC BANK NEVADA NA"
+   ]
+  },
+  {
+   "key": "HOME DEPOT",
+   "owner_records": 163468,
+   "written_as": [
+    "HOME DEPOT WAGE AND HOUR SETTLEMENT FUND",
+    "THE HOME DEPOT",
+    "HOME DEPOT INC THE"
+   ]
+  },
+  {
+   "key": "FOREMOST INSURANCE",
+   "owner_records": 163382,
+   "written_as": [
+    "FOREMOST INSURANCE COMPANY",
+    "FOREMOST INSURANCE GROUP, C/O CALIF. DEPT. OF INSURANCE",
+    "FOREMOST INSURANCE GROUP"
+   ]
+  },
+  {
+   "key": "VIKING INSURANCE",
+   "owner_records": 163329,
+   "written_as": [
+    "VIKING INSURANCE COMPANY OF WISCONSIN",
+    "VIKING INSURANCE CO OF WISCONSIN"
+   ]
+  },
+  {
+   "key": "REPUBLIC SERVICES",
+   "owner_records": 159527,
+   "written_as": [
+    "REPUBLIC SERVICES INC",
+    "REPUBLIC SERVICES/US ECOLOGY INC",
+    "REPUBLIC SERVICES INC. - COMMON"
+   ]
+  },
+  {
+   "key": "PROGRESSIVE WEST",
+   "owner_records": 155469,
+   "written_as": [
+    "PROGRESSIVE WEST INSURANCE COM"
+   ]
+  },
+  {
+   "key": "PRUDENTIAL INSURANCE",
+   "owner_records": 154132,
+   "written_as": [
+    "PRUDENTIAL INSURANCE COMPANY",
+    "PRUDENTIAL INSURANCE COMPANY OF AMERICA THE",
+    "PRUDENTIAL INSURANCE COMPANY OF AMERICA"
+   ]
+  },
+  {
+   "key": "EXPRESS SCRIPTS",
+   "owner_records": 154054,
+   "written_as": [
+    "EXPRESS SCRIPTS INC",
+    "EXPRESS SCRIPTS INC.",
+    "EXPRESS SCRIPTS HOLDING CO"
+   ]
+  },
+  {
+   "key": "DELTA DENTAL",
+   "owner_records": 149286,
+   "written_as": [
+    "DELTA DENTAL OF CALIFORNIA",
+    "DELTA DENTAL OF ILLINOIS",
+    "DELTA DENTAL PLN OF CALIFORNIA"
+   ]
+  },
+  {
+   "key": "FIRE INSURANCE",
+   "owner_records": 147418,
+   "written_as": [
+    "FIRE INSURANCE EXCHANGE",
+    "FIRE INSURANCE EXCHANGE       (MANUAL ENTRIES)",
+    "FIRE INSURANCE EXCHANGE #9"
+   ]
+  },
+  {
+   "key": "SUNRISE BANKS",
+   "owner_records": 146523,
+   "written_as": [
+    "SUNRISE BANKS"
+   ]
+  },
+  {
+   "key": "FIFTH THIRD",
+   "owner_records": 145655,
+   "written_as": [
+    "FIFTH THIRD BANCORP",
+    "FIFTH THIRD BANK CHICAGO",
+    "FIFTH THIRD GOVERNMENT MONEY MARKET FUND CLASS A"
+   ]
+  },
+  {
+   "key": "NAVY FEDERAL",
+   "owner_records": 145448,
+   "written_as": [
+    "NAVY FEDERAL CREDIT UNION"
+   ]
+  },
+  {
+   "key": "MANAGED RISK",
+   "owner_records": 144986,
+   "written_as": [
+    "MANAGED RISK MEDICAL INSURANCE BOARD"
+   ]
+  },
+  {
+   "key": "WALGREEN SUBSIDIARIES",
+   "owner_records": 144311,
+   "written_as": [
+    "WALGREEN CO. & SUBSIDIARIES"
+   ]
+  },
+  {
+   "key": "QUEST DIAGNOSTICS",
+   "owner_records": 143057,
+   "written_as": [
+    "QUEST DIAGNOSTICS INCORPORATED",
+    "QUEST DIAGNOSTICS CLINICAL LABORATORIES",
+    "QUEST DIAGNOSTICS INC"
+   ]
+  },
+  {
+   "key": "BEST BUY",
+   "owner_records": 141809,
+   "written_as": [
+    "BEST BUY CO INC & SUBS",
+    "BEST BUY CO INC & SUBSIDIARIES",
+    "BEST BUY CO INC AND SUBS"
+   ]
+  },
+  {
+   "key": "COX COMMUNICATIONS",
+   "owner_records": 140545,
+   "written_as": [
+    "COX COMMUNICATIONS INC",
+    "COX COMMUNICATIONS LAS VEGAS"
+   ]
+  },
+  {
+   "key": "MORGAN STANLEY",
+   "owner_records": 139690,
+   "written_as": [
+    "MORGAN STANLEY & CO LLC",
+    "MORGAN STANLEY",
+    "MORGAN STANLEY & CO"
+   ]
+  },
+  {
+   "key": "H R",
+   "owner_records": 136739,
+   "written_as": [
+    "H & R BLOCK TAX SERVICES",
+    "H&R BLOCK BANK",
+    "H & R BLOCK INCORPORATED"
+   ]
+  },
+  {
+   "key": "NATIONAL FINANCIAL",
+   "owner_records": 135610,
+   "written_as": [
+    "NATIONAL FINANCIAL SERVICES LLC",
+    "NATIONAL FINANCIAL SERVICES LL",
+    "NATIONAL FINANCIAL INSURANCE CO"
+   ]
+  },
+  {
+   "key": "AMERICAN FAMILY",
+   "owner_records": 135119,
+   "written_as": [
+    "AMERICAN FAMILY CONNECT PROPERTY & CASUALTY INS CO",
+    "AMERICAN FAMILY LIFE ASSURANCE CO. OF COLUMBUS",
+    "AMERICAN FAMILY LIFE ASSURANCE COMPANY OF COLUMBUS"
+   ]
+  },
+  {
+   "key": "SCHOOLSFIRST FEDERAL",
+   "owner_records": 135068,
+   "written_as": [
+    "SCHOOLSFIRST FEDERAL CREDIT UNION"
+   ]
+  },
+  {
+   "key": "SEARS ROEBUCK",
+   "owner_records": 134072,
+   "written_as": [
+    "SEARS ROEBUCK AND CO",
+    "SEARS ROEBUCK & COMPANY",
+    "SEARS ROEBUCK & CO"
+   ]
+  },
+  {
+   "key": "AMERICAN GENERAL",
+   "owner_records": 134001,
+   "written_as": [
+    "AMERICAN GENERAL LIFE INSURANCE COMPANY",
+    "AMERICAN GENERAL LIFE & ACCIDENT INSURANCE COMPANY",
+    "AMERICAN GENERAL LIFE & ACCIDENT INS CO"
+   ]
+  },
+  {
+   "key": "TRAVELERS INDEMNITY",
+   "owner_records": 132810,
+   "written_as": [
+    "TRAVELERS INDEMNITY COMPANY",
+    "TRAVELERS INDEMNITY COMPANY THE",
+    "TRAVELERS INDEMNITY OF RI, C/O CALIF. DEPT. OF INSURANCE"
+   ]
+  },
+  {
+   "key": "MERCURY CASUALTY",
+   "owner_records": 131501,
+   "written_as": [
+    "MERCURY CASUALTY COMPANY"
+   ]
+  },
+  {
+   "key": "EBAY",
+   "owner_records": 131239,
+   "written_as": [
+    "EBAY INC.",
+    "EBAY INC",
+    "EBAY"
+   ]
+  },
+  {
+   "key": "W INSURANCE",
+   "owner_records": 129070,
+   "written_as": [
+    "W INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "AUTOMATIC DATA",
+   "owner_records": 126369,
+   "written_as": [
+    "AUTOMATIC DATA PROCESSING INC",
+    "AUTOMATIC DATA PROCESSING",
+    "AUTOMATIC DATA PROCESSING INCORPORATED"
+   ]
+  },
+  {
+   "key": "FORD MOTOR",
+   "owner_records": 126306,
+   "written_as": [
+    "FORD MOTOR COMPANY",
+    "FORD MOTOR CREDIT COMPANY",
+    "FORD MOTOR CO COMMON NEW"
+   ]
+  },
+  {
+   "key": "HUMANA SUBSIDIARIES",
+   "owner_records": 126298,
+   "written_as": [
+    "HUMANA INC AND SUBSIDIARIES",
+    "HUMANA INC. AND SUBSIDIARIES",
+    "HUMANA INC & SUBSIDIARIES"
+   ]
+  },
+  {
+   "key": "CALIFORNIA PHYSICIAN",
+   "owner_records": 124996,
+   "written_as": [
+    "CALIFORNIA PHYSICIAN SERVICE DBA BLUE SHIELD OF CA",
+    "CALIFORNIA PHYSICIAN SERVICES/ BSCMN",
+    "CALIFORNIA PHYSICIAN SERVICES DBA CPICLA DEATH MASTER CLAIMS"
+   ]
+  },
+  {
+   "key": "TRANSAMERICA LIFE",
+   "owner_records": 124760,
+   "written_as": [
+    "TRANSAMERICA LIFE INSURANCE COMPANY",
+    "TRANSAMERICA LIFE INS CO - ADMS",
+    "TRANSAMERICA LIFE INS CO - TA"
+   ]
+  },
+  {
+   "key": "WB STUDIO",
+   "owner_records": 121654,
+   "written_as": [
+    "WB STUDIO ENTERPRISES INC",
+    "WB STUDIO ENTEPRISES INC"
+   ]
+  },
+  {
+   "key": "FNF UTC",
+   "owner_records": 119932,
+   "written_as": [
+    "FNF UTC LLC",
+    "FNF UTC  LLC"
+   ]
+  },
+  {
+   "key": "COMCAST",
+   "owner_records": 119091,
+   "written_as": [
+    "COMCAST CORP",
+    "COMCAST CORPORATION"
+   ]
+  },
+  {
+   "key": "HARTFORD FIRE",
+   "owner_records": 118908,
+   "written_as": [
+    "HARTFORD FIRE INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "MICROSOFT",
+   "owner_records": 117722,
+   "written_as": [
+    "MICROSOFT CORPORATION",
+    "MICROSOFT CORP",
+    "MICROSOFT"
+   ]
+  },
+  {
+   "key": "HEWLETT PACKARD",
+   "owner_records": 117609,
+   "written_as": [
+    "HEWLETT-PACKARD COMPANY",
+    "HEWLETT PACKARD COMPANY",
+    "HEWLETT-PACKARD ENTERPRISE COMPANY"
+   ]
+  },
+  {
+   "key": "MID CENTURY",
+   "owner_records": 117157,
+   "written_as": [
+    "MID CENTURY INSURANCE COMPANY",
+    "MID-CENTURY INSURANCE CO",
+    "MID-CENTURY INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "AAA NCNU",
+   "owner_records": 115742,
+   "written_as": [
+    "AAA NCNU INSURANCE EXCHANGE"
+   ]
+  },
+  {
+   "key": "UNITED SERVICES",
+   "owner_records": 115675,
+   "written_as": [
+    "UNITED SERVICES AUTOMOBILE ASSOCIATION",
+    "UNITED SERVICES PROTECTION CORPORATION",
+    "UNITED SERVICES LIFE INS"
+   ]
+  },
+  {
+   "key": "TRINITY UNIVERSAL",
+   "owner_records": 115002,
+   "written_as": [
+    "TRINITY UNIVERSAL INSURANCE CO-SPECIALTY",
+    "TRINITY UNIVERSAL INSURANCE",
+    "TRINITY UNIVERSAL INSURANCE CO"
+   ]
+  },
+  {
+   "key": "GEP ATL",
+   "owner_records": 114553,
+   "written_as": [
+    "GEP ATL LLC DBA ENTERTAINMENT PARTNERS",
+    "GEP ATL LLC"
+   ]
+  },
+  {
+   "key": "SECURITY PACIFIC",
+   "owner_records": 114398,
+   "written_as": [
+    "SECURITY PACIFIC NATIONAL BANK",
+    "SECURITY PACIFIC INSTITUTIONAL SERVICES CORP",
+    "SECURITY PACIFIC NATIONAL BANK HEADQUARTERS"
+   ]
+  },
+  {
+   "key": "ATT SERVICES",
+   "owner_records": 111649,
+   "written_as": [
+    "ATT SERVICES INC"
+   ]
+  },
+  {
+   "key": "BLUE CROSS",
+   "owner_records": 110011,
+   "written_as": [
+    "BLUE CROSS OF CALIFORNIA",
+    "BLUE CROSS BLUE SHIELD OF MICHIGAN",
+    "BLUE CROSS BLUE SHIELD OF ARIZONA"
+   ]
+  },
+  {
+   "key": "NATIONWIDE MUTUAL",
+   "owner_records": 109737,
+   "written_as": [
+    "NATIONWIDE MUTUAL INSURANCE",
+    "NATIONWIDE MUTUAL FIRE CO",
+    "NATIONWIDE MUTUAL INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "CAST CREW",
+   "owner_records": 108953,
+   "written_as": [
+    "CAST & CREW PAYROLL LLC CC",
+    "CAST & CREW PAYROLL LLC",
+    "CAST & CREW TALENT SERVICES LLC CT"
+   ]
+  },
+  {
+   "key": "SCRIPPS HEALTH",
+   "owner_records": 108761,
+   "written_as": [
+    "SCRIPPS HEALTH",
+    "SCRIPPS HEALTH CORP.",
+    "SCRIPPS HEALTH PLAN SERVICES"
+   ]
+  },
+  {
+   "key": "MERIAL",
+   "owner_records": 108413,
+   "written_as": [
+    "MERIAL LLC"
+   ]
+  },
+  {
+   "key": "UNITED PARCEL",
+   "owner_records": 107969,
+   "written_as": [
+    "UNITED PARCEL SERVICE INC",
+    "UNITED PARCEL SERVICE INC. (OH)",
+    "UNITED PARCEL SERVICE OASIS SUPPLY CORP"
+   ]
+  },
+  {
+   "key": "UNITEDHEALTHCARE INSURANCE",
+   "owner_records": 105100,
+   "written_as": [
+    "UNITEDHEALTHCARE INSURANCE CO"
+   ]
+  },
+  {
+   "key": "FACEBOOK PAYMENTS",
+   "owner_records": 104913,
+   "written_as": [
+    "FACEBOOK PAYMENTS INC"
+   ]
+  },
+  {
+   "key": "ALLSTATE NORTHBROOK",
+   "owner_records": 104395,
+   "written_as": [
+    "ALLSTATE NORTHBROOK INDEMNITY COMPANY",
+    "Allstate Northbrook Indemnity Company"
+   ]
+  },
+  {
+   "key": "MOTOR VEHICLE",
+   "owner_records": 104028,
+   "written_as": [
+    "MOTOR VEHICLE SOFTWARE CORPORATION"
+   ]
+  },
+  {
+   "key": "PRIMERICA LIFE",
+   "owner_records": 103943,
+   "written_as": [
+    "PRIMERICA LIFE INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "TD BANK",
+   "owner_records": 102173,
+   "written_as": [
+    "TD BANK USA",
+    "TD BANK N.A.",
+    "TD BANK NA ADMINISTRATION"
+   ]
+  },
+  {
+   "key": "FIREMANS FUND",
+   "owner_records": 100746,
+   "written_as": [
+    "FIREMAN'S FUND INSURANCE COMPANY",
+    "FIREMANS FUND, C/O CALIF. DEPT. OF INSURANCE",
+    "FIREMANS FUND INSURANCE COMPANIES"
+   ]
+  },
+  {
+   "key": "ALCATEL LUCENT",
+   "owner_records": 100530,
+   "written_as": [
+    "ALCATEL LUCENT",
+    "ALCATEL-LUCENT",
+    "ALCATEL-LUCENT USA INC."
+   ]
+  },
+  {
+   "key": "AMERICAN HONDA",
+   "owner_records": 100081,
+   "written_as": [
+    "AMERICAN HONDA FINANCE CORPORATION",
+    "AMERICAN HONDA MOTOR CO. INC.",
+    "AMERICAN HONDA MOTOR CO.  INC."
+   ]
+  },
+  {
+   "key": "AETNA LIFE",
+   "owner_records": 98844,
+   "written_as": [
+    "AETNA LIFE INSURANCE COMPANY",
+    "AETNA LIFE INSURANCE",
+    "AETNA LIFE & CASUALTY, C/O CALIF. DEPT. OF INSURANCE"
+   ]
+  },
+  {
+   "key": "BOEING",
+   "owner_records": 98730,
+   "written_as": [
+    "BOEING COMPANY THE",
+    "BOEING CO",
+    "THE BOEING COMPANY"
+   ]
+  },
+  {
+   "key": "COCA COLA",
+   "owner_records": 98351,
+   "written_as": [
+    "COCA-COLA COMPANY THE",
+    "COCA-COLA REFRESHMENTS USA INC",
+    "THE COCA-COLA COMPANY"
+   ]
+  },
+  {
+   "key": "INTEGON NATIONAL",
+   "owner_records": 97027,
+   "written_as": [
+    "INTEGON NATIONAL INSURANCE COMPANY"
+   ]
+  },
+  {
+   "key": "GEP TALENT",
+   "owner_records": 96633,
+   "written_as": [
+    "GEP TALENT SERVICE LLC DBA ENTERTAINMEN"
+   ]
+  }
+ ]
+}

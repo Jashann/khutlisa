@@ -1,0 +1,22 @@
+# TLS in front of the app. Caddy gets a certificate from Let's Encrypt by itself and renews it.
+# Only port 443 is open: the certificate is proved over 443 (the TLS-ALPN challenge), so the HTTP challenge
+# and the redirect from port 80 are switched off. KHUTLISA_HOST is the public name, for example
+# 34-56-78-90.sslip.io (a name that resolves to the VM's own address) or a name of your own.
+{
+	auto_https disable_redirects
+}
+
+{$KHUTLISA_HOST} {
+	tls {
+		issuer acme {
+			disable_http_challenge
+		}
+	}
+	encode zstd gzip
+	request_body {
+		max_size 32MB
+	}
+	# Caddy replaces whatever X-Forwarded-For a visitor sent with the visitor's own address, which is what
+	# the app counts requests by when KHUTLISA_TRUSTED_PROXY=1.
+	reverse_proxy app:8000
+}
